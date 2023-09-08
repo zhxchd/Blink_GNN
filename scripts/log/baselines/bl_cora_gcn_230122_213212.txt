@@ -1,0 +1,59 @@
+2023-01-22 21:32:12 INFO     Start experiments with Namespace(dataset='cora', model='gcn', method=['solitude'], grid_search=True, eps=[1, 2, 3, 4, 5, 6, 7, 8])
+2023-01-22 21:32:17 INFO     Using device: cuda
+2023-01-22 21:32:17 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-22 21:32:17 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-22 21:32:17 INFO     [solitude: gcn on cora] Grid search for hyperparameter tuning on various epsilons.
+2023-01-22 21:32:17 INFO     [solitude: gcn on cora with eps=1] Start grid search for hyperparameter tuning.
+2023-01-22 23:43:53 INFO     [solitude: gcn on cora with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01} with validation loss 1.3092705011367798
+2023-01-22 23:43:53 INFO     [solitude: gcn on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2023-01-22 23:43:53 INFO     [solitude: gcn on cora with eps=2] Start grid search for hyperparameter tuning.
+2023-01-23 01:54:28 INFO     [solitude: gcn on cora with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01} with validation loss 1.2342331647872924
+2023-01-23 01:54:28 INFO     [solitude: gcn on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2023-01-23 01:54:28 INFO     [solitude: gcn on cora with eps=3] Start grid search for hyperparameter tuning.
+2023-01-23 04:05:02 INFO     [solitude: gcn on cora with eps=3] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01} with validation loss 1.086981463432312
+2023-01-23 04:05:02 INFO     [solitude: gcn on cora with eps=3] Saving best hp to output/bl_best_hp.json
+2023-01-23 04:05:02 INFO     [solitude: gcn on cora with eps=4] Start grid search for hyperparameter tuning.
+2023-01-23 06:15:42 INFO     [solitude: gcn on cora with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01} with validation loss 1.0369214415550232
+2023-01-23 06:15:42 INFO     [solitude: gcn on cora with eps=4] Saving best hp to output/bl_best_hp.json
+2023-01-23 06:15:42 INFO     [solitude: gcn on cora with eps=5] Start grid search for hyperparameter tuning.
+2023-01-23 08:26:27 INFO     [solitude: gcn on cora with eps=5] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.01} with validation loss 0.9335734963417053
+2023-01-23 08:26:27 INFO     [solitude: gcn on cora with eps=5] Saving best hp to output/bl_best_hp.json
+2023-01-23 08:26:27 INFO     [solitude: gcn on cora with eps=6] Start grid search for hyperparameter tuning.
+2023-01-23 10:36:52 INFO     [solitude: gcn on cora with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.01} with validation loss 0.8857510089874268
+2023-01-23 10:36:52 INFO     [solitude: gcn on cora with eps=6] Saving best hp to output/bl_best_hp.json
+2023-01-23 10:36:52 INFO     [solitude: gcn on cora with eps=7] Start grid search for hyperparameter tuning.
+2023-01-23 12:47:30 INFO     [solitude: gcn on cora with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.01} with validation loss 0.8516521453857422
+2023-01-23 12:47:30 INFO     [solitude: gcn on cora with eps=7] Saving best hp to output/bl_best_hp.json
+2023-01-23 12:47:30 INFO     [solitude: gcn on cora with eps=8] Start grid search for hyperparameter tuning.
+2023-01-23 14:59:17 INFO     [solitude: gcn on cora with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 0.01} with validation loss 0.8663708448410035
+2023-01-23 14:59:17 INFO     [solitude: gcn on cora with eps=8] Saving best hp to output/bl_best_hp.json
+2023-01-23 14:59:17 INFO     [solitude: gcn on cora] Grid search done.
+2023-01-23 14:59:17 INFO     Grid search done!
+2023-01-23 14:59:17 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-01-23 14:59:17 INFO     [solitude: gcn on cora] Start running experiments on various epsilons.
+2023-01-23 14:59:17 INFO     [solitude: gcn on cora with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01}.
+2023-01-23 15:01:07 INFO     [solitude: gcn on cora with eps=1] Test accuracy is 0.4560315115706548 (0.06388079646851748).
+2023-01-23 15:01:07 INFO     [solitude: gcn on cora with eps=1] Saving training results to output/bl_results.json
+2023-01-23 15:01:07 INFO     [solitude: gcn on cora with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01}.
+2023-01-23 15:02:56 INFO     [solitude: gcn on cora with eps=2] Test accuracy is 0.5061546036435254 (0.06405293267167572).
+2023-01-23 15:02:56 INFO     [solitude: gcn on cora with eps=2] Saving training results to output/bl_results.json
+2023-01-23 15:02:56 INFO     [solitude: gcn on cora with eps=3] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01}.
+2023-01-23 15:04:45 INFO     [solitude: gcn on cora with eps=3] Test accuracy is 0.5776464795667159 (0.063603540536108).
+2023-01-23 15:04:45 INFO     [solitude: gcn on cora with eps=3] Saving training results to output/bl_results.json
+2023-01-23 15:04:45 INFO     [solitude: gcn on cora with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01}.
+2023-01-23 15:06:34 INFO     [solitude: gcn on cora with eps=4] Test accuracy is 0.6195470211718365 (0.03321720266959011).
+2023-01-23 15:06:34 INFO     [solitude: gcn on cora with eps=4] Saving training results to output/bl_results.json
+2023-01-23 15:06:34 INFO     [solitude: gcn on cora with eps=5] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.01}.
+2023-01-23 15:08:23 INFO     [solitude: gcn on cora with eps=5] Test accuracy is 0.6559822747415066 (0.02272166305631758).
+2023-01-23 15:08:23 INFO     [solitude: gcn on cora with eps=5] Saving training results to output/bl_results.json
+2023-01-23 15:08:23 INFO     [solitude: gcn on cora with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.01}.
+2023-01-23 15:10:12 INFO     [solitude: gcn on cora with eps=6] Test accuracy is 0.6761201378631215 (0.025156887998953454).
+2023-01-23 15:10:12 INFO     [solitude: gcn on cora with eps=6] Saving training results to output/bl_results.json
+2023-01-23 15:10:12 INFO     [solitude: gcn on cora with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.01}.
+2023-01-23 15:12:01 INFO     [solitude: gcn on cora with eps=7] Test accuracy is 0.6969965534219594 (0.017451243785076634).
+2023-01-23 15:12:01 INFO     [solitude: gcn on cora with eps=7] Saving training results to output/bl_results.json
+2023-01-23 15:12:01 INFO     [solitude: gcn on cora with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 0.01}.
+2023-01-23 15:13:50 INFO     [solitude: gcn on cora with eps=8] Test accuracy is 0.6872968980797636 (0.014967429178930685).
+2023-01-23 15:13:50 INFO     [solitude: gcn on cora with eps=8] Saving training results to output/bl_results.json
+2023-01-23 15:13:50 INFO     [solitude: gcn on cora] Experiments done.
+2023-01-23 15:13:50 INFO     All baseline experiments done!

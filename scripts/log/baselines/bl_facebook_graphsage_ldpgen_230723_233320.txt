@@ -1,0 +1,10 @@
+2023-07-23 23:33:20 INFO     Start experiments with Namespace(dataset='facebook', model='graphsage', method=['ldpgen'], grid_search=False, use_dense_model=True, eps=[1])
+2023-07-23 23:33:35 INFO     Using device: cuda
+2023-07-23 23:33:35 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 23:33:35 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 23:33:35 INFO     [ldpgen: graphsage on facebook] Start running experiments on various epsilons.
+2023-07-23 23:33:35 INFO     [ldpgen: graphsage on facebook with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-07-24 00:01:11 INFO     [ldpgen: graphsage on facebook with eps=1] Test accuracy is 0.7603832918001661 (0.0029539600225873225).
+2023-07-24 00:01:11 INFO     [ldpgen: graphsage on facebook with eps=1] Saving training results to output/bl_results.json
+2023-07-24 00:01:11 INFO     [ldpgen: graphsage on facebook] Experiments done.
+2023-07-24 00:01:11 INFO     All baseline experiments done!

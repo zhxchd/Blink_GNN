@@ -1,0 +1,23 @@
+2023-07-23 20:22:08 INFO     Start experiments with Namespace(dataset='citeseer', model='gat', method=['symrr'], grid_search=True, use_dense_model=False, eps=[5, 6])
+2023-07-23 20:22:11 INFO     Using device: cuda
+2023-07-23 20:22:11 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40536MB, multi_processor_count=108)
+2023-07-23 20:22:11 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 20:22:11 INFO     [symrr: gat on citeseer] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 20:22:11 INFO     [symrr: gat on citeseer with eps=5] Start grid search for hyperparameter tuning.
+2023-07-23 20:26:26 INFO     [symrr: gat on citeseer with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.5608032941818237
+2023-07-23 20:26:26 INFO     [symrr: gat on citeseer with eps=5] Saving best hp to output/bl_best_hp.json
+2023-07-23 20:26:26 INFO     [symrr: gat on citeseer with eps=6] Start grid search for hyperparameter tuning.
+2023-07-23 20:30:53 INFO     [symrr: gat on citeseer with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.4098218917846679
+2023-07-23 20:30:53 INFO     [symrr: gat on citeseer with eps=6] Saving best hp to output/bl_best_hp.json
+2023-07-23 20:30:53 INFO     [symrr: gat on citeseer] Grid search done.
+2023-07-23 20:30:53 INFO     Grid search done!
+2023-07-23 20:30:53 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 20:30:53 INFO     [symrr: gat on citeseer] Start running experiments on various epsilons.
+2023-07-23 20:30:53 INFO     [symrr: gat on citeseer with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-07-23 20:31:38 INFO     [symrr: gat on citeseer with eps=5] Test accuracy is 0.3395833333333334 (0.034185832678182974).
+2023-07-23 20:31:38 INFO     [symrr: gat on citeseer with eps=5] Saving training results to output/bl_results.json
+2023-07-23 20:31:38 INFO     [symrr: gat on citeseer with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-07-23 20:32:27 INFO     [symrr: gat on citeseer with eps=6] Test accuracy is 0.4677884615384615 (0.04080099565331434).
+2023-07-23 20:32:27 INFO     [symrr: gat on citeseer with eps=6] Saving training results to output/bl_results.json
+2023-07-23 20:32:27 INFO     [symrr: gat on citeseer] Experiments done.
+2023-07-23 20:32:27 INFO     All baseline experiments done!

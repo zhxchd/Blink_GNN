@@ -1,0 +1,54 @@
+2023-04-19 16:00:09 INFO     Start experiments with Namespace(variant='hard', dataset='facebook', model='gat', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-04-19 16:00:09 INFO     Using device: cuda
+2023-04-19 16:00:09 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40536MB, multi_processor_count=108)
+2023-04-19 16:00:09 INFO     Grid search. Load hyperparameter space from fb_config.json
+2023-04-19 16:00:09 INFO     [Blink-hard: gat on facebook with eps=1] Start grid search for hyperparameter tuning.
+2023-04-19 16:20:26 INFO     [Blink-hard: gat on facebook with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.6065119981765748
+2023-04-19 16:20:26 INFO     [Blink-hard: gat on facebook with eps=1] Saving best hp to output/best_hp.json
+2023-04-19 16:20:26 INFO     [Blink-hard: gat on facebook with eps=2] Start grid search for hyperparameter tuning.
+2023-04-19 16:39:01 INFO     [Blink-hard: gat on facebook with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0} with validation loss 0.6079216837882996
+2023-04-19 16:39:01 INFO     [Blink-hard: gat on facebook with eps=2] Saving best hp to output/best_hp.json
+2023-04-19 16:39:01 INFO     [Blink-hard: gat on facebook with eps=3] Start grid search for hyperparameter tuning.
+2023-04-19 16:56:37 INFO     [Blink-hard: gat on facebook with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.7} with validation loss 0.6070647001266479
+2023-04-19 16:56:37 INFO     [Blink-hard: gat on facebook with eps=3] Saving best hp to output/best_hp.json
+2023-04-19 16:56:37 INFO     [Blink-hard: gat on facebook with eps=4] Start grid search for hyperparameter tuning.
+2023-04-19 17:13:29 INFO     [Blink-hard: gat on facebook with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0} with validation loss 0.6092461466789245
+2023-04-19 17:13:29 INFO     [Blink-hard: gat on facebook with eps=4] Saving best hp to output/best_hp.json
+2023-04-19 17:13:29 INFO     [Blink-hard: gat on facebook with eps=5] Start grid search for hyperparameter tuning.
+2023-04-19 17:29:51 INFO     [Blink-hard: gat on facebook with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.46325286030769347
+2023-04-19 17:29:51 INFO     [Blink-hard: gat on facebook with eps=5] Saving best hp to output/best_hp.json
+2023-04-19 17:29:51 INFO     [Blink-hard: gat on facebook with eps=6] Start grid search for hyperparameter tuning.
+2023-04-19 17:46:02 INFO     [Blink-hard: gat on facebook with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.2864553391933441
+2023-04-19 17:46:02 INFO     [Blink-hard: gat on facebook with eps=6] Saving best hp to output/best_hp.json
+2023-04-19 17:46:02 INFO     [Blink-hard: gat on facebook with eps=7] Start grid search for hyperparameter tuning.
+2023-04-19 18:01:55 INFO     [Blink-hard: gat on facebook with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.23984114825725555
+2023-04-19 18:01:55 INFO     [Blink-hard: gat on facebook with eps=7] Saving best hp to output/best_hp.json
+2023-04-19 18:01:55 INFO     [Blink-hard: gat on facebook with eps=8] Start grid search for hyperparameter tuning.
+2023-04-19 18:17:42 INFO     [Blink-hard: gat on facebook with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.22774964272975923
+2023-04-19 18:17:42 INFO     [Blink-hard: gat on facebook with eps=8] Saving best hp to output/best_hp.json
+2023-04-19 18:17:42 INFO     Grid search done!
+2023-04-19 18:17:42 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-04-19 18:17:42 INFO     [Blink-hard: gat on facebook with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-19 18:24:33 INFO     [Blink-hard: gat on facebook with eps=1] Test accuracy is 0.7641390767770263 (0.0023796640126409595).
+2023-04-19 18:24:33 INFO     [Blink-hard: gat on facebook with eps=1] Saving training results to output/results.json
+2023-04-19 18:24:33 INFO     [Blink-hard: gat on facebook with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0}.
+2023-04-19 18:32:49 INFO     [Blink-hard: gat on facebook with eps=2] Test accuracy is 0.7620208852497921 (0.002157384333173812).
+2023-04-19 18:32:49 INFO     [Blink-hard: gat on facebook with eps=2] Saving training results to output/results.json
+2023-04-19 18:32:49 INFO     [Blink-hard: gat on facebook with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.7}.
+2023-04-19 18:39:42 INFO     [Blink-hard: gat on facebook with eps=3] Test accuracy is 0.761433487599383 (0.0021862937610872607).
+2023-04-19 18:39:42 INFO     [Blink-hard: gat on facebook with eps=3] Saving training results to output/results.json
+2023-04-19 18:39:42 INFO     [Blink-hard: gat on facebook with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0}.
+2023-04-19 18:47:58 INFO     [Blink-hard: gat on facebook with eps=4] Test accuracy is 0.7626616826866025 (0.0024186443579143724).
+2023-04-19 18:47:58 INFO     [Blink-hard: gat on facebook with eps=4] Saving training results to output/results.json
+2023-04-19 18:47:58 INFO     [Blink-hard: gat on facebook with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-19 18:52:57 INFO     [Blink-hard: gat on facebook with eps=5] Test accuracy is 0.8412365017206599 (0.003388205524444829).
+2023-04-19 18:52:57 INFO     [Blink-hard: gat on facebook with eps=5] Saving training results to output/results.json
+2023-04-19 18:52:57 INFO     [Blink-hard: gat on facebook with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-19 18:57:54 INFO     [Blink-hard: gat on facebook with eps=6] Test accuracy is 0.8991574700367866 (0.002981592864490156).
+2023-04-19 18:57:54 INFO     [Blink-hard: gat on facebook with eps=6] Saving training results to output/results.json
+2023-04-19 18:57:54 INFO     [Blink-hard: gat on facebook with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-19 19:02:53 INFO     [Blink-hard: gat on facebook with eps=7] Test accuracy is 0.9171709979826748 (0.0017326889520298022).
+2023-04-19 19:02:53 INFO     [Blink-hard: gat on facebook with eps=7] Saving training results to output/results.json
+2023-04-19 19:02:53 INFO     [Blink-hard: gat on facebook with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-19 19:07:50 INFO     [Blink-hard: gat on facebook with eps=8] Test accuracy is 0.9210276492227365 (0.001471652165461262).
+2023-04-19 19:07:50 INFO     [Blink-hard: gat on facebook with eps=8] Saving training results to output/results.json

@@ -1,0 +1,23 @@
+2023-07-23 07:38:18 INFO     Start experiments with Namespace(dataset='facebook', model='gat', method=['ldpgen'], grid_search=True, use_dense_model=False, eps=[3, 4])
+2023-07-23 07:38:27 INFO     Using device: cuda
+2023-07-23 07:38:27 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 07:38:27 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 07:38:27 INFO     [ldpgen: gat on facebook] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 07:38:27 INFO     [ldpgen: gat on facebook with eps=3] Start grid search for hyperparameter tuning.
+2023-07-23 08:12:44 INFO     [ldpgen: gat on facebook with eps=3] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0} with validation loss 1.185725951194763
+2023-07-23 08:12:44 INFO     [ldpgen: gat on facebook with eps=3] Saving best hp to output/bl_best_hp.json
+2023-07-23 08:12:44 INFO     [ldpgen: gat on facebook with eps=4] Start grid search for hyperparameter tuning.
+2023-07-23 08:38:51 INFO     [ldpgen: gat on facebook with eps=4] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0} with validation loss 1.1553328037261963
+2023-07-23 08:38:51 INFO     [ldpgen: gat on facebook with eps=4] Saving best hp to output/bl_best_hp.json
+2023-07-23 08:38:51 INFO     [ldpgen: gat on facebook] Grid search done.
+2023-07-23 08:38:51 INFO     Grid search done!
+2023-07-23 08:38:51 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 08:38:51 INFO     [ldpgen: gat on facebook] Start running experiments on various epsilons.
+2023-07-23 08:38:51 INFO     [ldpgen: gat on facebook with eps=3] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0}.
+2023-07-23 08:45:18 INFO     [ldpgen: gat on facebook with eps=3] Test accuracy is 0.46166488667378663 (0.06913034169561594).
+2023-07-23 08:45:18 INFO     [ldpgen: gat on facebook with eps=3] Saving training results to output/bl_results.json
+2023-07-23 08:45:18 INFO     [ldpgen: gat on facebook with eps=4] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0}.
+2023-07-23 08:50:09 INFO     [ldpgen: gat on facebook with eps=4] Test accuracy is 0.4969799454135517 (0.01160135612453808).
+2023-07-23 08:50:09 INFO     [ldpgen: gat on facebook with eps=4] Saving training results to output/bl_results.json
+2023-07-23 08:50:09 INFO     [ldpgen: gat on facebook] Experiments done.
+2023-07-23 08:50:09 INFO     All baseline experiments done!

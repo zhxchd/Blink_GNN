@@ -1,0 +1,23 @@
+2023-07-23 14:58:58 INFO     Start experiments with Namespace(dataset='cora', model='gat', method=['dprr'], grid_search=True, use_dense_model=False, eps=[1, 2])
+2023-07-23 14:59:36 INFO     Using device: cuda
+2023-07-23 14:59:36 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 14:59:36 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 14:59:36 INFO     [dprr: gat on cora] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 14:59:36 INFO     [dprr: gat on cora with eps=1] Start grid search for hyperparameter tuning.
+2023-07-23 15:07:53 INFO     [dprr: gat on cora with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.8097009658813477
+2023-07-23 15:07:53 INFO     [dprr: gat on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2023-07-23 15:07:53 INFO     [dprr: gat on cora with eps=2] Start grid search for hyperparameter tuning.
+2023-07-23 15:16:05 INFO     [dprr: gat on cora with eps=2] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001} with validation loss 1.8055998802185058
+2023-07-23 15:16:05 INFO     [dprr: gat on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2023-07-23 15:16:05 INFO     [dprr: gat on cora] Grid search done.
+2023-07-23 15:16:05 INFO     Grid search done!
+2023-07-23 15:16:05 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 15:16:05 INFO     [dprr: gat on cora] Start running experiments on various epsilons.
+2023-07-23 15:16:05 INFO     [dprr: gat on cora with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-07-23 15:17:36 INFO     [dprr: gat on cora with eps=1] Test accuracy is 0.34111275233874944 (0.00053029687908759).
+2023-07-23 15:17:36 INFO     [dprr: gat on cora with eps=1] Saving training results to output/bl_results.json
+2023-07-23 15:17:36 INFO     [dprr: gat on cora with eps=2] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001}.
+2023-07-23 15:19:11 INFO     [dprr: gat on cora with eps=2] Test accuracy is 0.34116198916789764 (0.0002651484395437949).
+2023-07-23 15:19:11 INFO     [dprr: gat on cora with eps=2] Saving training results to output/bl_results.json
+2023-07-23 15:19:11 INFO     [dprr: gat on cora] Experiments done.
+2023-07-23 15:19:11 INFO     All baseline experiments done!

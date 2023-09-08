@@ -1,0 +1,109 @@
+2022-10-17 10:36:17 INFO     Start experiments with Namespace(dataset='cora', model='gat', grid_search=True)
+2022-10-17 10:36:17 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-17 10:36:17 INFO     [rr: gat on cora] Grid search for hyperparameter tuning on various epsilons.
+2022-10-17 10:36:17 INFO     [rr: gat on cora with eps=1] Start grid search for hyperparameter tuning.
+2022-10-17 10:41:54 INFO     [rr: gat on cora with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.8133803606033325
+2022-10-17 10:41:54 INFO     [rr: gat on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2022-10-17 10:41:54 INFO     [rr: gat on cora with eps=2] Start grid search for hyperparameter tuning.
+2022-10-17 10:45:11 INFO     [rr: gat on cora with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.8139829238255818
+2022-10-17 10:45:11 INFO     [rr: gat on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-17 10:45:11 INFO     [rr: gat on cora with eps=3] Start grid search for hyperparameter tuning.
+2022-10-17 10:47:54 INFO     [rr: gat on cora with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.8139100472132366
+2022-10-17 10:47:54 INFO     [rr: gat on cora with eps=3] Saving best hp to output/bl_best_hp.json
+2022-10-17 10:47:54 INFO     [rr: gat on cora with eps=4] Start grid search for hyperparameter tuning.
+2022-10-17 10:50:30 INFO     [rr: gat on cora with eps=4] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.6360359986623128
+2022-10-17 10:50:30 INFO     [rr: gat on cora with eps=4] Saving best hp to output/bl_best_hp.json
+2022-10-17 10:50:30 INFO     [rr: gat on cora with eps=5] Start grid search for hyperparameter tuning.
+2022-10-17 10:53:07 INFO     [rr: gat on cora with eps=5] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.5694434245427449
+2022-10-17 10:53:07 INFO     [rr: gat on cora with eps=5] Saving best hp to output/bl_best_hp.json
+2022-10-17 10:53:07 INFO     [rr: gat on cora with eps=6] Start grid search for hyperparameter tuning.
+2022-10-17 10:55:41 INFO     [rr: gat on cora with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.312687913576762
+2022-10-17 10:55:41 INFO     [rr: gat on cora with eps=6] Saving best hp to output/bl_best_hp.json
+2022-10-17 10:55:41 INFO     [rr: gat on cora with eps=7] Start grid search for hyperparameter tuning.
+2022-10-17 10:58:15 INFO     [rr: gat on cora with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.9282083710034689
+2022-10-17 10:58:15 INFO     [rr: gat on cora with eps=7] Saving best hp to output/bl_best_hp.json
+2022-10-17 10:58:15 INFO     [rr: gat on cora with eps=8] Start grid search for hyperparameter tuning.
+2022-10-17 11:00:49 INFO     [rr: gat on cora with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.6251348853111267
+2022-10-17 11:00:49 INFO     [rr: gat on cora with eps=8] Saving best hp to output/bl_best_hp.json
+2022-10-17 11:00:49 INFO     [rr: gat on cora] Grid search done.
+2022-10-17 11:00:49 INFO     [ldpgcn: gat on cora] Grid search for hyperparameter tuning on various epsilons.
+2022-10-17 11:00:49 INFO     [ldpgcn: gat on cora with eps=1] Start grid search for hyperparameter tuning.
+2022-10-17 11:03:27 INFO     [ldpgcn: gat on cora with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.001} with validation loss 1.4716769456863403
+2022-10-17 11:03:27 INFO     [ldpgcn: gat on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2022-10-17 11:03:27 INFO     [ldpgcn: gat on cora with eps=2] Start grid search for hyperparameter tuning.
+2022-10-17 11:06:06 INFO     [ldpgcn: gat on cora with eps=2] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.001} with validation loss 1.530858834584554
+2022-10-17 11:06:06 INFO     [ldpgcn: gat on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-17 11:06:06 INFO     [ldpgcn: gat on cora with eps=3] Start grid search for hyperparameter tuning.
+2022-10-17 11:08:45 INFO     [ldpgcn: gat on cora with eps=3] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.001} with validation loss 1.4706897338231404
+2022-10-17 11:08:45 INFO     [ldpgcn: gat on cora with eps=3] Saving best hp to output/bl_best_hp.json
+2022-10-17 11:08:45 INFO     [ldpgcn: gat on cora with eps=4] Start grid search for hyperparameter tuning.
+2022-10-17 11:11:24 INFO     [ldpgcn: gat on cora with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.001} with validation loss 1.2108059724171956
+2022-10-17 11:11:24 INFO     [ldpgcn: gat on cora with eps=4] Saving best hp to output/bl_best_hp.json
+2022-10-17 11:11:24 INFO     [ldpgcn: gat on cora with eps=5] Start grid search for hyperparameter tuning.
+2022-10-17 11:14:02 INFO     [ldpgcn: gat on cora with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.8344767292340597
+2022-10-17 11:14:02 INFO     [ldpgcn: gat on cora with eps=5] Saving best hp to output/bl_best_hp.json
+2022-10-17 11:14:02 INFO     [ldpgcn: gat on cora with eps=6] Start grid search for hyperparameter tuning.
+2022-10-17 11:16:41 INFO     [ldpgcn: gat on cora with eps=6] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.6254385312398275
+2022-10-17 11:16:41 INFO     [ldpgcn: gat on cora with eps=6] Saving best hp to output/bl_best_hp.json
+2022-10-17 11:16:41 INFO     [ldpgcn: gat on cora with eps=7] Start grid search for hyperparameter tuning.
+2022-10-17 11:19:20 INFO     [ldpgcn: gat on cora with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.5694501996040344
+2022-10-17 11:19:20 INFO     [ldpgcn: gat on cora with eps=7] Saving best hp to output/bl_best_hp.json
+2022-10-17 11:19:20 INFO     [ldpgcn: gat on cora with eps=8] Start grid search for hyperparameter tuning.
+2022-10-17 11:21:59 INFO     [ldpgcn: gat on cora with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.5296124219894409
+2022-10-17 11:21:59 INFO     [ldpgcn: gat on cora with eps=8] Saving best hp to output/bl_best_hp.json
+2022-10-17 11:21:59 INFO     [ldpgcn: gat on cora] Grid search done.
+2022-10-17 11:21:59 INFO     Grid search done!
+2022-10-17 11:21:59 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2022-10-17 11:21:59 INFO     [rr: gat on cora] Start running experiments on various epsilons.
+2022-10-17 11:21:59 INFO     [rr: gat on cora with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 11:24:04 INFO     [rr: gat on cora with eps=1] Test accuracy is 0.34121122599704584 (5.551115123125783e-17).
+2022-10-17 11:24:04 INFO     [rr: gat on cora with eps=1] Saving training results to output/bl_results.json
+2022-10-17 11:24:04 INFO     [rr: gat on cora with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 11:25:16 INFO     [rr: gat on cora with eps=2] Test accuracy is 0.34121122599704584 (5.551115123125783e-17).
+2022-10-17 11:25:16 INFO     [rr: gat on cora with eps=2] Saving training results to output/bl_results.json
+2022-10-17 11:25:16 INFO     [rr: gat on cora with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 11:26:17 INFO     [rr: gat on cora with eps=3] Test accuracy is 0.34121122599704584 (5.551115123125783e-17).
+2022-10-17 11:26:17 INFO     [rr: gat on cora with eps=3] Saving training results to output/bl_results.json
+2022-10-17 11:26:17 INFO     [rr: gat on cora with eps=4] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 11:27:15 INFO     [rr: gat on cora with eps=4] Test accuracy is 0.3646479566715904 (0.02917979046156799).
+2022-10-17 11:27:15 INFO     [rr: gat on cora with eps=4] Saving training results to output/bl_results.json
+2022-10-17 11:27:15 INFO     [rr: gat on cora with eps=5] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 11:28:13 INFO     [rr: gat on cora with eps=5] Test accuracy is 0.4183653372722797 (0.016420390247748193).
+2022-10-17 11:28:13 INFO     [rr: gat on cora with eps=5] Saving training results to output/bl_results.json
+2022-10-17 11:28:13 INFO     [rr: gat on cora with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 11:29:10 INFO     [rr: gat on cora with eps=6] Test accuracy is 0.5439684884293451 (0.03017763778494818).
+2022-10-17 11:29:10 INFO     [rr: gat on cora with eps=6] Saving training results to output/bl_results.json
+2022-10-17 11:29:10 INFO     [rr: gat on cora with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 11:30:08 INFO     [rr: gat on cora with eps=7] Test accuracy is 0.7122107336287543 (0.01886644532540218).
+2022-10-17 11:30:08 INFO     [rr: gat on cora with eps=7] Saving training results to output/bl_results.json
+2022-10-17 11:30:08 INFO     [rr: gat on cora with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 11:31:05 INFO     [rr: gat on cora with eps=8] Test accuracy is 0.79123584441162 (0.01711289728900321).
+2022-10-17 11:31:05 INFO     [rr: gat on cora with eps=8] Saving training results to output/bl_results.json
+2022-10-17 11:31:05 INFO     [rr: gat on cora] Experiments done.
+2022-10-17 11:31:05 INFO     [ldpgcn: gat on cora] Start running experiments on various epsilons.
+2022-10-17 11:31:05 INFO     [ldpgcn: gat on cora with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.001}.
+2022-10-17 11:32:04 INFO     [ldpgcn: gat on cora with eps=1] Test accuracy is 0.4087641555883801 (0.022707521699395463).
+2022-10-17 11:32:04 INFO     [ldpgcn: gat on cora with eps=1] Saving training results to output/bl_results.json
+2022-10-17 11:32:04 INFO     [ldpgcn: gat on cora with eps=2] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.001}.
+2022-10-17 11:33:03 INFO     [ldpgcn: gat on cora with eps=2] Test accuracy is 0.41053668143771543 (0.013829853167157668).
+2022-10-17 11:33:03 INFO     [ldpgcn: gat on cora with eps=2] Saving training results to output/bl_results.json
+2022-10-17 11:33:03 INFO     [ldpgcn: gat on cora with eps=3] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.001}.
+2022-10-17 11:34:02 INFO     [ldpgcn: gat on cora with eps=3] Test accuracy is 0.4480551452486459 (0.013894908853299488).
+2022-10-17 11:34:02 INFO     [ldpgcn: gat on cora with eps=3] Saving training results to output/bl_results.json
+2022-10-17 11:34:02 INFO     [ldpgcn: gat on cora with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.001}.
+2022-10-17 11:35:01 INFO     [ldpgcn: gat on cora with eps=4] Test accuracy is 0.5687838503200395 (0.02328313808942456).
+2022-10-17 11:35:01 INFO     [ldpgcn: gat on cora with eps=4] Saving training results to output/bl_results.json
+2022-10-17 11:35:01 INFO     [ldpgcn: gat on cora with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 11:36:01 INFO     [ldpgcn: gat on cora with eps=5] Test accuracy is 0.714574101427868 (0.030915122411343487).
+2022-10-17 11:36:01 INFO     [ldpgcn: gat on cora with eps=5] Saving training results to output/bl_results.json
+2022-10-17 11:36:01 INFO     [ldpgcn: gat on cora with eps=6] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 11:37:00 INFO     [ldpgcn: gat on cora with eps=6] Test accuracy is 0.7930576070901034 (0.02568733084129649).
+2022-10-17 11:37:00 INFO     [ldpgcn: gat on cora with eps=6] Saving training results to output/bl_results.json
+2022-10-17 11:37:00 INFO     [ldpgcn: gat on cora with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 11:37:59 INFO     [ldpgcn: gat on cora with eps=7] Test accuracy is 0.824766125061546 (0.015205254409125523).
+2022-10-17 11:37:59 INFO     [ldpgcn: gat on cora with eps=7] Saving training results to output/bl_results.json
+2022-10-17 11:37:59 INFO     [ldpgcn: gat on cora with eps=8] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 11:38:58 INFO     [ldpgcn: gat on cora with eps=8] Test accuracy is 0.8282127031019202 (0.013425412623207685).
+2022-10-17 11:38:58 INFO     [ldpgcn: gat on cora with eps=8] Saving training results to output/bl_results.json
+2022-10-17 11:38:58 INFO     [ldpgcn: gat on cora] Experiments done.
+2022-10-17 11:38:58 INFO     All baseline experiments done!

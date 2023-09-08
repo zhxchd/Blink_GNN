@@ -1,0 +1,59 @@
+2023-01-23 18:31:15 INFO     Start experiments with Namespace(dataset='citeseer', model='gcn', method=['solitude'], grid_search=True, eps=[1, 2, 3, 4, 5, 6, 7, 8])
+2023-01-23 18:31:20 INFO     Using device: cuda
+2023-01-23 18:31:20 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-23 18:31:20 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-23 18:31:20 INFO     [solitude: gcn on citeseer] Grid search for hyperparameter tuning on various epsilons.
+2023-01-23 18:31:20 INFO     [solitude: gcn on citeseer with eps=1] Start grid search for hyperparameter tuning.
+2023-01-23 18:59:50 INFO     [solitude: gcn on citeseer with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.001, 'lam1': 0.01, 'lam2': 0.0001} with validation loss 1.6090600490570068
+2023-01-23 18:59:50 INFO     [solitude: gcn on citeseer with eps=1] Saving best hp to output/bl_best_hp.json
+2023-01-23 18:59:50 INFO     [solitude: gcn on citeseer with eps=2] Start grid search for hyperparameter tuning.
+2023-01-23 19:28:00 INFO     [solitude: gcn on citeseer with eps=2] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.001} with validation loss 1.4157698154449463
+2023-01-23 19:28:00 INFO     [solitude: gcn on citeseer with eps=2] Saving best hp to output/bl_best_hp.json
+2023-01-23 19:28:00 INFO     [solitude: gcn on citeseer with eps=3] Start grid search for hyperparameter tuning.
+2023-01-23 19:56:07 INFO     [solitude: gcn on citeseer with eps=3] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.001} with validation loss 1.3955515623092651
+2023-01-23 19:56:07 INFO     [solitude: gcn on citeseer with eps=3] Saving best hp to output/bl_best_hp.json
+2023-01-23 19:56:07 INFO     [solitude: gcn on citeseer with eps=4] Start grid search for hyperparameter tuning.
+2023-01-23 20:24:15 INFO     [solitude: gcn on citeseer with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01} with validation loss 1.1446847915649414
+2023-01-23 20:24:15 INFO     [solitude: gcn on citeseer with eps=4] Saving best hp to output/bl_best_hp.json
+2023-01-23 20:24:15 INFO     [solitude: gcn on citeseer with eps=5] Start grid search for hyperparameter tuning.
+2023-01-23 20:52:16 INFO     [solitude: gcn on citeseer with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 0.01} with validation loss 0.8967209458351135
+2023-01-23 20:52:16 INFO     [solitude: gcn on citeseer with eps=5] Saving best hp to output/bl_best_hp.json
+2023-01-23 20:52:16 INFO     [solitude: gcn on citeseer with eps=6] Start grid search for hyperparameter tuning.
+2023-01-23 21:20:16 INFO     [solitude: gcn on citeseer with eps=6] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 0.01} with validation loss 0.87520831823349
+2023-01-23 21:20:16 INFO     [solitude: gcn on citeseer with eps=6] Saving best hp to output/bl_best_hp.json
+2023-01-23 21:20:16 INFO     [solitude: gcn on citeseer with eps=7] Start grid search for hyperparameter tuning.
+2023-01-23 21:48:19 INFO     [solitude: gcn on citeseer with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.01} with validation loss 0.9489027857780457
+2023-01-23 21:48:19 INFO     [solitude: gcn on citeseer with eps=7] Saving best hp to output/bl_best_hp.json
+2023-01-23 21:48:19 INFO     [solitude: gcn on citeseer with eps=8] Start grid search for hyperparameter tuning.
+2023-01-23 22:16:20 INFO     [solitude: gcn on citeseer with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.001} with validation loss 0.9912453889846802
+2023-01-23 22:16:20 INFO     [solitude: gcn on citeseer with eps=8] Saving best hp to output/bl_best_hp.json
+2023-01-23 22:16:20 INFO     [solitude: gcn on citeseer] Grid search done.
+2023-01-23 22:16:20 INFO     Grid search done!
+2023-01-23 22:16:20 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-01-23 22:16:20 INFO     [solitude: gcn on citeseer] Start running experiments on various epsilons.
+2023-01-23 22:16:20 INFO     [solitude: gcn on citeseer with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.001, 'lam1': 0.01, 'lam2': 0.0001}.
+2023-01-23 22:18:20 INFO     [solitude: gcn on citeseer with eps=1] Test accuracy is 0.20985576923076918 (0.013699111272445098).
+2023-01-23 22:18:20 INFO     [solitude: gcn on citeseer with eps=1] Saving training results to output/bl_results.json
+2023-01-23 22:18:20 INFO     [solitude: gcn on citeseer with eps=2] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.001}.
+2023-01-23 22:20:18 INFO     [solitude: gcn on citeseer with eps=2] Test accuracy is 0.3740384615384615 (0.1179548961505523).
+2023-01-23 22:20:18 INFO     [solitude: gcn on citeseer with eps=2] Saving training results to output/bl_results.json
+2023-01-23 22:20:18 INFO     [solitude: gcn on citeseer with eps=3] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.001}.
+2023-01-23 22:22:17 INFO     [solitude: gcn on citeseer with eps=3] Test accuracy is 0.36618589743589747 (0.11527327248945157).
+2023-01-23 22:22:17 INFO     [solitude: gcn on citeseer with eps=3] Saving training results to output/bl_results.json
+2023-01-23 22:22:17 INFO     [solitude: gcn on citeseer with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01}.
+2023-01-23 22:24:16 INFO     [solitude: gcn on citeseer with eps=4] Test accuracy is 0.5197516025641026 (0.10168803562621116).
+2023-01-23 22:24:16 INFO     [solitude: gcn on citeseer with eps=4] Saving training results to output/bl_results.json
+2023-01-23 22:24:16 INFO     [solitude: gcn on citeseer with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 0.01}.
+2023-01-23 22:26:13 INFO     [solitude: gcn on citeseer with eps=5] Test accuracy is 0.6929086538461536 (0.0189221785131087).
+2023-01-23 22:26:13 INFO     [solitude: gcn on citeseer with eps=5] Saving training results to output/bl_results.json
+2023-01-23 22:26:13 INFO     [solitude: gcn on citeseer with eps=6] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 0.01}.
+2023-01-23 22:28:11 INFO     [solitude: gcn on citeseer with eps=6] Test accuracy is 0.703886217948718 (0.021101614871105834).
+2023-01-23 22:28:11 INFO     [solitude: gcn on citeseer with eps=6] Saving training results to output/bl_results.json
+2023-01-23 22:28:11 INFO     [solitude: gcn on citeseer with eps=7] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.01}.
+2023-01-23 22:30:09 INFO     [solitude: gcn on citeseer with eps=7] Test accuracy is 0.6852564102564104 (0.022939069200650714).
+2023-01-23 22:30:09 INFO     [solitude: gcn on citeseer with eps=7] Saving training results to output/bl_results.json
+2023-01-23 22:30:09 INFO     [solitude: gcn on citeseer with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.001}.
+2023-01-23 22:32:07 INFO     [solitude: gcn on citeseer with eps=8] Test accuracy is 0.645713141025641 (0.08421795513710938).
+2023-01-23 22:32:07 INFO     [solitude: gcn on citeseer with eps=8] Saving training results to output/bl_results.json
+2023-01-23 22:32:07 INFO     [solitude: gcn on citeseer] Experiments done.
+2023-01-23 22:32:07 INFO     All baseline experiments done!

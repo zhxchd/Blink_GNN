@@ -1,0 +1,54 @@
+2023-01-14 11:32:39 INFO     Start experiments with Namespace(variant='soft', dataset='citeseer', model='graphsage', grid_search=True, eps=['1', '2', '3', '4'])
+2023-01-14 11:32:50 INFO     Using device: cuda
+2023-01-14 11:32:50 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-14 11:32:50 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-14 11:32:50 INFO     [Blink-soft: graphsage on citeseer with eps=1] Start grid search for hyperparameter tuning.
+2023-01-14 12:08:30 INFO     [Blink-soft: graphsage on citeseer with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.5} with validation loss 0.831603729724884
+2023-01-14 12:08:30 INFO     [Blink-soft: graphsage on citeseer with eps=1] Saving best hp to output/best_hp.json
+2023-01-14 12:08:30 INFO     [Blink-soft: graphsage on citeseer with eps=2] Start grid search for hyperparameter tuning.
+2023-01-14 12:43:50 INFO     [Blink-soft: graphsage on citeseer with eps=2] Best hparam is: {'do': 0, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.8317840218544006
+2023-01-14 12:43:50 INFO     [Blink-soft: graphsage on citeseer with eps=2] Saving best hp to output/best_hp.json
+2023-01-14 12:43:50 INFO     [Blink-soft: graphsage on citeseer with eps=3] Start grid search for hyperparameter tuning.
+2023-01-14 13:18:59 INFO     [Blink-soft: graphsage on citeseer with eps=3] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.8104847192764282
+2023-01-14 13:18:59 INFO     [Blink-soft: graphsage on citeseer with eps=3] Saving best hp to output/best_hp.json
+2023-02-02 16:01:22 INFO     [Blink-soft: graphsage on citeseer with eps=4] Start grid search for hyperparameter tuning.
+2023-02-02 17:13:42 INFO     [Blink-soft: graphsage on citeseer with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1} with validation loss 0.8181992590427398
+2023-02-02 17:13:42 INFO     [Blink-soft: graphsage on citeseer with eps=4] Saving best hp to output/best_hp.json
+2023-02-01 22:29:22 INFO     [Blink-soft: graphsage on citeseer with eps=5] Start grid search for hyperparameter tuning.
+2023-02-01 23:39:05 INFO     [Blink-soft: graphsage on citeseer with eps=5] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.001, 'delta': 0.1} with validation loss 0.7614972949028015
+2023-02-01 23:39:05 INFO     [Blink-soft: graphsage on citeseer with eps=5] Saving best hp to output/best_hp.json
+2023-01-14 12:11:07 INFO     [Blink-soft: graphsage on citeseer with eps=6] Start grid search for hyperparameter tuning.
+2023-01-14 12:46:13 INFO     [Blink-soft: graphsage on citeseer with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1} with validation loss 0.723244047164917
+2023-01-14 12:46:13 INFO     [Blink-soft: graphsage on citeseer with eps=6] Saving best hp to output/best_hp.json
+2023-01-14 12:46:13 INFO     [Blink-soft: graphsage on citeseer with eps=7] Start grid search for hyperparameter tuning.
+2023-01-14 13:21:58 INFO     [Blink-soft: graphsage on citeseer with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1} with validation loss 0.7179964184761047
+2023-01-14 13:21:58 INFO     [Blink-soft: graphsage on citeseer with eps=7] Saving best hp to output/best_hp.json
+2023-01-14 13:21:58 INFO     [Blink-soft: graphsage on citeseer with eps=8] Start grid search for hyperparameter tuning.
+2023-01-14 13:57:24 INFO     [Blink-soft: graphsage on citeseer with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1} with validation loss 0.7184534430503845
+2023-01-14 13:57:24 INFO     [Blink-soft: graphsage on citeseer with eps=8] Saving best hp to output/best_hp.json
+2023-01-14 13:54:06 INFO     Grid search done!
+2023-01-14 13:54:06 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-01-14 13:54:06 INFO     [Blink-soft: graphsage on citeseer with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.5}.
+2023-01-14 13:56:53 INFO     [Blink-soft: graphsage on citeseer with eps=1] Test accuracy is 0.7370592948717949 (0.0030671942380485974).
+2023-01-14 13:56:53 INFO     [Blink-soft: graphsage on citeseer with eps=1] Saving training results to output/results.json
+2023-01-14 13:56:53 INFO     [Blink-soft: graphsage on citeseer with eps=2] Run with best hp found: {'do': 0, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-14 13:59:38 INFO     [Blink-soft: graphsage on citeseer with eps=2] Test accuracy is 0.7350160256410256 (0.005030239139653697).
+2023-01-14 13:59:38 INFO     [Blink-soft: graphsage on citeseer with eps=2] Saving training results to output/results.json
+2023-01-14 13:59:38 INFO     [Blink-soft: graphsage on citeseer with eps=3] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-14 14:02:24 INFO     [Blink-soft: graphsage on citeseer with eps=3] Test accuracy is 0.7464342948717949 (0.006977252894900809).
+2023-01-14 14:02:24 INFO     [Blink-soft: graphsage on citeseer with eps=3] Saving training results to output/results.json
+2023-02-02 17:13:42 INFO     [Blink-soft: graphsage on citeseer with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1}.
+2023-02-02 17:16:30 INFO     [Blink-soft: graphsage on citeseer with eps=4] Test accuracy is 0.7576923076923078 (0.007866859698054592).
+2023-02-02 17:16:30 INFO     [Blink-soft: graphsage on citeseer with eps=4] Saving training results to output/results.json
+2023-02-01 23:39:05 INFO     [Blink-soft: graphsage on citeseer with eps=5] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.001, 'delta': 0.1}.
+2023-02-01 23:41:48 INFO     [Blink-soft: graphsage on citeseer with eps=5] Test accuracy is 0.7827323717948717 (0.006514699035376228).
+2023-02-01 23:41:48 INFO     [Blink-soft: graphsage on citeseer with eps=5] Saving training results to output/results.json
+2023-01-14 14:00:09 INFO     [Blink-soft: graphsage on citeseer with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1}.
+2023-01-14 14:02:54 INFO     [Blink-soft: graphsage on citeseer with eps=6] Test accuracy is 0.7896233974358975 (0.005150847699410073).
+2023-01-14 14:02:54 INFO     [Blink-soft: graphsage on citeseer with eps=6] Saving training results to output/results.json
+2023-01-14 14:02:54 INFO     [Blink-soft: graphsage on citeseer with eps=7] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1}.
+2023-01-14 14:05:40 INFO     [Blink-soft: graphsage on citeseer with eps=7] Test accuracy is 0.7921875 (0.004403589841102221).
+2023-01-14 14:05:40 INFO     [Blink-soft: graphsage on citeseer with eps=7] Saving training results to output/results.json
+2023-01-14 14:05:40 INFO     [Blink-soft: graphsage on citeseer with eps=8] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1}.
+2023-01-14 14:08:26 INFO     [Blink-soft: graphsage on citeseer with eps=8] Test accuracy is 0.794591346153846 (0.0034466772778851155).
+2023-01-14 14:08:26 INFO     [Blink-soft: graphsage on citeseer with eps=8] Saving training results to output/results.json

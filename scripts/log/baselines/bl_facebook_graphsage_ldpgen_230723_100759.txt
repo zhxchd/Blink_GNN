@@ -1,0 +1,23 @@
+2023-07-23 10:07:59 INFO     Start experiments with Namespace(dataset='facebook', model='graphsage', method=['ldpgen'], grid_search=True, use_dense_model=False, eps=[5, 6])
+2023-07-23 10:08:09 INFO     Using device: cuda
+2023-07-23 10:08:09 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 10:08:09 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 10:08:09 INFO     [ldpgen: graphsage on facebook] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 10:08:09 INFO     [ldpgen: graphsage on facebook with eps=5] Start grid search for hyperparameter tuning.
+2023-07-23 10:27:27 INFO     [ldpgen: graphsage on facebook with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.6193797826766968
+2023-07-23 10:27:27 INFO     [ldpgen: graphsage on facebook with eps=5] Saving best hp to output/bl_best_hp.json
+2023-07-23 10:27:27 INFO     [ldpgen: graphsage on facebook with eps=6] Start grid search for hyperparameter tuning.
+2023-07-23 10:43:23 INFO     [ldpgen: graphsage on facebook with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.620676052570343
+2023-07-23 10:43:23 INFO     [ldpgen: graphsage on facebook with eps=6] Saving best hp to output/bl_best_hp.json
+2023-07-23 10:43:23 INFO     [ldpgen: graphsage on facebook] Grid search done.
+2023-07-23 10:43:23 INFO     Grid search done!
+2023-07-23 10:43:23 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 10:43:23 INFO     [ldpgen: graphsage on facebook] Start running experiments on various epsilons.
+2023-07-23 10:43:23 INFO     [ldpgen: graphsage on facebook with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-07-23 10:46:59 INFO     [ldpgen: graphsage on facebook with eps=5] Test accuracy is 0.7553399786400854 (0.002576484612874054).
+2023-07-23 10:46:59 INFO     [ldpgen: graphsage on facebook with eps=5] Saving training results to output/bl_results.json
+2023-07-23 10:46:59 INFO     [ldpgen: graphsage on facebook with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-07-23 10:50:01 INFO     [ldpgen: graphsage on facebook with eps=6] Test accuracy is 0.7537676515960602 (0.004705903808794077).
+2023-07-23 10:50:01 INFO     [ldpgen: graphsage on facebook with eps=6] Saving training results to output/bl_results.json
+2023-07-23 10:50:01 INFO     [ldpgen: graphsage on facebook] Experiments done.
+2023-07-23 10:50:01 INFO     All baseline experiments done!

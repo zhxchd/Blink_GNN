@@ -1,0 +1,109 @@
+2022-10-17 03:43:26 INFO     Start experiments with Namespace(dataset='cora', model='gcn', grid_search=True)
+2022-10-17 03:43:32 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-17 03:43:32 INFO     [rr: gcn on cora] Grid search for hyperparameter tuning on various epsilons.
+2022-10-17 03:43:32 INFO     [rr: gcn on cora with eps=1] Start grid search for hyperparameter tuning.
+2022-10-17 03:46:40 INFO     [rr: gcn on cora with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.8138657013575237
+2022-10-17 03:46:40 INFO     [rr: gcn on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2022-10-17 03:46:40 INFO     [rr: gcn on cora with eps=2] Start grid search for hyperparameter tuning.
+2022-10-17 03:49:06 INFO     [rr: gcn on cora with eps=2] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.8141889572143555
+2022-10-17 03:49:06 INFO     [rr: gcn on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-17 03:49:06 INFO     [rr: gcn on cora with eps=3] Start grid search for hyperparameter tuning.
+2022-10-17 03:51:19 INFO     [rr: gcn on cora with eps=3] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.8143359422683716
+2022-10-17 03:51:19 INFO     [rr: gcn on cora with eps=3] Saving best hp to output/bl_best_hp.json
+2022-10-17 03:51:19 INFO     [rr: gcn on cora with eps=4] Start grid search for hyperparameter tuning.
+2022-10-17 03:53:30 INFO     [rr: gcn on cora with eps=4] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.813747803370158
+2022-10-17 03:53:30 INFO     [rr: gcn on cora with eps=4] Saving best hp to output/bl_best_hp.json
+2022-10-17 03:53:30 INFO     [rr: gcn on cora with eps=5] Start grid search for hyperparameter tuning.
+2022-10-17 03:55:41 INFO     [rr: gcn on cora with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.5893826882044475
+2022-10-17 03:55:41 INFO     [rr: gcn on cora with eps=5] Saving best hp to output/bl_best_hp.json
+2022-10-17 03:55:41 INFO     [rr: gcn on cora with eps=6] Start grid search for hyperparameter tuning.
+2022-10-17 03:57:51 INFO     [rr: gcn on cora with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.0350458025932312
+2022-10-17 03:57:51 INFO     [rr: gcn on cora with eps=6] Saving best hp to output/bl_best_hp.json
+2022-10-17 03:57:51 INFO     [rr: gcn on cora with eps=7] Start grid search for hyperparameter tuning.
+2022-10-17 04:00:01 INFO     [rr: gcn on cora with eps=7] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.7421779036521912
+2022-10-17 04:00:01 INFO     [rr: gcn on cora with eps=7] Saving best hp to output/bl_best_hp.json
+2022-10-17 04:00:01 INFO     [rr: gcn on cora with eps=8] Start grid search for hyperparameter tuning.
+2022-10-17 04:02:11 INFO     [rr: gcn on cora with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.5848676760991415
+2022-10-17 04:02:11 INFO     [rr: gcn on cora with eps=8] Saving best hp to output/bl_best_hp.json
+2022-10-17 04:02:11 INFO     [rr: gcn on cora] Grid search done.
+2022-10-17 04:02:11 INFO     [ldpgcn: gcn on cora] Grid search for hyperparameter tuning on various epsilons.
+2022-10-17 04:02:11 INFO     [ldpgcn: gcn on cora with eps=1] Start grid search for hyperparameter tuning.
+2022-10-17 04:04:26 INFO     [ldpgcn: gcn on cora with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.4229002396265666
+2022-10-17 04:04:26 INFO     [ldpgcn: gcn on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2022-10-17 04:04:26 INFO     [ldpgcn: gcn on cora with eps=2] Start grid search for hyperparameter tuning.
+2022-10-17 04:06:42 INFO     [ldpgcn: gcn on cora with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.4675420920054119
+2022-10-17 04:06:42 INFO     [ldpgcn: gcn on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-17 04:06:42 INFO     [ldpgcn: gcn on cora with eps=3] Start grid search for hyperparameter tuning.
+2022-10-17 04:08:58 INFO     [ldpgcn: gcn on cora with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.2910886605580647
+2022-10-17 04:08:58 INFO     [ldpgcn: gcn on cora with eps=3] Saving best hp to output/bl_best_hp.json
+2022-10-17 04:08:58 INFO     [ldpgcn: gcn on cora with eps=4] Start grid search for hyperparameter tuning.
+2022-10-17 04:11:13 INFO     [ldpgcn: gcn on cora with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.9420817295710245
+2022-10-17 04:11:13 INFO     [ldpgcn: gcn on cora with eps=4] Saving best hp to output/bl_best_hp.json
+2022-10-17 04:11:13 INFO     [ldpgcn: gcn on cora with eps=5] Start grid search for hyperparameter tuning.
+2022-10-17 04:13:29 INFO     [ldpgcn: gcn on cora with eps=5] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.6556905706723531
+2022-10-17 04:13:29 INFO     [ldpgcn: gcn on cora with eps=5] Saving best hp to output/bl_best_hp.json
+2022-10-17 04:13:29 INFO     [ldpgcn: gcn on cora with eps=6] Start grid search for hyperparameter tuning.
+2022-10-17 04:15:45 INFO     [ldpgcn: gcn on cora with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.5301214655240377
+2022-10-17 04:15:45 INFO     [ldpgcn: gcn on cora with eps=6] Saving best hp to output/bl_best_hp.json
+2022-10-17 04:15:45 INFO     [ldpgcn: gcn on cora with eps=7] Start grid search for hyperparameter tuning.
+2022-10-17 04:18:00 INFO     [ldpgcn: gcn on cora with eps=7] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.4893830120563507
+2022-10-17 04:18:00 INFO     [ldpgcn: gcn on cora with eps=7] Saving best hp to output/bl_best_hp.json
+2022-10-17 04:18:00 INFO     [ldpgcn: gcn on cora with eps=8] Start grid search for hyperparameter tuning.
+2022-10-17 04:20:16 INFO     [ldpgcn: gcn on cora with eps=8] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.4761062761147817
+2022-10-17 04:20:16 INFO     [ldpgcn: gcn on cora with eps=8] Saving best hp to output/bl_best_hp.json
+2022-10-17 04:20:16 INFO     [ldpgcn: gcn on cora] Grid search done.
+
+2022-10-17 10:21:47 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2022-10-17 10:21:47 INFO     [rr: gcn on cora] Start running experiments on various epsilons.
+2022-10-17 10:21:47 INFO     [rr: gcn on cora with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 10:23:24 INFO     [rr: gcn on cora with eps=1] Test accuracy is 0.34121122599704584 (5.551115123125783e-17).
+2022-10-17 10:23:24 INFO     [rr: gcn on cora with eps=1] Saving training results to output/bl_results.json
+2022-10-17 10:23:24 INFO     [rr: gcn on cora with eps=2] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 10:24:21 INFO     [rr: gcn on cora with eps=2] Test accuracy is 0.34121122599704584 (5.551115123125783e-17).
+2022-10-17 10:24:21 INFO     [rr: gcn on cora with eps=2] Saving training results to output/bl_results.json
+2022-10-17 10:24:21 INFO     [rr: gcn on cora with eps=3] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 10:25:08 INFO     [rr: gcn on cora with eps=3] Test accuracy is 0.34121122599704584 (5.551115123125783e-17).
+2022-10-17 10:25:08 INFO     [rr: gcn on cora with eps=3] Saving training results to output/bl_results.json
+2022-10-17 10:25:08 INFO     [rr: gcn on cora with eps=4] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 10:25:53 INFO     [rr: gcn on cora with eps=4] Test accuracy is 0.34121122599704584 (5.551115123125783e-17).
+2022-10-17 10:25:53 INFO     [rr: gcn on cora with eps=4] Saving training results to output/bl_results.json
+2022-10-17 10:25:53 INFO     [rr: gcn on cora with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 10:26:37 INFO     [rr: gcn on cora with eps=5] Test accuracy is 0.43234859675036924 (0.019931430900696254).
+2022-10-17 10:26:37 INFO     [rr: gcn on cora with eps=5] Saving training results to output/bl_results.json
+2022-10-17 10:26:37 INFO     [rr: gcn on cora with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 10:27:21 INFO     [rr: gcn on cora with eps=6] Test accuracy is 0.630576070901034 (0.02529072147599814).
+2022-10-17 10:27:21 INFO     [rr: gcn on cora with eps=6] Saving training results to output/bl_results.json
+2022-10-17 10:27:21 INFO     [rr: gcn on cora with eps=7] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 10:28:05 INFO     [rr: gcn on cora with eps=7] Test accuracy is 0.748301329394387 (0.012142245311116379).
+2022-10-17 10:28:05 INFO     [rr: gcn on cora with eps=7] Saving training results to output/bl_results.json
+2022-10-17 10:28:05 INFO     [rr: gcn on cora with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 10:28:49 INFO     [rr: gcn on cora with eps=8] Test accuracy is 0.8135893648449042 (0.01270882584334943).
+2022-10-17 10:28:49 INFO     [rr: gcn on cora with eps=8] Saving training results to output/bl_results.json
+2022-10-17 10:28:49 INFO     [rr: gcn on cora] Experiments done.
+2022-10-17 10:28:49 INFO     [ldpgcn: gcn on cora] Start running experiments on various epsilons.
+2022-10-17 10:28:49 INFO     [ldpgcn: gcn on cora with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 10:29:34 INFO     [ldpgcn: gcn on cora with eps=1] Test accuracy is 0.42456917774495323 (0.023500001484217724).
+2022-10-17 10:29:34 INFO     [ldpgcn: gcn on cora with eps=1] Saving training results to output/bl_results.json
+2022-10-17 10:29:34 INFO     [ldpgcn: gcn on cora with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 10:30:20 INFO     [ldpgcn: gcn on cora with eps=2] Test accuracy is 0.44145741014278683 (0.018225875413111617).
+2022-10-17 10:30:20 INFO     [ldpgcn: gcn on cora with eps=2] Saving training results to output/bl_results.json
+2022-10-17 10:30:20 INFO     [ldpgcn: gcn on cora with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 10:31:06 INFO     [ldpgcn: gcn on cora with eps=3] Test accuracy is 0.5032003938946331 (0.021345173432379457).
+2022-10-17 10:31:06 INFO     [ldpgcn: gcn on cora with eps=3] Saving training results to output/bl_results.json
+2022-10-17 10:31:06 INFO     [ldpgcn: gcn on cora with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 10:31:52 INFO     [ldpgcn: gcn on cora with eps=4] Test accuracy is 0.6565238798621368 (0.018349159874914305).
+2022-10-17 10:31:52 INFO     [ldpgcn: gcn on cora with eps=4] Saving training results to output/bl_results.json
+2022-10-17 10:31:52 INFO     [ldpgcn: gcn on cora with eps=5] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 10:32:38 INFO     [ldpgcn: gcn on cora with eps=5] Test accuracy is 0.7833087149187593 (0.010091628355226546).
+2022-10-17 10:32:38 INFO     [ldpgcn: gcn on cora with eps=5] Saving training results to output/bl_results.json
+2022-10-17 10:32:38 INFO     [ldpgcn: gcn on cora with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 10:33:23 INFO     [ldpgcn: gcn on cora with eps=6] Test accuracy is 0.8335795174790744 (0.010715092473646826).
+2022-10-17 10:33:23 INFO     [ldpgcn: gcn on cora with eps=6] Saving training results to output/bl_results.json
+2022-10-17 10:33:23 INFO     [ldpgcn: gcn on cora with eps=7] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 10:34:09 INFO     [ldpgcn: gcn on cora with eps=7] Test accuracy is 0.8569177744953227 (0.006624869794802234).
+2022-10-17 10:34:09 INFO     [ldpgcn: gcn on cora with eps=7] Saving training results to output/bl_results.json
+2022-10-17 10:34:09 INFO     [ldpgcn: gcn on cora with eps=8] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 10:34:55 INFO     [ldpgcn: gcn on cora with eps=8] Test accuracy is 0.8610044313146233 (0.007339591284375098).
+2022-10-17 10:34:55 INFO     [ldpgcn: gcn on cora with eps=8] Saving training results to output/bl_results.json
+2022-10-17 10:34:55 INFO     [ldpgcn: gcn on cora] Experiments done.
+2022-10-17 10:34:55 INFO     All baseline experiments done!

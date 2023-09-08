@@ -1,0 +1,60 @@
+2023-04-17 20:50:28 INFO     Start experiments with Namespace(variant='hybrid', dataset='facebook', model='graphsage', grid_search=True, eps=None)
+2023-04-17 20:50:28 INFO     Using device: cuda
+2023-04-17 20:50:28 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40354MB, multi_processor_count=108)
+2023-04-17 20:50:28 INFO     Grid search. Load hyperparameter space from fb_config.json
+2023-04-17 20:50:28 INFO     [Blink-hybrid: graphsage on facebook with eps=1] Start grid search for hyperparameter tuning.
+2023-04-17 21:16:59 INFO     [Blink-hybrid: graphsage on facebook with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.7} with validation loss 0.5917398452758789
+2023-04-17 21:16:59 INFO     [Blink-hybrid: graphsage on facebook with eps=1] Saving best hp to output/best_hp.json
+2023-04-17 21:16:59 INFO     [Blink-hybrid: graphsage on facebook with eps=2] Start grid search for hyperparameter tuning.
+2023-04-17 21:41:48 INFO     [Blink-hybrid: graphsage on facebook with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.7} with validation loss 0.5913991808891297
+2023-04-17 21:41:48 INFO     [Blink-hybrid: graphsage on facebook with eps=2] Saving best hp to output/best_hp.json
+2023-04-17 21:41:48 INFO     [Blink-hybrid: graphsage on facebook with eps=3] Start grid search for hyperparameter tuning.
+2023-04-17 22:05:37 INFO     [Blink-hybrid: graphsage on facebook with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5774315595626831
+2023-04-17 22:05:37 INFO     [Blink-hybrid: graphsage on facebook with eps=3] Saving best hp to output/best_hp.json
+2023-04-17 22:05:37 INFO     [Blink-hybrid: graphsage on facebook with eps=4] Start grid search for hyperparameter tuning.
+2023-04-17 22:28:45 INFO     [Blink-hybrid: graphsage on facebook with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5349808692932129
+2023-04-17 22:28:45 INFO     [Blink-hybrid: graphsage on facebook with eps=4] Saving best hp to output/best_hp.json
+2023-04-17 22:28:45 INFO     [Blink-hybrid: graphsage on facebook with eps=5] Start grid search for hyperparameter tuning.
+2023-04-17 22:51:22 INFO     [Blink-hybrid: graphsage on facebook with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.44492573738098146
+2023-04-17 22:51:22 INFO     [Blink-hybrid: graphsage on facebook with eps=5] Saving best hp to output/best_hp.json
+2023-04-17 22:51:22 INFO     [Blink-hybrid: graphsage on facebook with eps=6] Start grid search for hyperparameter tuning.
+2023-04-17 23:13:47 INFO     [Blink-hybrid: graphsage on facebook with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.3479413092136383
+2023-04-17 23:13:47 INFO     [Blink-hybrid: graphsage on facebook with eps=6] Saving best hp to output/best_hp.json
+2023-04-17 23:13:47 INFO     [Blink-hybrid: graphsage on facebook with eps=7] Start grid search for hyperparameter tuning.
+2023-04-17 23:36:00 INFO     [Blink-hybrid: graphsage on facebook with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.2825666546821594
+2023-04-17 23:36:00 INFO     [Blink-hybrid: graphsage on facebook with eps=7] Saving best hp to output/best_hp.json
+2023-04-17 23:36:00 INFO     [Blink-hybrid: graphsage on facebook with eps=8] Start grid search for hyperparameter tuning.
+2023-04-17 23:58:09 INFO     [Blink-hybrid: graphsage on facebook with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.262934672832489
+2023-04-17 23:58:09 INFO     [Blink-hybrid: graphsage on facebook with eps=8] Saving best hp to output/best_hp.json
+2023-04-17 23:58:09 INFO     [Blink-hybrid: graphsage on facebook with eps=None] Start grid search for hyperparameter tuning.
+2023-04-17 23:58:47 INFO     [Blink-hybrid: graphsage on facebook with eps=None] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.2623593986034393
+2023-04-17 23:58:47 INFO     [Blink-hybrid: graphsage on facebook with eps=None] Saving best hp to output/best_hp.json
+2023-04-17 23:58:47 INFO     Grid search done!
+2023-04-17 23:58:47 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-04-17 23:58:47 INFO     [Blink-hybrid: graphsage on facebook with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.7}.
+2023-04-18 00:12:19 INFO     [Blink-hybrid: graphsage on facebook with eps=1] Test accuracy is 0.7635398125074165 (0.002677763821815027).
+2023-04-18 00:12:19 INFO     [Blink-hybrid: graphsage on facebook with eps=1] Saving training results to output/results.json
+2023-04-18 00:12:19 INFO     [Blink-hybrid: graphsage on facebook with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.7}.
+2023-04-18 00:25:09 INFO     [Blink-hybrid: graphsage on facebook with eps=2] Test accuracy is 0.7625904829714013 (0.0024064745971032).
+2023-04-18 00:25:09 INFO     [Blink-hybrid: graphsage on facebook with eps=2] Saving training results to output/results.json
+2023-04-18 00:25:09 INFO     [Blink-hybrid: graphsage on facebook with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 00:36:10 INFO     [Blink-hybrid: graphsage on facebook with eps=3] Test accuracy is 0.7752580989676042 (0.002694637230622845).
+2023-04-18 00:36:10 INFO     [Blink-hybrid: graphsage on facebook with eps=3] Saving training results to output/results.json
+2023-04-18 00:36:10 INFO     [Blink-hybrid: graphsage on facebook with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 00:46:55 INFO     [Blink-hybrid: graphsage on facebook with eps=4] Test accuracy is 0.7986531387207785 (0.002714351343104265).
+2023-04-18 00:46:55 INFO     [Blink-hybrid: graphsage on facebook with eps=4] Saving training results to output/results.json
+2023-04-18 00:46:55 INFO     [Blink-hybrid: graphsage on facebook with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 00:57:33 INFO     [Blink-hybrid: graphsage on facebook with eps=5] Test accuracy is 0.8379731814406076 (0.003388205524444837).
+2023-04-18 00:57:33 INFO     [Blink-hybrid: graphsage on facebook with eps=5] Saving training results to output/results.json
+2023-04-18 00:57:33 INFO     [Blink-hybrid: graphsage on facebook with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 01:08:06 INFO     [Blink-hybrid: graphsage on facebook with eps=6] Test accuracy is 0.8798267473596773 (0.0018530933212321191).
+2023-04-18 01:08:06 INFO     [Blink-hybrid: graphsage on facebook with eps=6] Saving training results to output/results.json
+2023-04-18 01:08:06 INFO     [Blink-hybrid: graphsage on facebook with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 01:18:42 INFO     [Blink-hybrid: graphsage on facebook with eps=7] Test accuracy is 0.900878129820814 (0.002860101412068687).
+2023-04-18 01:18:42 INFO     [Blink-hybrid: graphsage on facebook with eps=7] Saving training results to output/results.json
+2023-04-18 01:18:42 INFO     [Blink-hybrid: graphsage on facebook with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 01:29:16 INFO     [Blink-hybrid: graphsage on facebook with eps=8] Test accuracy is 0.9060875756496973 (0.002255563076647063).
+2023-04-18 01:29:16 INFO     [Blink-hybrid: graphsage on facebook with eps=8] Saving training results to output/results.json
+2023-04-18 01:29:16 INFO     [Blink-hybrid: graphsage on facebook with eps=None] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 01:30:14 INFO     [Blink-hybrid: graphsage on facebook with eps=None] Test accuracy is 0.9052865788536847 (0.0020724244418201224).
+2023-04-18 01:30:14 INFO     [Blink-hybrid: graphsage on facebook with eps=None] Saving training results to output/results.json

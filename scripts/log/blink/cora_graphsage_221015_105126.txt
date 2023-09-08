@@ -1,0 +1,59 @@
+2022-10-15 05:52:17 INFO     Start experiments with Namespace(dataset='cora', model='graphsage', grid_search=True)
+2022-10-15 05:52:17 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-15 05:52:17 INFO     [graphsage on cora with eps=1] Start grid search for hyperparameter tuning.
+2022-10-15 06:00:55 INFO     [graphsage on cora with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.7} with validation loss 0.7995384136835734
+2022-10-15 06:00:55 INFO     [graphsage on cora with eps=1] Saving best hp to output/best_hp.json
+2022-10-15 06:00:55 INFO     [graphsage on cora with eps=2] Start grid search for hyperparameter tuning.
+2022-10-15 06:09:25 INFO     [graphsage on cora with eps=2] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001, 'delta': 0.5} with validation loss 0.8011448383331299
+2022-10-15 06:09:25 INFO     [graphsage on cora with eps=2] Saving best hp to output/best_hp.json
+2022-10-15 06:09:25 INFO     [graphsage on cora with eps=3] Start grid search for hyperparameter tuning.
+2022-10-15 06:17:54 INFO     [graphsage on cora with eps=3] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1} with validation loss 0.7708455522855123
+2022-10-15 06:17:54 INFO     [graphsage on cora with eps=3] Saving best hp to output/best_hp.json
+2022-10-15 06:17:54 INFO     [graphsage on cora with eps=4] Start grid search for hyperparameter tuning.
+2022-10-15 06:26:27 INFO     [graphsage on cora with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.6314427653948466
+2022-10-15 06:26:27 INFO     [graphsage on cora with eps=4] Saving best hp to output/best_hp.json
+2022-10-15 06:26:27 INFO     [graphsage on cora with eps=5] Start grid search for hyperparameter tuning.
+2022-10-15 06:35:05 INFO     [graphsage on cora with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.48459065953890484
+2022-10-15 06:35:05 INFO     [graphsage on cora with eps=5] Saving best hp to output/best_hp.json
+2022-10-15 06:35:05 INFO     [graphsage on cora with eps=6] Start grid search for hyperparameter tuning.
+2022-10-15 06:43:46 INFO     [graphsage on cora with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.43626466393470764
+2022-10-15 06:43:46 INFO     [graphsage on cora with eps=6] Saving best hp to output/best_hp.json
+2022-10-15 06:43:46 INFO     [graphsage on cora with eps=7] Start grid search for hyperparameter tuning.
+2022-10-15 06:52:29 INFO     [graphsage on cora with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.4317346215248108
+2022-10-15 06:52:29 INFO     [graphsage on cora with eps=7] Saving best hp to output/best_hp.json
+2022-10-15 06:52:29 INFO     [graphsage on cora with eps=8] Start grid search for hyperparameter tuning.
+2022-10-15 07:01:12 INFO     [graphsage on cora with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.4303492108980815
+2022-10-15 07:01:12 INFO     [graphsage on cora with eps=8] Saving best hp to output/best_hp.json
+2022-10-15 07:01:12 INFO     [graphsage on cora with eps=None] Start grid search for hyperparameter tuning.
+2022-10-15 07:02:48 INFO     [graphsage on cora with eps=None] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.42902347445487976
+2022-10-15 07:02:48 INFO     [graphsage on cora with eps=None] Saving best hp to output/best_hp.json
+2022-10-15 07:02:48 INFO     Grid search done!
+2022-10-15 10:51:26 INFO     Start experiments with Namespace(dataset='cora', model='graphsage', grid_search=False)
+2022-10-15 10:51:32 INFO     Run experiments using found hyperparameters in best_hp.json.
+2022-10-15 10:51:32 INFO     [graphsage on cora with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.7}.
+2022-10-15 10:52:12 INFO     [graphsage on cora with eps=1] Test accuracy is 0.7119645494830134 (0.005243202171137045).
+2022-10-15 10:52:12 INFO     [graphsage on cora with eps=1] Saving training results to output/results.json
+2022-10-15 10:52:12 INFO     [graphsage on cora with eps=2] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001, 'delta': 0.5}.
+2022-10-15 10:52:49 INFO     [graphsage on cora with eps=2] Test accuracy is 0.7082225504677501 (0.006333012384367724).
+2022-10-15 10:52:49 INFO     [graphsage on cora with eps=2] Saving training results to output/results.json
+2022-10-15 10:52:49 INFO     [graphsage on cora with eps=3] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1}.
+2022-10-15 10:53:27 INFO     [graphsage on cora with eps=3] Test accuracy is 0.7166420482520927 (0.008477461066838202).
+2022-10-15 10:53:27 INFO     [graphsage on cora with eps=3] Saving training results to output/results.json
+2022-10-15 10:53:27 INFO     [graphsage on cora with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2022-10-15 10:54:05 INFO     [graphsage on cora with eps=4] Test accuracy is 0.7717380600689315 (0.01268782550088).
+2022-10-15 10:54:05 INFO     [graphsage on cora with eps=4] Saving training results to output/results.json
+2022-10-15 10:54:05 INFO     [graphsage on cora with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2022-10-15 10:54:43 INFO     [graphsage on cora with eps=5] Test accuracy is 0.8416543574593798 (0.008120942952247835).
+2022-10-15 10:54:43 INFO     [graphsage on cora with eps=5] Saving training results to output/results.json
+2022-10-15 10:54:43 INFO     [graphsage on cora with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2022-10-15 10:55:22 INFO     [graphsage on cora with eps=6] Test accuracy is 0.8600196947316594 (0.004804313722650161).
+2022-10-15 10:55:22 INFO     [graphsage on cora with eps=6] Saving training results to output/results.json
+2022-10-15 10:55:22 INFO     [graphsage on cora with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2022-10-15 10:56:00 INFO     [graphsage on cora with eps=7] Test accuracy is 0.8663220088626292 (0.004572667558101109).
+2022-10-15 10:56:00 INFO     [graphsage on cora with eps=7] Saving training results to output/results.json
+2022-10-15 10:56:00 INFO     [graphsage on cora with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2022-10-15 10:56:38 INFO     [graphsage on cora with eps=8] Test accuracy is 0.8652387986213687 (0.004879416968144392).
+2022-10-15 10:56:38 INFO     [graphsage on cora with eps=8] Saving training results to output/results.json
+2022-10-15 10:56:38 INFO     [graphsage on cora with eps=None] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-15 10:57:13 INFO     [graphsage on cora with eps=None] Test accuracy is 0.8653372722796651 (0.0033484663980146404).
+2022-10-15 10:57:13 INFO     [graphsage on cora with eps=None] Saving training results to output/results.json

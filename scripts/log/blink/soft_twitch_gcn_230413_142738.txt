@@ -1,0 +1,45 @@
+2023-04-13 14:27:38 INFO     Start experiments with Namespace(variant='soft', dataset='twitch', model='gcn', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-04-13 14:27:38 INFO     Using device: cuda
+2023-04-13 14:27:38 INFO     _CudaDeviceProperties(name='NVIDIA GeForce RTX 3060 Laptop GPU', major=8, minor=6, total_memory=6143MB, multi_processor_count=30)
+2023-04-13 14:27:38 INFO     Grid search. Load hyperparameter space from facebook_config.json
+2023-04-13 14:27:38 INFO     [Blink-soft: gcn on twitch with eps=1] Start grid search for hyperparameter tuning.
+2023-04-13 14:28:45 INFO     [Blink-soft: gcn on twitch with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.7} with validation loss 0.6174242496490479.
+2023-04-13 14:28:45 INFO     [Blink-soft: gcn on twitch with eps=1] Saving best hp to output/best_hp.json
+2023-04-13 14:28:45 INFO     [Blink-soft: gcn on twitch with eps=1] Test accuracy is 0.6485355648535565 (0.0).
+2023-04-13 14:28:45 INFO     [Blink-soft: gcn on twitch with eps=1] Saving training results to output/results.json
+2023-04-13 14:28:45 INFO     [Blink-soft: gcn on twitch with eps=2] Start grid search for hyperparameter tuning.
+2023-04-13 14:29:34 INFO     [Blink-soft: gcn on twitch with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.4} with validation loss 0.6163679838180542.
+2023-04-13 14:29:34 INFO     [Blink-soft: gcn on twitch with eps=2] Saving best hp to output/best_hp.json
+2023-04-13 14:29:34 INFO     [Blink-soft: gcn on twitch with eps=2] Test accuracy is 0.6481171548117155 (0.003074673317301061).
+2023-04-13 14:29:34 INFO     [Blink-soft: gcn on twitch with eps=2] Saving training results to output/results.json
+2023-04-13 14:29:34 INFO     [Blink-soft: gcn on twitch with eps=3] Start grid search for hyperparameter tuning.
+2023-04-13 14:30:18 INFO     [Blink-soft: gcn on twitch with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.6130357027053833.
+2023-04-13 14:30:18 INFO     [Blink-soft: gcn on twitch with eps=3] Saving best hp to output/best_hp.json
+2023-04-13 14:30:18 INFO     [Blink-soft: gcn on twitch with eps=3] Test accuracy is 0.6673640167364017 (0.015430199928523658).
+2023-04-13 14:30:18 INFO     [Blink-soft: gcn on twitch with eps=3] Saving training results to output/results.json
+2023-04-13 14:30:18 INFO     [Blink-soft: gcn on twitch with eps=4] Start grid search for hyperparameter tuning.
+2023-04-13 14:31:02 INFO     [Blink-soft: gcn on twitch with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5970751285552979.
+2023-04-13 14:31:02 INFO     [Blink-soft: gcn on twitch with eps=4] Saving best hp to output/best_hp.json
+2023-04-13 14:31:02 INFO     [Blink-soft: gcn on twitch with eps=4] Test accuracy is 0.6757322175732218 (0.004388321540460881).
+2023-04-13 14:31:02 INFO     [Blink-soft: gcn on twitch with eps=4] Saving training results to output/results.json
+2023-04-13 14:31:02 INFO     [Blink-soft: gcn on twitch with eps=5] Start grid search for hyperparameter tuning.
+2023-04-13 14:31:46 INFO     [Blink-soft: gcn on twitch with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.6082375407218933.
+2023-04-13 14:31:46 INFO     [Blink-soft: gcn on twitch with eps=5] Saving best hp to output/best_hp.json
+2023-04-13 14:31:46 INFO     [Blink-soft: gcn on twitch with eps=5] Test accuracy is 0.6648535564853557 (0.013389121338912154).
+2023-04-13 14:31:46 INFO     [Blink-soft: gcn on twitch with eps=5] Saving training results to output/results.json
+2023-04-13 14:31:46 INFO     [Blink-soft: gcn on twitch with eps=6] Start grid search for hyperparameter tuning.
+2023-04-13 14:32:30 INFO     [Blink-soft: gcn on twitch with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5974060297012329.
+2023-04-13 14:32:30 INFO     [Blink-soft: gcn on twitch with eps=6] Saving best hp to output/best_hp.json
+2023-04-13 14:32:30 INFO     [Blink-soft: gcn on twitch with eps=6] Test accuracy is 0.6682008368200837 (0.010214690891827376).
+2023-04-13 14:32:30 INFO     [Blink-soft: gcn on twitch with eps=6] Saving training results to output/results.json
+2023-04-13 14:32:30 INFO     [Blink-soft: gcn on twitch with eps=7] Start grid search for hyperparameter tuning.
+2023-04-13 14:33:14 INFO     [Blink-soft: gcn on twitch with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.4} with validation loss 0.5948904752731323.
+2023-04-13 14:33:14 INFO     [Blink-soft: gcn on twitch with eps=7] Saving best hp to output/best_hp.json
+2023-04-13 14:33:14 INFO     [Blink-soft: gcn on twitch with eps=7] Test accuracy is 0.6778242677824268 (0.004184100418410064).
+2023-04-13 14:33:14 INFO     [Blink-soft: gcn on twitch with eps=7] Saving training results to output/results.json
+2023-04-13 14:33:14 INFO     [Blink-soft: gcn on twitch with eps=8] Start grid search for hyperparameter tuning.
+2023-04-13 14:34:00 INFO     [Blink-soft: gcn on twitch with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.4} with validation loss 0.5978543400764466.
+2023-04-13 14:34:00 INFO     [Blink-soft: gcn on twitch with eps=8] Saving best hp to output/best_hp.json
+2023-04-13 14:34:00 INFO     [Blink-soft: gcn on twitch with eps=8] Test accuracy is 0.6694560669456067 (0.010667404840152283).
+2023-04-13 14:34:00 INFO     [Blink-soft: gcn on twitch with eps=8] Saving training results to output/results.json
+2023-04-13 14:34:00 INFO     Done!

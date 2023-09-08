@@ -1,0 +1,60 @@
+2023-04-18 16:01:45 INFO     Start experiments with Namespace(variant='hybrid', dataset='facebook', model='gat', grid_search=True, eps=None)
+2023-04-18 16:01:46 INFO     Using device: cuda
+2023-04-18 16:01:46 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40536MB, multi_processor_count=108)
+2023-04-18 16:01:46 INFO     Grid search. Load hyperparameter space from fb_config.json
+2023-04-18 16:01:46 INFO     [Blink-hybrid: gat on facebook with eps=1] Start grid search for hyperparameter tuning.
+2023-04-18 18:14:14 INFO     [Blink-hybrid: gat on facebook with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0} with validation loss 0.6114350914955139
+2023-04-18 18:14:14 INFO     [Blink-hybrid: gat on facebook with eps=1] Saving best hp to output/best_hp.json
+2023-04-18 18:14:14 INFO     [Blink-hybrid: gat on facebook with eps=2] Start grid search for hyperparameter tuning.
+2023-04-18 20:25:32 INFO     [Blink-hybrid: gat on facebook with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0} with validation loss 0.6117685198783874
+2023-04-18 20:25:32 INFO     [Blink-hybrid: gat on facebook with eps=2] Saving best hp to output/best_hp.json
+2023-04-18 20:25:32 INFO     [Blink-hybrid: gat on facebook with eps=3] Start grid search for hyperparameter tuning.
+2023-04-18 22:35:50 INFO     [Blink-hybrid: gat on facebook with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0} with validation loss 0.6122334361076355
+2023-04-18 22:35:50 INFO     [Blink-hybrid: gat on facebook with eps=3] Saving best hp to output/best_hp.json
+2023-04-18 22:35:50 INFO     [Blink-hybrid: gat on facebook with eps=4] Start grid search for hyperparameter tuning.
+2023-04-19 00:45:28 INFO     [Blink-hybrid: gat on facebook with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0} with validation loss 0.6115828394889832
+2023-04-19 00:45:28 INFO     [Blink-hybrid: gat on facebook with eps=4] Saving best hp to output/best_hp.json
+2023-04-19 00:45:28 INFO     [Blink-hybrid: gat on facebook with eps=5] Start grid search for hyperparameter tuning.
+2023-04-19 02:54:28 INFO     [Blink-hybrid: gat on facebook with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.4637957036495209
+2023-04-19 02:54:28 INFO     [Blink-hybrid: gat on facebook with eps=5] Saving best hp to output/best_hp.json
+2023-04-19 02:54:28 INFO     [Blink-hybrid: gat on facebook with eps=6] Start grid search for hyperparameter tuning.
+2023-04-19 05:03:10 INFO     [Blink-hybrid: gat on facebook with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.314695280790329
+2023-04-19 05:03:10 INFO     [Blink-hybrid: gat on facebook with eps=6] Saving best hp to output/best_hp.json
+2023-04-19 05:03:10 INFO     [Blink-hybrid: gat on facebook with eps=7] Start grid search for hyperparameter tuning.
+2023-04-19 07:11:38 INFO     [Blink-hybrid: gat on facebook with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.24355688095092773
+2023-04-19 07:11:38 INFO     [Blink-hybrid: gat on facebook with eps=7] Saving best hp to output/best_hp.json
+2023-04-19 07:11:38 INFO     [Blink-hybrid: gat on facebook with eps=8] Start grid search for hyperparameter tuning.
+2023-04-19 09:19:57 INFO     [Blink-hybrid: gat on facebook with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.23014265596866607
+2023-04-19 09:19:57 INFO     [Blink-hybrid: gat on facebook with eps=8] Saving best hp to output/best_hp.json
+2023-04-19 09:19:57 INFO     [Blink-hybrid: gat on facebook with eps=None] Start grid search for hyperparameter tuning.
+2023-04-19 09:20:58 INFO     [Blink-hybrid: gat on facebook with eps=None] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.22860808670520782
+2023-04-19 09:20:58 INFO     [Blink-hybrid: gat on facebook with eps=None] Saving best hp to output/best_hp.json
+2023-04-19 09:20:58 INFO     Grid search done!
+2023-04-19 09:20:58 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-04-19 09:20:58 INFO     [Blink-hybrid: gat on facebook with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0}.
+2023-04-19 10:12:17 INFO     [Blink-hybrid: gat on facebook with eps=1] Test accuracy is 0.7579328349353269 (0.001797077928079706).
+2023-04-19 10:12:17 INFO     [Blink-hybrid: gat on facebook with eps=1] Saving training results to output/results.json
+2023-04-19 10:12:17 INFO     [Blink-hybrid: gat on facebook with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0}.
+2023-04-19 11:03:34 INFO     [Blink-hybrid: gat on facebook with eps=2] Test accuracy is 0.7574759700961196 (0.002389768882537834).
+2023-04-19 11:03:34 INFO     [Blink-hybrid: gat on facebook with eps=2] Saving training results to output/results.json
+2023-04-19 11:03:34 INFO     [Blink-hybrid: gat on facebook with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0}.
+2023-04-19 11:54:50 INFO     [Blink-hybrid: gat on facebook with eps=3] Test accuracy is 0.7570843716625132 (0.0026402161036475492).
+2023-04-19 11:54:50 INFO     [Blink-hybrid: gat on facebook with eps=3] Saving training results to output/results.json
+2023-04-19 11:54:50 INFO     [Blink-hybrid: gat on facebook with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0}.
+2023-04-19 12:46:05 INFO     [Blink-hybrid: gat on facebook with eps=4] Test accuracy is 0.7585676990625372 (0.0019684732653499695).
+2023-04-19 12:46:05 INFO     [Blink-hybrid: gat on facebook with eps=4] Saving training results to output/results.json
+2023-04-19 12:46:05 INFO     [Blink-hybrid: gat on facebook with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-19 13:34:14 INFO     [Blink-hybrid: gat on facebook with eps=5] Test accuracy is 0.8379909813694078 (0.0034707832619364073).
+2023-04-19 13:34:14 INFO     [Blink-hybrid: gat on facebook with eps=5] Saving training results to output/results.json
+2023-04-19 13:34:14 INFO     [Blink-hybrid: gat on facebook with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-19 14:22:19 INFO     [Blink-hybrid: gat on facebook with eps=6] Test accuracy is 0.8923756971638781 (0.0023432366652566573).
+2023-04-19 14:22:19 INFO     [Blink-hybrid: gat on facebook with eps=6] Saving training results to output/results.json
+2023-04-19 14:22:19 INFO     [Blink-hybrid: gat on facebook with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-19 15:10:22 INFO     [Blink-hybrid: gat on facebook with eps=7] Test accuracy is 0.9157470036786519 (0.001854004977562066).
+2023-04-19 15:10:22 INFO     [Blink-hybrid: gat on facebook with eps=7] Saving training results to output/results.json
+2023-04-19 15:10:22 INFO     [Blink-hybrid: gat on facebook with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-19 15:58:24 INFO     [Blink-hybrid: gat on facebook with eps=8] Test accuracy is 0.9207250504331317 (0.0018682766225872572).
+2023-04-19 15:58:24 INFO     [Blink-hybrid: gat on facebook with eps=8] Saving training results to output/results.json
+2023-04-19 15:58:24 INFO     [Blink-hybrid: gat on facebook with eps=None] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-19 15:59:56 INFO     [Blink-hybrid: gat on facebook with eps=None] Test accuracy is 0.921431114275543 (0.001223413334100361).
+2023-04-19 15:59:56 INFO     [Blink-hybrid: gat on facebook with eps=None] Saving training results to output/results.json

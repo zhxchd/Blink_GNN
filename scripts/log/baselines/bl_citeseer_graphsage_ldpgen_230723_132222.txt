@@ -1,0 +1,23 @@
+2023-07-23 13:22:22 INFO     Start experiments with Namespace(dataset='citeseer', model='graphsage', method=['ldpgen'], grid_search=True, use_dense_model=False, eps=[1, 2])
+2023-07-23 13:22:27 INFO     Using device: cuda
+2023-07-23 13:22:27 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 13:22:27 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 13:22:27 INFO     [ldpgen: graphsage on citeseer] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 13:22:27 INFO     [ldpgen: graphsage on citeseer with eps=1] Start grid search for hyperparameter tuning.
+2023-07-23 13:26:59 INFO     [ldpgen: graphsage on citeseer with eps=1] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001} with validation loss 0.896029245853424
+2023-07-23 13:26:59 INFO     [ldpgen: graphsage on citeseer with eps=1] Saving best hp to output/bl_best_hp.json
+2023-07-23 13:26:59 INFO     [ldpgen: graphsage on citeseer with eps=2] Start grid search for hyperparameter tuning.
+2023-07-23 13:31:30 INFO     [ldpgen: graphsage on citeseer with eps=2] Best hparam is: {'do': 0, 'lr': 0.1, 'wd': 0.001} with validation loss 0.9000157594680787
+2023-07-23 13:31:30 INFO     [ldpgen: graphsage on citeseer with eps=2] Saving best hp to output/bl_best_hp.json
+2023-07-23 13:31:30 INFO     [ldpgen: graphsage on citeseer] Grid search done.
+2023-07-23 13:31:30 INFO     Grid search done!
+2023-07-23 13:31:30 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 13:31:30 INFO     [ldpgen: graphsage on citeseer] Start running experiments on various epsilons.
+2023-07-23 13:31:30 INFO     [ldpgen: graphsage on citeseer with eps=1] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001}.
+2023-07-23 13:32:21 INFO     [ldpgen: graphsage on citeseer with eps=1] Test accuracy is 0.7276442307692308 (0.00843404076579271).
+2023-07-23 13:32:21 INFO     [ldpgen: graphsage on citeseer with eps=1] Saving training results to output/bl_results.json
+2023-07-23 13:32:21 INFO     [ldpgen: graphsage on citeseer with eps=2] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0.001}.
+2023-07-23 13:33:12 INFO     [ldpgen: graphsage on citeseer with eps=2] Test accuracy is 0.7306089743589743 (0.005836722388293056).
+2023-07-23 13:33:12 INFO     [ldpgen: graphsage on citeseer with eps=2] Saving training results to output/bl_results.json
+2023-07-23 13:33:12 INFO     [ldpgen: graphsage on citeseer] Experiments done.
+2023-07-23 13:33:12 INFO     All baseline experiments done!

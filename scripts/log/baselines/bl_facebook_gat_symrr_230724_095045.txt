@@ -1,0 +1,10 @@
+2023-07-24 09:50:45 INFO     Start experiments with Namespace(dataset='facebook', model='gat', method=['symrr'], grid_search=False, use_dense_model=True, eps=[2])
+2023-07-24 09:50:54 INFO     Using device: cuda
+2023-07-24 09:50:54 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-24 09:50:54 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-24 09:50:54 INFO     [symrr: gat on facebook] Start running experiments on various epsilons.
+2023-07-24 09:50:54 INFO     [symrr: gat on facebook with eps=2] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0}.
+2023-07-24 10:18:58 INFO     [symrr: gat on facebook with eps=2] Test accuracy is 0.300996796012816 (5.551115123125783e-17).
+2023-07-24 10:18:58 INFO     [symrr: gat on facebook with eps=2] Saving training results to output/bl_results.json
+2023-07-24 10:18:58 INFO     [symrr: gat on facebook] Experiments done.
+2023-07-24 10:18:58 INFO     All baseline experiments done!

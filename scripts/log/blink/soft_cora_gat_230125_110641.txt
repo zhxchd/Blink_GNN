@@ -1,0 +1,54 @@
+2023-01-25 11:06:41 INFO     Start experiments with Namespace(variant='soft', dataset='cora', model='gat', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-01-25 11:06:47 INFO     Using device: cuda
+2023-01-25 11:06:47 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-25 11:06:47 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-25 11:06:47 INFO     [Blink-soft: gat on cora with eps=1] Start grid search for hyperparameter tuning.
+2023-01-25 11:41:54 INFO     [Blink-soft: gat on cora with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1} with validation loss 1.5246798992156982
+2023-01-25 11:41:54 INFO     [Blink-soft: gat on cora with eps=1] Saving best hp to output/best_hp.json
+2023-01-25 11:41:54 INFO     [Blink-soft: gat on cora with eps=2] Start grid search for hyperparameter tuning.
+2023-01-25 12:16:37 INFO     [Blink-soft: gat on cora with eps=2] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1} with validation loss 1.5766849756240844
+2023-01-25 12:16:37 INFO     [Blink-soft: gat on cora with eps=2] Saving best hp to output/best_hp.json
+2023-01-25 12:16:37 INFO     [Blink-soft: gat on cora with eps=3] Start grid search for hyperparameter tuning.
+2023-01-25 12:52:17 INFO     [Blink-soft: gat on cora with eps=3] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1} with validation loss 1.2528820037841797
+2023-01-25 12:52:17 INFO     [Blink-soft: gat on cora with eps=3] Saving best hp to output/best_hp.json
+2023-01-25 12:52:17 INFO     [Blink-soft: gat on cora with eps=4] Start grid search for hyperparameter tuning.
+2023-01-25 13:27:56 INFO     [Blink-soft: gat on cora with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1} with validation loss 0.7251619100570679
+2023-01-25 13:27:56 INFO     [Blink-soft: gat on cora with eps=4] Saving best hp to output/best_hp.json
+2023-01-25 13:27:56 INFO     [Blink-soft: gat on cora with eps=5] Start grid search for hyperparameter tuning.
+2023-01-25 14:02:48 INFO     [Blink-soft: gat on cora with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5394081711769104
+2023-01-25 14:02:48 INFO     [Blink-soft: gat on cora with eps=5] Saving best hp to output/best_hp.json
+2023-01-25 14:02:48 INFO     [Blink-soft: gat on cora with eps=6] Start grid search for hyperparameter tuning.
+2023-01-25 14:38:22 INFO     [Blink-soft: gat on cora with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1} with validation loss 0.481668096780777
+2023-01-25 14:38:22 INFO     [Blink-soft: gat on cora with eps=6] Saving best hp to output/best_hp.json
+2023-01-25 14:38:22 INFO     [Blink-soft: gat on cora with eps=7] Start grid search for hyperparameter tuning.
+2023-01-25 15:13:13 INFO     [Blink-soft: gat on cora with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1} with validation loss 0.4782573342323303
+2023-01-25 15:13:13 INFO     [Blink-soft: gat on cora with eps=7] Saving best hp to output/best_hp.json
+2023-01-25 15:13:13 INFO     [Blink-soft: gat on cora with eps=8] Start grid search for hyperparameter tuning.
+2023-01-25 15:47:45 INFO     [Blink-soft: gat on cora with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.3} with validation loss 0.4743062674999237
+2023-01-25 15:47:45 INFO     [Blink-soft: gat on cora with eps=8] Saving best hp to output/best_hp.json
+2023-01-25 15:47:45 INFO     Grid search done!
+2023-01-25 15:47:45 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-01-25 15:47:45 INFO     [Blink-soft: gat on cora with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-25 15:49:04 INFO     [Blink-soft: gat on cora with eps=1] Test accuracy is 0.4081240768094535 (0.05895252438238573).
+2023-01-25 15:49:04 INFO     [Blink-soft: gat on cora with eps=1] Saving training results to output/results.json
+2023-01-25 15:49:04 INFO     [Blink-soft: gat on cora with eps=2] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-25 15:50:23 INFO     [Blink-soft: gat on cora with eps=2] Test accuracy is 0.39635647464303303 (0.050500763781223375).
+2023-01-25 15:50:23 INFO     [Blink-soft: gat on cora with eps=2] Saving training results to output/results.json
+2023-01-25 15:50:23 INFO     [Blink-soft: gat on cora with eps=3] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1}.
+2023-01-25 15:51:42 INFO     [Blink-soft: gat on cora with eps=3] Test accuracy is 0.4720827178729689 (0.18621897336704255).
+2023-01-25 15:51:42 INFO     [Blink-soft: gat on cora with eps=3] Saving training results to output/results.json
+2023-01-25 15:51:42 INFO     [Blink-soft: gat on cora with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-25 15:53:03 INFO     [Blink-soft: gat on cora with eps=4] Test accuracy is 0.7546528803545051 (0.020468609164127745).
+2023-01-25 15:53:03 INFO     [Blink-soft: gat on cora with eps=4] Saving training results to output/results.json
+2023-01-25 15:53:03 INFO     [Blink-soft: gat on cora with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-25 15:54:22 INFO     [Blink-soft: gat on cora with eps=5] Test accuracy is 0.7765632693254556 (0.1761858320699186).
+2023-01-25 15:54:22 INFO     [Blink-soft: gat on cora with eps=5] Saving training results to output/results.json
+2023-01-25 15:54:22 INFO     [Blink-soft: gat on cora with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-25 15:55:40 INFO     [Blink-soft: gat on cora with eps=6] Test accuracy is 0.8533234859675037 (0.007992306773645312).
+2023-01-25 15:55:40 INFO     [Blink-soft: gat on cora with eps=6] Saving training results to output/results.json
+2023-01-25 15:55:40 INFO     [Blink-soft: gat on cora with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-25 15:56:57 INFO     [Blink-soft: gat on cora with eps=7] Test accuracy is 0.8533234859675037 (0.006919307500747409).
+2023-01-25 15:56:57 INFO     [Blink-soft: gat on cora with eps=7] Saving training results to output/results.json
+2023-01-25 15:56:57 INFO     [Blink-soft: gat on cora with eps=8] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.3}.
+2023-01-25 15:58:14 INFO     [Blink-soft: gat on cora with eps=8] Test accuracy is 0.8452978828163467 (0.01342965541533285).
+2023-01-25 15:58:14 INFO     [Blink-soft: gat on cora with eps=8] Saving training results to output/results.json

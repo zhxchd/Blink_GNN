@@ -1,0 +1,23 @@
+2023-07-23 03:58:12 INFO     Start experiments with Namespace(dataset='cora', model='gcn', method=['dprr'], grid_search=True, use_dense_model=False, eps=[3, 4])
+2023-07-23 03:58:17 INFO     Using device: cuda
+2023-07-23 03:58:17 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40536MB, multi_processor_count=108)
+2023-07-23 03:58:17 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 03:58:17 INFO     [dprr: gcn on cora] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 03:58:17 INFO     [dprr: gcn on cora with eps=3] Start grid search for hyperparameter tuning.
+2023-07-23 04:02:34 INFO     [dprr: gcn on cora with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.789067316055298
+2023-07-23 04:02:34 INFO     [dprr: gcn on cora with eps=3] Saving best hp to output/bl_best_hp.json
+2023-07-23 04:02:34 INFO     [dprr: gcn on cora with eps=4] Start grid search for hyperparameter tuning.
+2023-07-23 04:06:51 INFO     [dprr: gcn on cora with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.747585415840149
+2023-07-23 04:06:51 INFO     [dprr: gcn on cora with eps=4] Saving best hp to output/bl_best_hp.json
+2023-07-23 04:06:51 INFO     [dprr: gcn on cora] Grid search done.
+2023-07-23 04:06:51 INFO     Grid search done!
+2023-07-23 04:06:51 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 04:06:51 INFO     [dprr: gcn on cora] Start running experiments on various epsilons.
+2023-07-23 04:06:51 INFO     [dprr: gcn on cora with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-07-23 04:07:41 INFO     [dprr: gcn on cora with eps=3] Test accuracy is 0.341752831117676 (0.006687695518036038).
+2023-07-23 04:07:41 INFO     [dprr: gcn on cora with eps=3] Saving training results to output/bl_results.json
+2023-07-23 04:07:41 INFO     [dprr: gcn on cora with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2023-07-23 04:08:32 INFO     [dprr: gcn on cora with eps=4] Test accuracy is 0.33874938453963566 (0.013158306536524398).
+2023-07-23 04:08:32 INFO     [dprr: gcn on cora with eps=4] Saving training results to output/bl_results.json
+2023-07-23 04:08:32 INFO     [dprr: gcn on cora] Experiments done.
+2023-07-23 04:08:32 INFO     All baseline experiments done!

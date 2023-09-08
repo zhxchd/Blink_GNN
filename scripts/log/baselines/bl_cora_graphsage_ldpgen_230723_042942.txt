@@ -1,0 +1,23 @@
+2023-07-23 04:29:42 INFO     Start experiments with Namespace(dataset='cora', model='graphsage', method=['ldpgen'], grid_search=True, use_dense_model=False, eps=[1, 2])
+2023-07-23 04:29:47 INFO     Using device: cuda
+2023-07-23 04:29:47 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40536MB, multi_processor_count=108)
+2023-07-23 04:29:47 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 04:29:47 INFO     [ldpgen: graphsage on cora] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 04:29:47 INFO     [ldpgen: graphsage on cora with eps=1] Start grid search for hyperparameter tuning.
+2023-07-23 04:33:24 INFO     [ldpgen: graphsage on cora with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001} with validation loss 0.8396162152290344
+2023-07-23 04:33:24 INFO     [ldpgen: graphsage on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2023-07-23 04:33:24 INFO     [ldpgen: graphsage on cora with eps=2] Start grid search for hyperparameter tuning.
+2023-07-23 04:37:04 INFO     [ldpgen: graphsage on cora with eps=2] Best hparam is: {'do': 0, 'lr': 0.1, 'wd': 0.001} with validation loss 0.8491981983184814
+2023-07-23 04:37:04 INFO     [ldpgen: graphsage on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2023-07-23 04:37:04 INFO     [ldpgen: graphsage on cora] Grid search done.
+2023-07-23 04:37:04 INFO     Grid search done!
+2023-07-23 04:37:04 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 04:37:04 INFO     [ldpgen: graphsage on cora] Start running experiments on various epsilons.
+2023-07-23 04:37:04 INFO     [ldpgen: graphsage on cora with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001}.
+2023-07-23 04:37:44 INFO     [ldpgen: graphsage on cora with eps=1] Test accuracy is 0.6942885278188086 (0.010661677998397382).
+2023-07-23 04:37:44 INFO     [ldpgen: graphsage on cora with eps=1] Saving training results to output/bl_results.json
+2023-07-23 04:37:44 INFO     [ldpgen: graphsage on cora with eps=2] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0.001}.
+2023-07-23 04:38:24 INFO     [ldpgen: graphsage on cora with eps=2] Test accuracy is 0.6882816346627277 (0.008557723517039711).
+2023-07-23 04:38:24 INFO     [ldpgen: graphsage on cora with eps=2] Saving training results to output/bl_results.json
+2023-07-23 04:38:24 INFO     [ldpgen: graphsage on cora] Experiments done.
+2023-07-23 04:38:24 INFO     All baseline experiments done!

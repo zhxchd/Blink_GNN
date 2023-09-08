@@ -1,0 +1,55 @@
+2023-01-14 11:48:25 INFO     Start experiments with Namespace(variant='soft', dataset='lastfm', model='gcn', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-01-14 11:49:16 INFO     Using device: cuda
+2023-01-14 11:49:16 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-14 11:49:16 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-14 11:49:16 INFO     [Blink-soft: gcn on lastfm with eps=1] Start grid search for hyperparameter tuning.
+2023-01-14 12:52:15 INFO     [Blink-soft: gcn on lastfm with eps=1] Best hparam is: {'do': 0, 'lr': 0.1, 'wd': 0, 'delta': 0.1} with validation loss 1.9082784175872802
+2023-01-14 12:52:15 INFO     [Blink-soft: gcn on lastfm with eps=1] Saving best hp to output/best_hp.json
+2023-01-14 12:52:15 INFO     [Blink-soft: gcn on lastfm with eps=2] Start grid search for hyperparameter tuning.
+2023-01-14 13:53:29 INFO     [Blink-soft: gcn on lastfm with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0, 'delta': 0.1} with validation loss 1.8269033908843995
+2023-01-14 13:53:29 INFO     [Blink-soft: gcn on lastfm with eps=2] Saving best hp to output/best_hp.json
+2023-01-14 11:54:03 INFO     [Blink-soft: gcn on lastfm with eps=3] Start grid search for hyperparameter tuning.
+2023-01-14 12:51:13 INFO     [Blink-soft: gcn on lastfm with eps=3] Best hparam is: {'do': 0, 'lr': 0.1, 'wd': 0, 'delta': 0.1} with validation loss 1.2342190504074098
+2023-01-14 12:51:13 INFO     [Blink-soft: gcn on lastfm with eps=3] Saving best hp to output/best_hp.json
+2023-01-14 12:51:13 INFO     [Blink-soft: gcn on lastfm with eps=4] Start grid search for hyperparameter tuning.
+2023-01-14 13:47:36 INFO     [Blink-soft: gcn on lastfm with eps=4] Best hparam is: {'do': 0, 'lr': 0.1, 'wd': 0, 'delta': 0.1} with validation loss 0.8571120858192444
+2023-01-14 13:47:36 INFO     [Blink-soft: gcn on lastfm with eps=4] Saving best hp to output/best_hp.json
+2023-01-14 12:01:22 INFO     [Blink-soft: gcn on lastfm with eps=5] Start grid search for hyperparameter tuning.
+2023-01-14 13:00:01 INFO     [Blink-soft: gcn on lastfm with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.1} with validation loss 0.7331497311592102
+2023-01-14 13:00:01 INFO     [Blink-soft: gcn on lastfm with eps=5] Saving best hp to output/best_hp.json
+2023-01-14 13:00:01 INFO     [Blink-soft: gcn on lastfm with eps=6] Start grid search for hyperparameter tuning.
+2023-01-14 13:58:16 INFO     [Blink-soft: gcn on lastfm with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.1} with validation loss 0.6509495615959168
+2023-01-14 13:58:16 INFO     [Blink-soft: gcn on lastfm with eps=6] Saving best hp to output/best_hp.json
+2023-01-14 12:03:06 INFO     [Blink-soft: gcn on lastfm with eps=7] Start grid search for hyperparameter tuning.
+2023-01-14 13:01:08 INFO     [Blink-soft: gcn on lastfm with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.1} with validation loss 0.6386062860488891
+2023-01-14 13:01:08 INFO     [Blink-soft: gcn on lastfm with eps=7] Saving best hp to output/best_hp.json
+2023-01-14 13:01:08 INFO     [Blink-soft: gcn on lastfm with eps=8] Start grid search for hyperparameter tuning.
+2023-01-14 13:58:49 INFO     [Blink-soft: gcn on lastfm with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.1} with validation loss 0.628807783126831
+2023-01-14 13:58:49 INFO     [Blink-soft: gcn on lastfm with eps=8] Saving best hp to output/best_hp.json
+2023-01-14 13:53:29 INFO     Grid search done!
+2023-01-14 13:53:29 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-01-14 13:53:29 INFO     [Blink-soft: gcn on lastfm with eps=1] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0, 'delta': 0.1}.
+2023-01-14 13:55:51 INFO     [Blink-soft: gcn on lastfm with eps=1] Test accuracy is 0.4289961525008745 (0.020644884240577616).
+2023-01-14 13:55:51 INFO     [Blink-soft: gcn on lastfm with eps=1] Saving training results to output/results.json
+2023-01-14 13:55:51 INFO     [Blink-soft: gcn on lastfm with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0, 'delta': 0.1}.
+2023-01-14 13:58:07 INFO     [Blink-soft: gcn on lastfm with eps=2] Test accuracy is 0.48728576425323544 (0.022026382278941586).
+2023-01-14 13:58:07 INFO     [Blink-soft: gcn on lastfm with eps=2] Saving training results to output/results.json
+2023-01-14 13:47:36 INFO     [Blink-soft: gcn on lastfm with eps=3] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0, 'delta': 0.1}.
+2023-01-14 13:49:44 INFO     [Blink-soft: gcn on lastfm with eps=3] Test accuracy is 0.6581497026932493 (0.043859248110023216).
+2023-01-14 13:49:44 INFO     [Blink-soft: gcn on lastfm with eps=3] Saving training results to output/results.json
+2023-01-14 13:49:44 INFO     [Blink-soft: gcn on lastfm with eps=4] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0, 'delta': 0.1}.
+2023-01-14 13:51:50 INFO     [Blink-soft: gcn on lastfm with eps=4] Test accuracy is 0.7691325638335083 (0.018163853902497404).
+2023-01-14 13:51:50 INFO     [Blink-soft: gcn on lastfm with eps=4] Saving training results to output/results.json
+2023-01-14 13:58:16 INFO     [Blink-soft: gcn on lastfm with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-14 14:00:28 INFO     [Blink-soft: gcn on lastfm with eps=5] Test accuracy is 0.8178209164043372 (0.017642736571750653).
+2023-01-14 14:00:28 INFO     [Blink-soft: gcn on lastfm with eps=5] Saving training results to output/results.json
+2023-01-14 14:00:28 INFO     [Blink-soft: gcn on lastfm with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-14 14:02:38 INFO     [Blink-soft: gcn on lastfm with eps=6] Test accuracy is 0.8422700244840853 (0.008464732940988996).
+2023-01-14 14:02:38 INFO     [Blink-soft: gcn on lastfm with eps=6] Saving training results to output/results.json
+2023-01-14 13:58:49 INFO     [Blink-soft: gcn on lastfm with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-14 14:01:01 INFO     [Blink-soft: gcn on lastfm with eps=7] Test accuracy is 0.853025533403288 (0.008654735269060635).
+2023-01-14 14:01:01 INFO     [Blink-soft: gcn on lastfm with eps=7] Saving training results to output/results.json
+2023-01-14 14:01:01 INFO     [Blink-soft: gcn on lastfm with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-14 14:03:13 INFO     [Blink-soft: gcn on lastfm with eps=8] Test accuracy is 0.8500524658971668 (0.008099030787495649).
+2023-01-14 14:03:13 INFO     [Blink-soft: gcn on lastfm with eps=8] Saving training results to output/results.json
+

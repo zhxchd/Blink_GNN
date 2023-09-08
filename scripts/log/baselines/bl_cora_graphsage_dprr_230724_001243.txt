@@ -1,0 +1,35 @@
+2023-07-24 00:12:43 INFO     Start experiments with Namespace(dataset='cora', model='graphsage', method=['dprr'], grid_search=True, use_dense_model=False, eps=[3, 4, 5, 6])
+2023-07-24 00:12:48 INFO     Using device: cuda
+2023-07-24 00:12:48 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-24 00:12:48 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-24 00:12:48 INFO     [dprr: graphsage on cora] Grid search for hyperparameter tuning on various epsilons.
+2023-07-24 00:12:48 INFO     [dprr: graphsage on cora with eps=3] Start grid search for hyperparameter tuning.
+2023-07-24 00:17:24 INFO     [dprr: graphsage on cora with eps=3] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001} with validation loss 0.8276472806930542
+2023-07-24 00:17:24 INFO     [dprr: graphsage on cora with eps=3] Saving best hp to output/bl_best_hp.json
+2023-07-24 00:17:24 INFO     [dprr: graphsage on cora with eps=4] Start grid search for hyperparameter tuning.
+2023-07-24 00:22:04 INFO     [dprr: graphsage on cora with eps=4] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001} with validation loss 0.8190097332000732
+2023-07-24 00:22:04 INFO     [dprr: graphsage on cora with eps=4] Saving best hp to output/bl_best_hp.json
+2023-07-24 00:22:04 INFO     [dprr: graphsage on cora with eps=5] Start grid search for hyperparameter tuning.
+2023-07-24 00:26:31 INFO     [dprr: graphsage on cora with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.8059863209724426
+2023-07-24 00:26:31 INFO     [dprr: graphsage on cora with eps=5] Saving best hp to output/bl_best_hp.json
+2023-07-24 00:26:31 INFO     [dprr: graphsage on cora with eps=6] Start grid search for hyperparameter tuning.
+2023-07-24 00:31:10 INFO     [dprr: graphsage on cora with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.7630594968795776
+2023-07-24 00:31:10 INFO     [dprr: graphsage on cora with eps=6] Saving best hp to output/bl_best_hp.json
+2023-07-24 00:31:10 INFO     [dprr: graphsage on cora] Grid search done.
+2023-07-24 00:31:10 INFO     Grid search done!
+2023-07-24 00:31:10 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-24 00:31:10 INFO     [dprr: graphsage on cora] Start running experiments on various epsilons.
+2023-07-24 00:31:10 INFO     [dprr: graphsage on cora with eps=3] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001}.
+2023-07-24 00:32:00 INFO     [dprr: graphsage on cora with eps=3] Test accuracy is 0.6987198424421467 (0.010964346499990226).
+2023-07-24 00:32:00 INFO     [dprr: graphsage on cora with eps=3] Saving training results to output/bl_results.json
+2023-07-24 00:32:00 INFO     [dprr: graphsage on cora with eps=4] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001}.
+2023-07-24 00:32:50 INFO     [dprr: graphsage on cora with eps=4] Test accuracy is 0.6994583948793699 (0.008405521352190363).
+2023-07-24 00:32:50 INFO     [dprr: graphsage on cora with eps=4] Saving training results to output/bl_results.json
+2023-07-24 00:32:50 INFO     [dprr: graphsage on cora with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2023-07-24 00:33:42 INFO     [dprr: graphsage on cora with eps=5] Test accuracy is 0.7017725258493354 (0.011147657414361469).
+2023-07-24 00:33:42 INFO     [dprr: graphsage on cora with eps=5] Saving training results to output/bl_results.json
+2023-07-24 00:33:42 INFO     [dprr: graphsage on cora with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2023-07-24 00:34:30 INFO     [dprr: graphsage on cora with eps=6] Test accuracy is 0.7202363367799113 (0.01047669020925599).
+2023-07-24 00:34:30 INFO     [dprr: graphsage on cora with eps=6] Saving training results to output/bl_results.json
+2023-07-24 00:34:30 INFO     [dprr: graphsage on cora] Experiments done.
+2023-07-24 00:34:30 INFO     All baseline experiments done!

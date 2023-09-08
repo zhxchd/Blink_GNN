@@ -1,0 +1,147 @@
+2023-04-08 03:04:06 INFO     Experiments on the effects of delta.
+2023-04-08 03:04:06 INFO     Using device: cuda
+2023-04-08 03:04:06 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-04-08 03:04:12 INFO     [gcn on citeseer with eps=1 and delta=0.1] Start running.
+2023-04-08 03:05:10 INFO     [gcn on citeseer with eps=1 and delta=0.1] Test accuracy is 0.5819310897435896 (0.024156527631060114).
+2023-04-08 03:05:10 INFO     [gcn on citeseer with eps=1 and delta=0.2] Start running.
+2023-04-08 03:06:08 INFO     [gcn on citeseer with eps=1 and delta=0.2] Test accuracy is 0.6169471153846153 (0.027425890116025607).
+2023-04-08 03:06:08 INFO     [gcn on citeseer with eps=1 and delta=0.3] Start running.
+2023-04-08 03:07:06 INFO     [gcn on citeseer with eps=1 and delta=0.3] Test accuracy is 0.6238782051282051 (0.02546438555685758).
+2023-04-08 03:07:06 INFO     [gcn on citeseer with eps=1 and delta=0.4] Start running.
+2023-04-08 03:08:04 INFO     [gcn on citeseer with eps=1 and delta=0.4] Test accuracy is 0.6333733974358976 (0.02092055981561797).
+2023-04-08 03:08:04 INFO     [gcn on citeseer with eps=1 and delta=0.5] Start running.
+2023-04-08 03:09:03 INFO     [gcn on citeseer with eps=1 and delta=0.5] Test accuracy is 0.6409054487179486 (0.019319913910055234).
+2023-04-08 03:09:03 INFO     [gcn on citeseer with eps=1 and delta=0.6] Start running.
+2023-04-08 03:10:02 INFO     [gcn on citeseer with eps=1 and delta=0.6] Test accuracy is 0.6453124999999998 (0.017481956348439312).
+2023-04-08 03:10:02 INFO     [gcn on citeseer with eps=1 and delta=0.7] Start running.
+2023-04-08 03:10:59 INFO     [gcn on citeseer with eps=1 and delta=0.7] Test accuracy is 0.6534054487179487 (0.01914917418746736).
+2023-04-08 03:10:59 INFO     [gcn on citeseer with eps=1 and delta=0.8] Start running.
+2023-04-08 03:11:57 INFO     [gcn on citeseer with eps=1 and delta=0.8] Test accuracy is 0.6554086538461539 (0.01933353451624989).
+2023-04-08 03:11:57 INFO     [gcn on citeseer with eps=1 and delta=0.9] Start running.
+2023-04-08 03:12:56 INFO     [gcn on citeseer with eps=1 and delta=0.9] Test accuracy is 0.6596153846153846 (0.019266793182224885).
+2023-04-08 03:12:56 INFO     [gcn on citeseer with eps=2 and delta=0.1] Start running.
+2023-04-08 03:13:54 INFO     [gcn on citeseer with eps=2 and delta=0.1] Test accuracy is 0.6520032051282052 (0.016581118277031157).
+2023-04-08 03:13:54 INFO     [gcn on citeseer with eps=2 and delta=0.2] Start running.
+2023-04-08 03:14:52 INFO     [gcn on citeseer with eps=2 and delta=0.2] Test accuracy is 0.6483974358974359 (0.018240565962450453).
+2023-04-08 03:14:52 INFO     [gcn on citeseer with eps=2 and delta=0.3] Start running.
+2023-04-08 03:15:51 INFO     [gcn on citeseer with eps=2 and delta=0.3] Test accuracy is 0.6592147435897436 (0.019169909038843354).
+2023-04-08 03:15:51 INFO     [gcn on citeseer with eps=2 and delta=0.4] Start running.
+2023-04-08 03:16:49 INFO     [gcn on citeseer with eps=2 and delta=0.4] Test accuracy is 0.6518830128205129 (0.0358373117502148).
+2023-04-08 03:16:49 INFO     [gcn on citeseer with eps=2 and delta=0.5] Start running.
+2023-04-08 03:17:47 INFO     [gcn on citeseer with eps=2 and delta=0.5] Test accuracy is 0.6541266025641026 (0.023235141654675877).
+2023-04-08 03:17:47 INFO     [gcn on citeseer with eps=2 and delta=0.6] Start running.
+2023-04-08 03:18:46 INFO     [gcn on citeseer with eps=2 and delta=0.6] Test accuracy is 0.6621394230769231 (0.023809708857630077).
+2023-04-08 03:18:46 INFO     [gcn on citeseer with eps=2 and delta=0.7] Start running.
+2023-04-08 03:19:44 INFO     [gcn on citeseer with eps=2 and delta=0.7] Test accuracy is 0.666786858974359 (0.016592585683834152).
+2023-04-08 03:19:44 INFO     [gcn on citeseer with eps=2 and delta=0.8] Start running.
+2023-04-08 03:20:44 INFO     [gcn on citeseer with eps=2 and delta=0.8] Test accuracy is 0.6628605769230769 (0.032943437677081105).
+2023-04-08 03:20:44 INFO     [gcn on citeseer with eps=2 and delta=0.9] Start running.
+2023-04-08 03:21:43 INFO     [gcn on citeseer with eps=2 and delta=0.9] Test accuracy is 0.6714342948717947 (0.017548305597971457).
+2023-04-08 03:21:43 INFO     [gcn on citeseer with eps=3 and delta=0.1] Start running.
+2023-04-08 03:22:41 INFO     [gcn on citeseer with eps=3 and delta=0.1] Test accuracy is 0.6787259615384614 (0.013305203411003733).
+2023-04-08 03:22:41 INFO     [gcn on citeseer with eps=3 and delta=0.2] Start running.
+2023-04-08 03:23:37 INFO     [gcn on citeseer with eps=3 and delta=0.2] Test accuracy is 0.6642227564102564 (0.01352179783852102).
+2023-04-08 03:23:37 INFO     [gcn on citeseer with eps=3 and delta=0.3] Start running.
+2023-04-08 03:24:35 INFO     [gcn on citeseer with eps=3 and delta=0.3] Test accuracy is 0.6527644230769231 (0.020504093759176684).
+2023-04-08 03:24:35 INFO     [gcn on citeseer with eps=3 and delta=0.4] Start running.
+2023-04-08 03:25:33 INFO     [gcn on citeseer with eps=3 and delta=0.4] Test accuracy is 0.6283253205128205 (0.03322860246038418).
+2023-04-08 03:25:33 INFO     [gcn on citeseer with eps=3 and delta=0.5] Start running.
+2023-04-08 03:26:29 INFO     [gcn on citeseer with eps=3 and delta=0.5] Test accuracy is 0.6079727564102565 (0.031570538241887464).
+2023-04-08 03:26:29 INFO     [gcn on citeseer with eps=3 and delta=0.6] Start running.
+2023-04-08 03:27:26 INFO     [gcn on citeseer with eps=3 and delta=0.6] Test accuracy is 0.6063301282051283 (0.026174586814402007).
+2023-04-08 03:27:26 INFO     [gcn on citeseer with eps=3 and delta=0.7] Start running.
+2023-04-08 03:28:23 INFO     [gcn on citeseer with eps=3 and delta=0.7] Test accuracy is 0.6058894230769231 (0.02393276039564441).
+2023-04-08 03:28:23 INFO     [gcn on citeseer with eps=3 and delta=0.8] Start running.
+2023-04-08 03:29:20 INFO     [gcn on citeseer with eps=3 and delta=0.8] Test accuracy is 0.5990384615384615 (0.019000524718956083).
+2023-04-08 03:29:20 INFO     [gcn on citeseer with eps=3 and delta=0.9] Start running.
+2023-04-08 03:30:18 INFO     [gcn on citeseer with eps=3 and delta=0.9] Test accuracy is 0.5986378205128207 (0.031625172323490464).
+2023-04-08 03:30:18 INFO     [gcn on citeseer with eps=4 and delta=0.1] Start running.
+2023-04-08 03:31:14 INFO     [gcn on citeseer with eps=4 and delta=0.1] Test accuracy is 0.727323717948718 (0.01316908940521919).
+2023-04-08 03:31:14 INFO     [gcn on citeseer with eps=4 and delta=0.2] Start running.
+2023-04-08 03:32:09 INFO     [gcn on citeseer with eps=4 and delta=0.2] Test accuracy is 0.7057692307692307 (0.011454690563146429).
+2023-04-08 03:32:09 INFO     [gcn on citeseer with eps=4 and delta=0.3] Start running.
+2023-04-08 03:33:04 INFO     [gcn on citeseer with eps=4 and delta=0.3] Test accuracy is 0.6836939102564104 (0.014638756423146288).
+2023-04-08 03:33:04 INFO     [gcn on citeseer with eps=4 and delta=0.4] Start running.
+2023-04-08 03:33:59 INFO     [gcn on citeseer with eps=4 and delta=0.4] Test accuracy is 0.6697115384615385 (0.019524992833997477).
+2023-04-08 03:33:59 INFO     [gcn on citeseer with eps=4 and delta=0.5] Start running.
+2023-04-08 03:34:55 INFO     [gcn on citeseer with eps=4 and delta=0.5] Test accuracy is 0.6528044871794871 (0.015441268551853732).
+2023-04-08 03:34:55 INFO     [gcn on citeseer with eps=4 and delta=0.6] Start running.
+2023-04-08 03:35:51 INFO     [gcn on citeseer with eps=4 and delta=0.6] Test accuracy is 0.6199919871794871 (0.029067465889640213).
+2023-04-08 03:35:51 INFO     [gcn on citeseer with eps=4 and delta=0.7] Start running.
+2023-04-08 03:36:48 INFO     [gcn on citeseer with eps=4 and delta=0.7] Test accuracy is 0.5985977564102564 (0.049127624576900404).
+2023-04-08 03:36:48 INFO     [gcn on citeseer with eps=4 and delta=0.8] Start running.
+2023-04-08 03:37:44 INFO     [gcn on citeseer with eps=4 and delta=0.8] Test accuracy is 0.6010817307692307 (0.02716869064145537).
+2023-04-08 03:37:44 INFO     [gcn on citeseer with eps=4 and delta=0.9] Start running.
+2023-04-08 03:38:42 INFO     [gcn on citeseer with eps=4 and delta=0.9] Test accuracy is 0.6009214743589744 (0.032455607775935404).
+2023-04-08 03:38:42 INFO     [gcn on citeseer with eps=5 and delta=0.1] Start running.
+2023-04-08 03:39:37 INFO     [gcn on citeseer with eps=5 and delta=0.1] Test accuracy is 0.7731971153846156 (0.007091346153846146).
+2023-04-08 03:39:37 INFO     [gcn on citeseer with eps=5 and delta=0.2] Start running.
+2023-04-08 03:40:32 INFO     [gcn on citeseer with eps=5 and delta=0.2] Test accuracy is 0.7515224358974357 (0.008918740772430378).
+2023-04-08 03:40:32 INFO     [gcn on citeseer with eps=5 and delta=0.3] Start running.
+2023-04-08 03:41:28 INFO     [gcn on citeseer with eps=5 and delta=0.3] Test accuracy is 0.7210336538461539 (0.010841097415987867).
+2023-04-08 03:41:28 INFO     [gcn on citeseer with eps=5 and delta=0.4] Start running.
+2023-04-08 03:42:23 INFO     [gcn on citeseer with eps=5 and delta=0.4] Test accuracy is 0.6917868589743589 (0.01555297543534165).
+2023-04-08 03:42:23 INFO     [gcn on citeseer with eps=5 and delta=0.5] Start running.
+2023-04-08 03:43:15 INFO     [gcn on citeseer with eps=5 and delta=0.5] Test accuracy is 0.6513221153846154 (0.03151751559275487).
+2023-04-08 03:43:15 INFO     [gcn on citeseer with eps=5 and delta=0.6] Start running.
+2023-04-08 03:44:12 INFO     [gcn on citeseer with eps=5 and delta=0.6] Test accuracy is 0.5996394230769231 (0.037677748426840366).
+2023-04-08 03:44:12 INFO     [gcn on citeseer with eps=5 and delta=0.7] Start running.
+2023-04-08 03:45:08 INFO     [gcn on citeseer with eps=5 and delta=0.7] Test accuracy is 0.5498798076923077 (0.044805300004228686).
+2023-04-08 03:45:08 INFO     [gcn on citeseer with eps=5 and delta=0.8] Start running.
+2023-04-08 03:46:03 INFO     [gcn on citeseer with eps=5 and delta=0.8] Test accuracy is 0.5367387820512821 (0.026986110058977022).
+2023-04-08 03:46:03 INFO     [gcn on citeseer with eps=5 and delta=0.9] Start running.
+2023-04-08 03:47:01 INFO     [gcn on citeseer with eps=5 and delta=0.9] Test accuracy is 0.5302483974358975 (0.04695411975485734).
+2023-04-08 03:47:01 INFO     [gcn on citeseer with eps=6 and delta=0.1] Start running.
+2023-04-08 03:47:56 INFO     [gcn on citeseer with eps=6 and delta=0.1] Test accuracy is 0.7803685897435899 (0.00795411184854383).
+2023-04-08 03:47:56 INFO     [gcn on citeseer with eps=6 and delta=0.2] Start running.
+2023-04-08 03:48:52 INFO     [gcn on citeseer with eps=6 and delta=0.2] Test accuracy is 0.7754006410256409 (0.008626723283997927).
+2023-04-08 03:48:52 INFO     [gcn on citeseer with eps=6 and delta=0.3] Start running.
+2023-04-08 03:49:47 INFO     [gcn on citeseer with eps=6 and delta=0.3] Test accuracy is 0.7560496794871795 (0.009737225511994336).
+2023-04-08 03:49:47 INFO     [gcn on citeseer with eps=6 and delta=0.4] Start running.
+2023-04-08 03:50:41 INFO     [gcn on citeseer with eps=6 and delta=0.4] Test accuracy is 0.725721153846154 (0.013156895123842962).
+2023-04-08 03:50:41 INFO     [gcn on citeseer with eps=6 and delta=0.5] Start running.
+2023-04-08 03:51:35 INFO     [gcn on citeseer with eps=6 and delta=0.5] Test accuracy is 0.6982772435897436 (0.020282449449984013).
+2023-04-08 03:51:35 INFO     [gcn on citeseer with eps=6 and delta=0.6] Start running.
+2023-04-08 03:52:29 INFO     [gcn on citeseer with eps=6 and delta=0.6] Test accuracy is 0.6828124999999999 (0.01270613290113408).
+2023-04-08 03:52:29 INFO     [gcn on citeseer with eps=6 and delta=0.7] Start running.
+2023-04-08 03:53:26 INFO     [gcn on citeseer with eps=6 and delta=0.7] Test accuracy is 0.6412660256410255 (0.019855956777740533).
+2023-04-08 03:53:26 INFO     [gcn on citeseer with eps=6 and delta=0.8] Start running.
+2023-04-08 03:54:21 INFO     [gcn on citeseer with eps=6 and delta=0.8] Test accuracy is 0.6155048076923076 (0.021512632427988808).
+2023-04-08 03:54:21 INFO     [gcn on citeseer with eps=6 and delta=0.9] Start running.
+2023-04-08 03:55:18 INFO     [gcn on citeseer with eps=6 and delta=0.9] Test accuracy is 0.6016025641025641 (0.01897804018344546).
+2023-04-08 03:55:18 INFO     [gcn on citeseer with eps=7 and delta=0.1] Start running.
+2023-04-08 03:56:12 INFO     [gcn on citeseer with eps=7 and delta=0.1] Test accuracy is 0.7901442307692309 (0.004395380817917454).
+2023-04-08 03:56:12 INFO     [gcn on citeseer with eps=7 and delta=0.2] Start running.
+2023-04-08 03:57:08 INFO     [gcn on citeseer with eps=7 and delta=0.2] Test accuracy is 0.7868589743589742 (0.005278740093589938).
+2023-04-08 03:57:08 INFO     [gcn on citeseer with eps=7 and delta=0.3] Start running.
+2023-04-08 03:58:03 INFO     [gcn on citeseer with eps=7 and delta=0.3] Test accuracy is 0.7799278846153846 (0.006445341684157823).
+2023-04-08 03:58:03 INFO     [gcn on citeseer with eps=7 and delta=0.4] Start running.
+2023-04-08 03:58:56 INFO     [gcn on citeseer with eps=7 and delta=0.4] Test accuracy is 0.764022435897436 (0.00869677150718919).
+2023-04-08 03:58:56 INFO     [gcn on citeseer with eps=7 and delta=0.5] Start running.
+2023-04-08 03:59:51 INFO     [gcn on citeseer with eps=7 and delta=0.5] Test accuracy is 0.7247195512820511 (0.013255648958481308).
+2023-04-08 03:59:51 INFO     [gcn on citeseer with eps=7 and delta=0.6] Start running.
+2023-04-08 04:00:46 INFO     [gcn on citeseer with eps=7 and delta=0.6] Test accuracy is 0.6717948717948719 (0.026845220914164768).
+2023-04-08 04:00:46 INFO     [gcn on citeseer with eps=7 and delta=0.7] Start running.
+2023-04-08 04:01:41 INFO     [gcn on citeseer with eps=7 and delta=0.7] Test accuracy is 0.6116185897435896 (0.03253895815274376).
+2023-04-08 04:01:41 INFO     [gcn on citeseer with eps=7 and delta=0.8] Start running.
+2023-04-08 04:02:36 INFO     [gcn on citeseer with eps=7 and delta=0.8] Test accuracy is 0.5517628205128204 (0.03188599206506992).
+2023-04-08 04:02:36 INFO     [gcn on citeseer with eps=7 and delta=0.9] Start running.
+2023-04-08 04:03:34 INFO     [gcn on citeseer with eps=7 and delta=0.9] Test accuracy is 0.5227163461538462 (0.043476123513565064).
+2023-04-08 04:03:34 INFO     [gcn on citeseer with eps=8 and delta=0.1] Start running.
+2023-04-08 04:04:29 INFO     [gcn on citeseer with eps=8 and delta=0.1] Test accuracy is 0.7856570512820513 (0.007654236047493111).
+2023-04-08 04:04:29 INFO     [gcn on citeseer with eps=8 and delta=0.2] Start running.
+2023-04-08 04:05:23 INFO     [gcn on citeseer with eps=8 and delta=0.2] Test accuracy is 0.7836137820512821 (0.005441790703978856).
+2023-04-08 04:05:23 INFO     [gcn on citeseer with eps=8 and delta=0.3] Start running.
+2023-04-08 04:06:16 INFO     [gcn on citeseer with eps=8 and delta=0.3] Test accuracy is 0.7824118589743592 (0.007287813330950401).
+2023-04-08 04:06:16 INFO     [gcn on citeseer with eps=8 and delta=0.4] Start running.
+2023-04-08 04:07:11 INFO     [gcn on citeseer with eps=8 and delta=0.4] Test accuracy is 0.775360576923077 (0.007871449197131213).
+2023-04-08 04:07:11 INFO     [gcn on citeseer with eps=8 and delta=0.5] Start running.
+2023-04-08 04:08:06 INFO     [gcn on citeseer with eps=8 and delta=0.5] Test accuracy is 0.7506009615384616 (0.00994405230378513).
+2023-04-08 04:08:06 INFO     [gcn on citeseer with eps=8 and delta=0.6] Start running.
+2023-04-08 04:09:00 INFO     [gcn on citeseer with eps=8 and delta=0.6] Test accuracy is 0.7073317307692306 (0.015366293928278105).
+2023-04-08 04:09:00 INFO     [gcn on citeseer with eps=8 and delta=0.7] Start running.
+2023-04-08 04:09:56 INFO     [gcn on citeseer with eps=8 and delta=0.7] Test accuracy is 0.6823317307692308 (0.013581021651558422).
+2023-04-08 04:09:56 INFO     [gcn on citeseer with eps=8 and delta=0.8] Start running.
+2023-04-08 04:10:53 INFO     [gcn on citeseer with eps=8 and delta=0.8] Test accuracy is 0.6425080128205127 (0.015543684282555823).
+2023-04-08 04:10:53 INFO     [gcn on citeseer with eps=8 and delta=0.9] Start running.
+2023-04-08 04:11:49 INFO     [gcn on citeseer with eps=8 and delta=0.9] Test accuracy is 0.5994391025641026 (0.036467929844364144).

@@ -1,0 +1,23 @@
+2023-07-23 14:21:36 INFO     Start experiments with Namespace(dataset='cora', model='gat', method=['symrr'], grid_search=True, use_dense_model=False, eps=[7, 8])
+2023-07-23 14:21:52 INFO     Using device: cuda
+2023-07-23 14:21:52 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 14:21:52 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 14:21:52 INFO     [symrr: gat on cora] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 14:21:52 INFO     [symrr: gat on cora with eps=7] Start grid search for hyperparameter tuning.
+2023-07-23 14:27:35 INFO     [symrr: gat on cora with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.8654552221298217
+2023-07-23 14:27:35 INFO     [symrr: gat on cora with eps=7] Saving best hp to output/bl_best_hp.json
+2023-07-23 14:27:35 INFO     [symrr: gat on cora with eps=8] Start grid search for hyperparameter tuning.
+2023-07-23 14:33:15 INFO     [symrr: gat on cora with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05} with validation loss 0.6435073971748352
+2023-07-23 14:33:15 INFO     [symrr: gat on cora with eps=8] Saving best hp to output/bl_best_hp.json
+2023-07-23 14:33:15 INFO     [symrr: gat on cora] Grid search done.
+2023-07-23 14:33:15 INFO     Grid search done!
+2023-07-23 14:33:15 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 14:33:15 INFO     [symrr: gat on cora] Start running experiments on various epsilons.
+2023-07-23 14:33:15 INFO     [symrr: gat on cora with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-07-23 14:34:19 INFO     [symrr: gat on cora with eps=7] Test accuracy is 0.6977351058591826 (0.03917992642373634).
+2023-07-23 14:34:19 INFO     [symrr: gat on cora with eps=7] Saving training results to output/bl_results.json
+2023-07-23 14:34:19 INFO     [symrr: gat on cora with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05}.
+2023-07-23 14:35:22 INFO     [symrr: gat on cora with eps=8] Test accuracy is 0.7920728705071393 (0.016197420160464944).
+2023-07-23 14:35:22 INFO     [symrr: gat on cora with eps=8] Saving training results to output/bl_results.json
+2023-07-23 14:35:22 INFO     [symrr: gat on cora] Experiments done.
+2023-07-23 14:35:22 INFO     All baseline experiments done!

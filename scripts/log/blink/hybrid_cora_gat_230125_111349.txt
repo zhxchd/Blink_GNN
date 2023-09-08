@@ -1,0 +1,54 @@
+2023-01-25 11:13:49 INFO     Start experiments with Namespace(variant='hybrid', dataset='cora', model='gat', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-01-25 11:13:54 INFO     Using device: cuda
+2023-01-25 11:13:54 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81100MB, multi_processor_count=108)
+2023-01-25 11:13:54 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-25 11:13:54 INFO     [Blink-hybrid: gat on cora with eps=1] Start grid search for hyperparameter tuning.
+2023-01-25 11:48:49 INFO     [Blink-hybrid: gat on cora with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9} with validation loss 0.8316743850708008
+2023-01-25 11:48:49 INFO     [Blink-hybrid: gat on cora with eps=1] Saving best hp to output/best_hp.json
+2023-01-25 11:48:49 INFO     [Blink-hybrid: gat on cora with eps=2] Start grid search for hyperparameter tuning.
+2023-01-25 12:24:19 INFO     [Blink-hybrid: gat on cora with eps=2] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9} with validation loss 0.8342233180999756
+2023-01-25 12:24:19 INFO     [Blink-hybrid: gat on cora with eps=2] Saving best hp to output/best_hp.json
+2023-01-25 12:24:19 INFO     [Blink-hybrid: gat on cora with eps=3] Start grid search for hyperparameter tuning.
+2023-01-25 13:00:41 INFO     [Blink-hybrid: gat on cora with eps=3] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9} with validation loss 0.8334064960479737
+2023-01-25 13:00:41 INFO     [Blink-hybrid: gat on cora with eps=3] Saving best hp to output/best_hp.json
+2023-01-25 13:00:41 INFO     [Blink-hybrid: gat on cora with eps=4] Start grid search for hyperparameter tuning.
+2023-01-25 13:35:34 INFO     [Blink-hybrid: gat on cora with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0, 'delta': 0.1} with validation loss 0.8087590217590332
+2023-01-25 13:35:34 INFO     [Blink-hybrid: gat on cora with eps=4] Saving best hp to output/best_hp.json
+2023-01-25 13:35:34 INFO     [Blink-hybrid: gat on cora with eps=5] Start grid search for hyperparameter tuning.
+2023-01-25 14:11:13 INFO     [Blink-hybrid: gat on cora with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1} with validation loss 0.573670768737793
+2023-01-25 14:11:13 INFO     [Blink-hybrid: gat on cora with eps=5] Saving best hp to output/best_hp.json
+2023-01-25 14:11:13 INFO     [Blink-hybrid: gat on cora with eps=6] Start grid search for hyperparameter tuning.
+2023-01-25 14:46:39 INFO     [Blink-hybrid: gat on cora with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1} with validation loss 0.5053358316421509
+2023-01-25 14:46:39 INFO     [Blink-hybrid: gat on cora with eps=6] Saving best hp to output/best_hp.json
+2023-01-25 14:46:39 INFO     [Blink-hybrid: gat on cora with eps=7] Start grid search for hyperparameter tuning.
+2023-01-25 15:22:03 INFO     [Blink-hybrid: gat on cora with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1} with validation loss 0.4848043918609619
+2023-01-25 15:22:03 INFO     [Blink-hybrid: gat on cora with eps=7] Saving best hp to output/best_hp.json
+2023-01-25 15:22:03 INFO     [Blink-hybrid: gat on cora with eps=8] Start grid search for hyperparameter tuning.
+2023-01-25 15:58:36 INFO     [Blink-hybrid: gat on cora with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.3} with validation loss 0.48514788746833803
+2023-01-25 15:58:36 INFO     [Blink-hybrid: gat on cora with eps=8] Saving best hp to output/best_hp.json
+2023-01-25 15:58:36 INFO     Grid search done!
+2023-01-25 15:58:36 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-01-25 15:58:36 INFO     [Blink-hybrid: gat on cora with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9}.
+2023-01-25 16:00:01 INFO     [Blink-hybrid: gat on cora with eps=1] Test accuracy is 0.695125553914328 (0.006308465732367102).
+2023-01-25 16:00:01 INFO     [Blink-hybrid: gat on cora with eps=1] Saving training results to output/results.json
+2023-01-25 16:00:01 INFO     [Blink-hybrid: gat on cora with eps=2] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9}.
+2023-01-25 16:01:26 INFO     [Blink-hybrid: gat on cora with eps=2] Test accuracy is 0.697390448055145 (0.007382897941005049).
+2023-01-25 16:01:26 INFO     [Blink-hybrid: gat on cora with eps=2] Saving training results to output/results.json
+2023-01-25 16:01:26 INFO     [Blink-hybrid: gat on cora with eps=3] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9}.
+2023-01-25 16:02:50 INFO     [Blink-hybrid: gat on cora with eps=3] Test accuracy is 0.6928606597735106 (0.0073354613752688175).
+2023-01-25 16:02:50 INFO     [Blink-hybrid: gat on cora with eps=3] Saving training results to output/results.json
+2023-01-25 16:02:50 INFO     [Blink-hybrid: gat on cora with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0, 'delta': 0.1}.
+2023-01-25 16:04:12 INFO     [Blink-hybrid: gat on cora with eps=4] Test accuracy is 0.7258493353028065 (0.017101276973005966).
+2023-01-25 16:04:12 INFO     [Blink-hybrid: gat on cora with eps=4] Saving training results to output/results.json
+2023-01-25 16:04:12 INFO     [Blink-hybrid: gat on cora with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-25 16:05:36 INFO     [Blink-hybrid: gat on cora with eps=5] Test accuracy is 0.8090595765632693 (0.015130694699178507).
+2023-01-25 16:05:36 INFO     [Blink-hybrid: gat on cora with eps=5] Saving training results to output/results.json
+2023-01-25 16:05:36 INFO     [Blink-hybrid: gat on cora with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1}.
+2023-01-25 16:06:57 INFO     [Blink-hybrid: gat on cora with eps=6] Test accuracy is 0.8456425406203839 (0.00966911542041543).
+2023-01-25 16:06:57 INFO     [Blink-hybrid: gat on cora with eps=6] Saving training results to output/results.json
+2023-01-25 16:06:57 INFO     [Blink-hybrid: gat on cora with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1}.
+2023-01-25 16:08:19 INFO     [Blink-hybrid: gat on cora with eps=7] Test accuracy is 0.848055145248646 (0.008221813356429995).
+2023-01-25 16:08:19 INFO     [Blink-hybrid: gat on cora with eps=7] Saving training results to output/results.json
+2023-01-25 16:08:19 INFO     [Blink-hybrid: gat on cora with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.3}.
+2023-01-25 16:09:41 INFO     [Blink-hybrid: gat on cora with eps=8] Test accuracy is 0.8471196454948301 (0.007701275975764564).
+2023-01-25 16:09:41 INFO     [Blink-hybrid: gat on cora with eps=8] Saving training results to output/results.json

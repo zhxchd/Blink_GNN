@@ -1,0 +1,16 @@
+2022-10-20 17:31:07 INFO     Start experiments with Namespace(dataset='lastfm', model='graphsage', grid_search=True, eps=[6.0, 7.0])
+2022-10-20 17:31:18 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-20 17:31:18 INFO     [graphsage on lastfm with eps=6.0] Start grid search for hyperparameter tuning.
+2022-10-20 17:45:43 INFO     [graphsage on lastfm with eps=6.0] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7387674649556478
+2022-10-20 17:45:43 INFO     [graphsage on lastfm with eps=6.0] Saving best hp to output/best_hp.json
+2022-10-20 17:45:43 INFO     [graphsage on lastfm with eps=7.0] Start grid search for hyperparameter tuning.
+2022-10-20 17:59:57 INFO     [graphsage on lastfm with eps=7.0] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7361560463905334
+2022-10-20 17:59:57 INFO     [graphsage on lastfm with eps=7.0] Saving best hp to output/best_hp.json
+2022-10-20 17:59:57 INFO     Grid search done!
+2022-10-20 17:59:57 INFO     Run experiments using found hyperparameters in best_hp.json.
+2022-10-20 17:59:57 INFO     [graphsage on lastfm with eps=6.0] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2022-10-20 18:00:56 INFO     [graphsage on lastfm with eps=6.0] Test accuracy is 0.8182056663168941 (0.016920150157905607).
+2022-10-20 18:00:56 INFO     [graphsage on lastfm with eps=6.0] Saving training results to output/results.json
+2022-10-20 18:00:56 INFO     [graphsage on lastfm with eps=7.0] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2022-10-20 18:01:57 INFO     [graphsage on lastfm with eps=7.0] Test accuracy is 0.8242742217558587 (0.021550196507827524).
+2022-10-20 18:01:57 INFO     [graphsage on lastfm with eps=7.0] Saving training results to output/results.json

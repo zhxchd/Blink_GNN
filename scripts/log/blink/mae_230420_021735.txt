@@ -1,0 +1,19 @@
+2023-04-20 02:17:35 INFO     Experiments on the MAE between A and P.
+2023-04-20 02:17:35 INFO     Using device: cuda
+2023-04-20 02:17:35 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-04-20 02:22:06 INFO     MAE of P on facebook with eps=1: 0.0014808720132956901 (4.6167566960329395e-06), theoretically bounded by 0.00157654700159972
+2023-04-20 02:22:06 INFO     MAE of P on facebook with eps=1: Saving result to output/mae.json
+2023-04-20 02:25:48 INFO     MAE of P on facebook with eps=2: 0.00123863232244427 (1.8489209060644516e-06), theoretically bounded by 0.0014652875445458702
+2023-04-20 02:25:48 INFO     MAE of P on facebook with eps=2: Saving result to output/mae.json
+2023-04-20 02:29:10 INFO     MAE of P on facebook with eps=3: 0.0008643548043134312 (1.2400548277475768e-06), theoretically bounded by 0.0014282010588612538
+2023-04-20 02:29:10 INFO     MAE of P on facebook with eps=3: Saving result to output/mae.json
+2023-04-20 02:32:16 INFO     MAE of P on facebook with eps=4: 0.0004481852112803608 (7.683868352834197e-07), theoretically bounded by 0.0014096578160189455
+2023-04-20 02:32:16 INFO     MAE of P on facebook with eps=4: Saving result to output/mae.json
+2023-04-20 02:35:16 INFO     MAE of P on facebook with eps=5: 0.00017338746887010832 (3.6012101123925937e-07), theoretically bounded by 0.0013985318703135605
+2023-04-20 02:35:16 INFO     MAE of P on facebook with eps=5: Saving result to output/mae.json
+2023-04-20 02:38:14 INFO     MAE of P on facebook with eps=6: 5.283964164846111e-05 (2.819427916475104e-07), theoretically bounded by 0.0013911145731766372
+2023-04-20 02:38:14 INFO     MAE of P on facebook with eps=6: Saving result to output/mae.json
+2023-04-20 02:41:11 INFO     MAE of P on facebook with eps=7: 1.4030697760366214e-05 (1.6010811052367414e-07), theoretically bounded by 0.0013858165037931205
+2023-04-20 02:41:11 INFO     MAE of P on facebook with eps=7: Saving result to output/mae.json
+2023-04-20 02:44:07 INFO     MAE of P on facebook with eps=8: 3.936434988342323e-06 (6.52447261737461e-08), theoretically bounded by 0.0013818429517554831
+2023-04-20 02:44:07 INFO     MAE of P on facebook with eps=8: Saving result to output/mae.json

@@ -1,0 +1,45 @@
+2023-04-13 13:57:58 INFO     Start experiments with Namespace(variant='hard', dataset='twitch', model='graphsage', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-04-13 13:57:58 INFO     Using device: cuda
+2023-04-13 13:57:58 INFO     _CudaDeviceProperties(name='NVIDIA GeForce RTX 3060 Laptop GPU', major=8, minor=6, total_memory=6143MB, multi_processor_count=30)
+2023-04-13 13:57:58 INFO     Grid search. Load hyperparameter space from facebook_config.json
+2023-04-13 13:57:58 INFO     [Blink-hard: graphsage on twitch with eps=1] Start grid search for hyperparameter tuning.
+2023-04-13 13:58:36 INFO     [Blink-hard: graphsage on twitch with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 1} with validation loss 0.5965117335319519.
+2023-04-13 13:58:36 INFO     [Blink-hard: graphsage on twitch with eps=1] Saving best hp to output/best_hp.json
+2023-04-13 13:58:36 INFO     [Blink-hard: graphsage on twitch with eps=1] Test accuracy is 0.6598326359832637 (0.002510460251046028).
+2023-04-13 13:58:36 INFO     [Blink-hard: graphsage on twitch with eps=1] Saving training results to output/results.json
+2023-04-13 13:58:36 INFO     [Blink-hard: graphsage on twitch with eps=2] Start grid search for hyperparameter tuning.
+2023-04-13 13:59:16 INFO     [Blink-hard: graphsage on twitch with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.4} with validation loss 0.5956361413002014.
+2023-04-13 13:59:16 INFO     [Blink-hard: graphsage on twitch with eps=2] Saving best hp to output/best_hp.json
+2023-04-13 13:59:16 INFO     [Blink-hard: graphsage on twitch with eps=2] Test accuracy is 0.6543933054393305 (0.00717423774036914).
+2023-04-13 13:59:16 INFO     [Blink-hard: graphsage on twitch with eps=2] Saving training results to output/results.json
+2023-04-13 13:59:16 INFO     [Blink-hard: graphsage on twitch with eps=3] Start grid search for hyperparameter tuning.
+2023-04-13 13:59:59 INFO     [Blink-hard: graphsage on twitch with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5954016208648681.
+2023-04-13 13:59:59 INFO     [Blink-hard: graphsage on twitch with eps=3] Saving best hp to output/best_hp.json
+2023-04-13 13:59:59 INFO     [Blink-hard: graphsage on twitch with eps=3] Test accuracy is 0.6661087866108787 (0.0053908362873327).
+2023-04-13 13:59:59 INFO     [Blink-hard: graphsage on twitch with eps=3] Saving training results to output/results.json
+2023-04-13 13:59:59 INFO     [Blink-hard: graphsage on twitch with eps=4] Start grid search for hyperparameter tuning.
+2023-04-13 14:01:05 INFO     [Blink-hard: graphsage on twitch with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5947491884231567.
+2023-04-13 14:01:05 INFO     [Blink-hard: graphsage on twitch with eps=4] Saving best hp to output/best_hp.json
+2023-04-13 14:01:05 INFO     [Blink-hard: graphsage on twitch with eps=4] Test accuracy is 0.6757322175732217 (0.006481980495744641).
+2023-04-13 14:01:05 INFO     [Blink-hard: graphsage on twitch with eps=4] Saving training results to output/results.json
+2023-04-13 14:01:05 INFO     [Blink-hard: graphsage on twitch with eps=5] Start grid search for hyperparameter tuning.
+2023-04-13 14:02:18 INFO     [Blink-hard: graphsage on twitch with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5907844185829163.
+2023-04-13 14:02:18 INFO     [Blink-hard: graphsage on twitch with eps=5] Saving best hp to output/best_hp.json
+2023-04-13 14:02:18 INFO     [Blink-hard: graphsage on twitch with eps=5] Test accuracy is 0.6799163179916319 (0.002958605779023211).
+2023-04-13 14:02:18 INFO     [Blink-hard: graphsage on twitch with eps=5] Saving training results to output/results.json
+2023-04-13 14:02:18 INFO     [Blink-hard: graphsage on twitch with eps=6] Start grid search for hyperparameter tuning.
+2023-04-13 14:03:09 INFO     [Blink-hard: graphsage on twitch with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5883979678153992.
+2023-04-13 14:03:09 INFO     [Blink-hard: graphsage on twitch with eps=6] Saving best hp to output/best_hp.json
+2023-04-13 14:03:09 INFO     [Blink-hard: graphsage on twitch with eps=6] Test accuracy is 0.6803347280334728 (0.003599299274913231).
+2023-04-13 14:03:09 INFO     [Blink-hard: graphsage on twitch with eps=6] Saving training results to output/results.json
+2023-04-13 14:03:09 INFO     [Blink-hard: graphsage on twitch with eps=7] Start grid search for hyperparameter tuning.
+2023-04-13 14:04:18 INFO     [Blink-hard: graphsage on twitch with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5880416631698608.
+2023-04-13 14:04:18 INFO     [Blink-hard: graphsage on twitch with eps=7] Saving best hp to output/best_hp.json
+2023-04-13 14:04:18 INFO     [Blink-hard: graphsage on twitch with eps=7] Test accuracy is 0.6807531380753138 (0.0010248911057670093).
+2023-04-13 14:04:18 INFO     [Blink-hard: graphsage on twitch with eps=7] Saving training results to output/results.json
+2023-04-13 14:04:18 INFO     [Blink-hard: graphsage on twitch with eps=8] Start grid search for hyperparameter tuning.
+2023-04-13 14:05:35 INFO     [Blink-hard: graphsage on twitch with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.4} with validation loss 0.5895992040634155.
+2023-04-13 14:05:35 INFO     [Blink-hard: graphsage on twitch with eps=8] Saving best hp to output/best_hp.json
+2023-04-13 14:05:35 INFO     [Blink-hard: graphsage on twitch with eps=8] Test accuracy is 0.6769874476987447 (0.006951149676082064).
+2023-04-13 14:05:35 INFO     [Blink-hard: graphsage on twitch with eps=8] Saving training results to output/results.json
+2023-04-13 14:05:35 INFO     Done!

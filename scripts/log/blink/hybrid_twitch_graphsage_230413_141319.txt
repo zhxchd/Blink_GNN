@@ -1,0 +1,45 @@
+2023-04-13 14:13:19 INFO     Start experiments with Namespace(variant='hybrid', dataset='twitch', model='graphsage', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-04-13 14:13:19 INFO     Using device: cuda
+2023-04-13 14:13:19 INFO     _CudaDeviceProperties(name='NVIDIA GeForce RTX 3060 Laptop GPU', major=8, minor=6, total_memory=6143MB, multi_processor_count=30)
+2023-04-13 14:13:19 INFO     Grid search. Load hyperparameter space from facebook_config.json
+2023-04-13 14:13:19 INFO     [Blink-hybrid: graphsage on twitch with eps=1] Start grid search for hyperparameter tuning.
+2023-04-13 14:13:55 INFO     [Blink-hybrid: graphsage on twitch with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 1} with validation loss 0.596905255317688.
+2023-04-13 14:13:55 INFO     [Blink-hybrid: graphsage on twitch with eps=1] Saving best hp to output/best_hp.json
+2023-04-13 14:13:55 INFO     [Blink-hybrid: graphsage on twitch with eps=1] Test accuracy is 0.6556485355648536 (0.0028377949720189495).
+2023-04-13 14:13:55 INFO     [Blink-hybrid: graphsage on twitch with eps=1] Saving training results to output/results.json
+2023-04-13 14:13:55 INFO     [Blink-hybrid: graphsage on twitch with eps=2] Start grid search for hyperparameter tuning.
+2023-04-13 14:14:30 INFO     [Blink-hybrid: graphsage on twitch with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 1} with validation loss 0.5972331762313843.
+2023-04-13 14:14:30 INFO     [Blink-hybrid: graphsage on twitch with eps=2] Saving best hp to output/best_hp.json
+2023-04-13 14:14:30 INFO     [Blink-hybrid: graphsage on twitch with eps=2] Test accuracy is 0.6573221757322176 (0.003599299274913231).
+2023-04-13 14:14:30 INFO     [Blink-hybrid: graphsage on twitch with eps=2] Saving training results to output/results.json
+2023-04-13 14:14:30 INFO     [Blink-hybrid: graphsage on twitch with eps=3] Start grid search for hyperparameter tuning.
+2023-04-13 14:15:03 INFO     [Blink-hybrid: graphsage on twitch with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 1} with validation loss 0.5966342926025391.
+2023-04-13 14:15:03 INFO     [Blink-hybrid: graphsage on twitch with eps=3] Saving best hp to output/best_hp.json
+2023-04-13 14:15:03 INFO     [Blink-hybrid: graphsage on twitch with eps=3] Test accuracy is 0.6585774058577407 (0.0027754182346070365).
+2023-04-13 14:15:03 INFO     [Blink-hybrid: graphsage on twitch with eps=3] Saving training results to output/results.json
+2023-04-13 14:15:03 INFO     [Blink-hybrid: graphsage on twitch with eps=4] Start grid search for hyperparameter tuning.
+2023-04-13 14:15:38 INFO     [Blink-hybrid: graphsage on twitch with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5936062455177307.
+2023-04-13 14:15:38 INFO     [Blink-hybrid: graphsage on twitch with eps=4] Saving best hp to output/best_hp.json
+2023-04-13 14:15:38 INFO     [Blink-hybrid: graphsage on twitch with eps=4] Test accuracy is 0.6728033472803346 (0.006290082166683211).
+2023-04-13 14:15:38 INFO     [Blink-hybrid: graphsage on twitch with eps=4] Saving training results to output/results.json
+2023-04-13 14:15:38 INFO     [Blink-hybrid: graphsage on twitch with eps=5] Start grid search for hyperparameter tuning.
+2023-04-13 14:16:12 INFO     [Blink-hybrid: graphsage on twitch with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5899870038032532.
+2023-04-13 14:16:12 INFO     [Blink-hybrid: graphsage on twitch with eps=5] Saving best hp to output/best_hp.json
+2023-04-13 14:16:12 INFO     [Blink-hybrid: graphsage on twitch with eps=5] Test accuracy is 0.6782426778242677 (0.003599299274913231).
+2023-04-13 14:16:12 INFO     [Blink-hybrid: graphsage on twitch with eps=5] Saving training results to output/results.json
+2023-04-13 14:16:12 INFO     [Blink-hybrid: graphsage on twitch with eps=6] Start grid search for hyperparameter tuning.
+2023-04-13 14:16:45 INFO     [Blink-hybrid: graphsage on twitch with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5884980201721192.
+2023-04-13 14:16:45 INFO     [Blink-hybrid: graphsage on twitch with eps=6] Saving best hp to output/best_hp.json
+2023-04-13 14:16:45 INFO     [Blink-hybrid: graphsage on twitch with eps=6] Test accuracy is 0.6799163179916318 (0.00418410041841003).
+2023-04-13 14:16:45 INFO     [Blink-hybrid: graphsage on twitch with eps=6] Saving training results to output/results.json
+2023-04-13 14:16:45 INFO     [Blink-hybrid: graphsage on twitch with eps=7] Start grid search for hyperparameter tuning.
+2023-04-13 14:17:22 INFO     [Blink-hybrid: graphsage on twitch with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5894799709320069.
+2023-04-13 14:17:22 INFO     [Blink-hybrid: graphsage on twitch with eps=7] Saving best hp to output/best_hp.json
+2023-04-13 14:17:22 INFO     [Blink-hybrid: graphsage on twitch with eps=7] Test accuracy is 0.6790794979079499 (0.005390836287332704).
+2023-04-13 14:17:22 INFO     [Blink-hybrid: graphsage on twitch with eps=7] Saving training results to output/results.json
+2023-04-13 14:17:22 INFO     [Blink-hybrid: graphsage on twitch with eps=8] Start grid search for hyperparameter tuning.
+2023-04-13 14:18:01 INFO     [Blink-hybrid: graphsage on twitch with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.589244282245636.
+2023-04-13 14:18:01 INFO     [Blink-hybrid: graphsage on twitch with eps=8] Saving best hp to output/best_hp.json
+2023-04-13 14:18:01 INFO     [Blink-hybrid: graphsage on twitch with eps=8] Test accuracy is 0.6794979079497907 (0.005675589944037873).
+2023-04-13 14:18:01 INFO     [Blink-hybrid: graphsage on twitch with eps=8] Saving training results to output/results.json
+2023-04-13 14:18:01 INFO     Done!

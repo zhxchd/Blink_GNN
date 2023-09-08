@@ -1,0 +1,23 @@
+2023-07-23 13:52:55 INFO     Start experiments with Namespace(dataset='lastfm', model='gat', method=['symrr'], grid_search=True, use_dense_model=False, eps=[3, 4])
+2023-07-23 13:53:09 INFO     Using device: cuda
+2023-07-23 13:53:09 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 13:53:09 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 13:53:09 INFO     [symrr: gat on lastfm] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 13:53:09 INFO     [symrr: gat on lastfm with eps=3] Start grid search for hyperparameter tuning.
+2023-07-23 14:11:10 INFO     [symrr: gat on lastfm with eps=3] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0} with validation loss 2.3592717170715334
+2023-07-23 14:11:10 INFO     [symrr: gat on lastfm with eps=3] Saving best hp to output/bl_best_hp.json
+2023-07-23 14:11:10 INFO     [symrr: gat on lastfm with eps=4] Start grid search for hyperparameter tuning.
+2023-07-23 14:22:14 INFO     [symrr: gat on lastfm with eps=4] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0} with validation loss 2.3224422931671143
+2023-07-23 14:22:14 INFO     [symrr: gat on lastfm with eps=4] Saving best hp to output/bl_best_hp.json
+2023-07-23 14:22:14 INFO     [symrr: gat on lastfm] Grid search done.
+2023-07-23 14:22:14 INFO     Grid search done!
+2023-07-23 14:22:14 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 14:22:14 INFO     [symrr: gat on lastfm] Start running experiments on various epsilons.
+2023-07-23 14:22:14 INFO     [symrr: gat on lastfm with eps=3] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0}.
+2023-07-23 14:25:40 INFO     [symrr: gat on lastfm with eps=3] Test accuracy is 0.21364113326337883 (0.0005650750059952247).
+2023-07-23 14:25:40 INFO     [symrr: gat on lastfm with eps=3] Saving training results to output/bl_results.json
+2023-07-23 14:25:40 INFO     [symrr: gat on lastfm with eps=4] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0}.
+2023-07-23 14:27:46 INFO     [symrr: gat on lastfm with eps=4] Test accuracy is 0.22626792584819871 (0.024389188002973666).
+2023-07-23 14:27:46 INFO     [symrr: gat on lastfm with eps=4] Saving training results to output/bl_results.json
+2023-07-23 14:27:46 INFO     [symrr: gat on lastfm] Experiments done.
+2023-07-23 14:27:46 INFO     All baseline experiments done!

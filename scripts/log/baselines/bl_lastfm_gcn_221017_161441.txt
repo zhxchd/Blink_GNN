@@ -1,0 +1,57 @@
+2022-10-17 16:14:41 INFO     Start experiments with Namespace(dataset='lastfm', model='gcn', grid_search=True)
+2022-10-17 16:14:57 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-17 16:14:57 INFO     [ldpgcn: gcn on lastfm] Grid search for hyperparameter tuning on various epsilons.
+2022-10-17 16:14:57 INFO     [ldpgcn: gcn on lastfm with eps=1] Start grid search for hyperparameter tuning.
+2022-10-17 16:18:39 INFO     [ldpgcn: gcn on lastfm with eps=1] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 2.0843538840611777
+2022-10-17 16:18:39 INFO     [ldpgcn: gcn on lastfm with eps=1] Saving best hp to output/bl_best_hp.json
+2022-10-17 16:18:39 INFO     [ldpgcn: gcn on lastfm with eps=2] Start grid search for hyperparameter tuning.
+2022-10-17 16:22:19 INFO     [ldpgcn: gcn on lastfm with eps=2] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 2.0853891372680664
+2022-10-17 16:22:19 INFO     [ldpgcn: gcn on lastfm with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-17 16:22:19 INFO     [ldpgcn: gcn on lastfm with eps=3] Start grid search for hyperparameter tuning.
+2022-10-17 16:25:58 INFO     [ldpgcn: gcn on lastfm with eps=3] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.9203343788782756
+2022-10-17 16:25:58 INFO     [ldpgcn: gcn on lastfm with eps=3] Saving best hp to output/bl_best_hp.json
+2022-10-17 16:25:58 INFO     [ldpgcn: gcn on lastfm with eps=4] Start grid search for hyperparameter tuning.
+2022-10-17 16:29:38 INFO     [ldpgcn: gcn on lastfm with eps=4] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.4693146149317424
+2022-10-17 16:29:38 INFO     [ldpgcn: gcn on lastfm with eps=4] Saving best hp to output/bl_best_hp.json
+2022-10-17 16:29:38 INFO     [ldpgcn: gcn on lastfm with eps=5] Start grid search for hyperparameter tuning.
+2022-10-17 16:33:18 INFO     [ldpgcn: gcn on lastfm with eps=5] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.0860587358474731
+2022-10-17 16:33:18 INFO     [ldpgcn: gcn on lastfm with eps=5] Saving best hp to output/bl_best_hp.json
+2022-10-17 16:33:18 INFO     [ldpgcn: gcn on lastfm with eps=6] Start grid search for hyperparameter tuning.
+2022-10-17 16:36:58 INFO     [ldpgcn: gcn on lastfm with eps=6] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.9252703587214152
+2022-10-17 16:36:58 INFO     [ldpgcn: gcn on lastfm with eps=6] Saving best hp to output/bl_best_hp.json
+2022-10-17 16:36:58 INFO     [ldpgcn: gcn on lastfm with eps=7] Start grid search for hyperparameter tuning.
+2022-10-17 16:40:37 INFO     [ldpgcn: gcn on lastfm with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.8006326158841451
+2022-10-17 16:40:37 INFO     [ldpgcn: gcn on lastfm with eps=7] Saving best hp to output/bl_best_hp.json
+2022-10-17 16:40:37 INFO     [ldpgcn: gcn on lastfm with eps=8] Start grid search for hyperparameter tuning.
+2022-10-17 16:44:18 INFO     [ldpgcn: gcn on lastfm with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.7532398502031962
+2022-10-17 16:44:18 INFO     [ldpgcn: gcn on lastfm with eps=8] Saving best hp to output/bl_best_hp.json
+2022-10-17 16:44:18 INFO     [ldpgcn: gcn on lastfm] Grid search done.
+2022-10-17 16:44:18 INFO     Grid search done!
+2022-10-17 16:44:18 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2022-10-17 16:44:18 INFO     [ldpgcn: gcn on lastfm] Start running experiments on various epsilons.
+2022-10-17 16:44:18 INFO     [ldpgcn: gcn on lastfm with eps=1] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 16:45:39 INFO     [ldpgcn: gcn on lastfm with eps=1] Test accuracy is 0.37743966421825814 (0.026697736308418606).
+2022-10-17 16:45:39 INFO     [ldpgcn: gcn on lastfm with eps=1] Saving training results to output/bl_results.json
+2022-10-17 16:45:39 INFO     [ldpgcn: gcn on lastfm with eps=2] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 16:47:01 INFO     [ldpgcn: gcn on lastfm with eps=2] Test accuracy is 0.37462399440363764 (0.02523258159850071).
+2022-10-17 16:47:01 INFO     [ldpgcn: gcn on lastfm with eps=2] Saving training results to output/bl_results.json
+2022-10-17 16:47:01 INFO     [ldpgcn: gcn on lastfm with eps=3] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 16:48:22 INFO     [ldpgcn: gcn on lastfm with eps=3] Test accuracy is 0.41899265477439673 (0.0168319887327952).
+2022-10-17 16:48:22 INFO     [ldpgcn: gcn on lastfm with eps=3] Saving training results to output/bl_results.json
+2022-10-17 16:48:22 INFO     [ldpgcn: gcn on lastfm with eps=4] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 16:49:44 INFO     [ldpgcn: gcn on lastfm with eps=4] Test accuracy is 0.5696747114375655 (0.02489280600633422).
+2022-10-17 16:49:44 INFO     [ldpgcn: gcn on lastfm with eps=4] Saving training results to output/bl_results.json
+2022-10-17 16:49:44 INFO     [ldpgcn: gcn on lastfm with eps=5] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 16:51:06 INFO     [ldpgcn: gcn on lastfm with eps=5] Test accuracy is 0.6955753760055964 (0.03476703610771054).
+2022-10-17 16:51:06 INFO     [ldpgcn: gcn on lastfm with eps=5] Saving training results to output/bl_results.json
+2022-10-17 16:51:06 INFO     [ldpgcn: gcn on lastfm with eps=6] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 16:52:27 INFO     [ldpgcn: gcn on lastfm with eps=6] Test accuracy is 0.7721406086044075 (0.011973379861456414).
+2022-10-17 16:52:27 INFO     [ldpgcn: gcn on lastfm with eps=6] Saving training results to output/bl_results.json
+2022-10-17 16:52:27 INFO     [ldpgcn: gcn on lastfm with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 16:53:49 INFO     [ldpgcn: gcn on lastfm with eps=7] Test accuracy is 0.8009268975166144 (0.014880770952653399).
+2022-10-17 16:53:49 INFO     [ldpgcn: gcn on lastfm with eps=7] Saving training results to output/bl_results.json
+2022-10-17 16:53:49 INFO     [ldpgcn: gcn on lastfm with eps=8] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 16:55:10 INFO     [ldpgcn: gcn on lastfm with eps=8] Test accuracy is 0.8160720531654424 (0.01158588567894614).
+2022-10-17 16:55:10 INFO     [ldpgcn: gcn on lastfm with eps=8] Saving training results to output/bl_results.json
+2022-10-17 16:55:10 INFO     [ldpgcn: gcn on lastfm] Experiments done.
+2022-10-17 16:55:10 INFO     All baseline experiments done!

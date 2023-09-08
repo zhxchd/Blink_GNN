@@ -1,0 +1,23 @@
+2023-07-23 08:20:32 INFO     Start experiments with Namespace(dataset='lastfm', model='gat', method=['ldpgen'], grid_search=True, use_dense_model=False, eps=[5, 6])
+2023-07-23 08:20:37 INFO     Using device: cuda
+2023-07-23 08:20:37 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 08:20:37 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 08:20:37 INFO     [ldpgen: gat on lastfm] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 08:20:37 INFO     [ldpgen: gat on lastfm with eps=5] Start grid search for hyperparameter tuning.
+2023-07-23 08:30:15 INFO     [ldpgen: gat on lastfm with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05} with validation loss 2.2676509380340577
+2023-07-23 08:30:15 INFO     [ldpgen: gat on lastfm with eps=5] Saving best hp to output/bl_best_hp.json
+2023-07-23 08:30:15 INFO     [ldpgen: gat on lastfm with eps=6] Start grid search for hyperparameter tuning.
+2023-07-23 08:39:49 INFO     [ldpgen: gat on lastfm with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05} with validation loss 2.2483037948608398
+2023-07-23 08:39:49 INFO     [ldpgen: gat on lastfm with eps=6] Saving best hp to output/bl_best_hp.json
+2023-07-23 08:39:49 INFO     [ldpgen: gat on lastfm] Grid search done.
+2023-07-23 08:39:49 INFO     Grid search done!
+2023-07-23 08:39:49 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 08:39:49 INFO     [ldpgen: gat on lastfm] Start running experiments on various epsilons.
+2023-07-23 08:39:49 INFO     [ldpgen: gat on lastfm with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05}.
+2023-07-23 08:41:37 INFO     [ldpgen: gat on lastfm with eps=5] Test accuracy is 0.25949632738719836 (0.03061707655796329).
+2023-07-23 08:41:37 INFO     [ldpgen: gat on lastfm with eps=5] Saving training results to output/bl_results.json
+2023-07-23 08:41:37 INFO     [ldpgen: gat on lastfm with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05}.
+2023-07-23 08:43:25 INFO     [ldpgen: gat on lastfm with eps=6] Test accuracy is 0.2655998600909409 (0.03254089390523288).
+2023-07-23 08:43:25 INFO     [ldpgen: gat on lastfm with eps=6] Saving training results to output/bl_results.json
+2023-07-23 08:43:25 INFO     [ldpgen: gat on lastfm] Experiments done.
+2023-07-23 08:43:25 INFO     All baseline experiments done!

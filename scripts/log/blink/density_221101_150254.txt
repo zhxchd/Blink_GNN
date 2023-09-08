@@ -1,0 +1,52 @@
+2022-11-01 15:02:54 INFO     Experiments on the density difference between actual graph and estimated graph.
+2022-11-01 15:03:00 INFO     Density of actual graph cora is 10556
+2022-11-01 15:03:07 INFO     Density on cora with eps=1: 127.2 (26.556104131944256)
+2022-11-01 15:03:07 INFO     Density on cora with eps=1: Saving result to output/density.json
+2022-11-01 15:03:11 INFO     Density on cora with eps=2: 1145.0 (64.08692014236082)
+2022-11-01 15:03:11 INFO     Density on cora with eps=2: Saving result to output/density.json
+2022-11-01 15:03:15 INFO     Density on cora with eps=3: 5880.266666666666 (144.4195123781948)
+2022-11-01 15:03:15 INFO     Density on cora with eps=3: Saving result to output/density.json
+2022-11-01 15:03:18 INFO     Density on cora with eps=4: 10289.866666666667 (136.69033941317463)
+2022-11-01 15:03:18 INFO     Density on cora with eps=4: Saving result to output/density.json
+2022-11-01 15:03:22 INFO     Density on cora with eps=5: 10914.0 (49.68702043793731)
+2022-11-01 15:03:22 INFO     Density on cora with eps=5: Saving result to output/density.json
+2022-11-01 15:03:26 INFO     Density on cora with eps=6: 10607.666666666666 (20.98941532190822)
+2022-11-01 15:03:26 INFO     Density on cora with eps=6: Saving result to output/density.json
+2022-11-01 15:03:29 INFO     Density on cora with eps=7: 10540.4 (11.271202242884298)
+2022-11-01 15:03:29 INFO     Density on cora with eps=7: Saving result to output/density.json
+2022-11-01 15:03:33 INFO     Density on cora with eps=8: 10545.8 (5.688585061331157)
+2022-11-01 15:03:33 INFO     Density on cora with eps=8: Saving result to output/density.json
+2022-11-01 15:03:38 INFO     Density of actual graph citeseer is 9104
+2022-11-01 15:03:46 INFO     Density on citeseer with eps=1: 31.333333333333332 (20.234184496100216)
+2022-11-01 15:03:46 INFO     Density on citeseer with eps=1: Saving result to output/density.json
+2022-11-01 15:03:52 INFO     Density on citeseer with eps=2: 740.5333333333333 (67.86836933031142)
+2022-11-01 15:03:52 INFO     Density on citeseer with eps=2: Saving result to output/density.json
+2022-11-01 15:03:58 INFO     Density on citeseer with eps=3: 5396.866666666667 (152.07601900219362)
+2022-11-01 15:03:58 INFO     Density on citeseer with eps=3: Saving result to output/density.json
+2022-11-01 15:04:04 INFO     Density on citeseer with eps=4: 9285.066666666668 (132.88163488190867)
+2022-11-01 15:04:04 INFO     Density on citeseer with eps=4: Saving result to output/density.json
+2022-11-01 15:04:10 INFO     Density on citeseer with eps=5: 9755.6 (99.07895841196557)
+2022-11-01 15:04:10 INFO     Density on citeseer with eps=5: Saving result to output/density.json
+2022-11-01 15:04:16 INFO     Density on citeseer with eps=6: 9239.466666666667 (26.682995000978103)
+2022-11-01 15:04:16 INFO     Density on citeseer with eps=6: Saving result to output/density.json
+2022-11-01 15:04:21 INFO     Density on citeseer with eps=7: 9101.866666666667 (12.82636174273732)
+2022-11-01 15:04:21 INFO     Density on citeseer with eps=7: Saving result to output/density.json
+2022-11-01 15:04:27 INFO     Density on citeseer with eps=8: 9096.6 (5.270041113059114)
+2022-11-01 15:04:27 INFO     Density on citeseer with eps=8: Saving result to output/density.json
+2022-11-01 15:04:31 INFO     Density of actual graph lastfm is 55612
+2022-11-01 15:05:03 INFO     Density on lastfm with eps=1: 115.8 (19.331149301925468)
+2022-11-01 15:05:03 INFO     Density on lastfm with eps=1: Saving result to output/density.json
+2022-11-01 15:05:30 INFO     Density on lastfm with eps=2: 7195.066666666667 (111.52845177601793)
+2022-11-01 15:05:30 INFO     Density on lastfm with eps=2: Saving result to output/density.json
+2022-11-01 15:05:55 INFO     Density on lastfm with eps=3: 33474.26666666667 (261.4807747341199)
+2022-11-01 15:05:55 INFO     Density on lastfm with eps=3: Saving result to output/density.json
+2022-11-01 15:06:19 INFO     Density on lastfm with eps=4: 53417.73333333333 (255.4852811589914)
+2022-11-01 15:06:19 INFO     Density on lastfm with eps=4: Saving result to output/density.json
+2022-11-01 15:06:43 INFO     Density on lastfm with eps=5: 57064.13333333333 (164.46919333284137)
+2022-11-01 15:06:43 INFO     Density on lastfm with eps=5: Saving result to output/density.json
+2022-11-01 15:07:06 INFO     Density on lastfm with eps=6: 56081.86666666667 (66.07457066745789)
+2022-11-01 15:07:06 INFO     Density on lastfm with eps=6: Saving result to output/density.json
+2022-11-01 15:07:30 INFO     Density on lastfm with eps=7: 55600.933333333334 (31.12869344440199)
+2022-11-01 15:07:30 INFO     Density on lastfm with eps=7: Saving result to output/density.json
+2022-11-01 15:07:53 INFO     Density on lastfm with eps=8: 55562.2 (17.430624391187674)
+2022-11-01 15:07:53 INFO     Density on lastfm with eps=8: Saving result to output/density.json

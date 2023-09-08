@@ -1,0 +1,54 @@
+2023-01-29 01:15:43 INFO     Start experiments with Namespace(variant='hybrid', dataset='lastfm', model='gat', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-01-29 01:16:01 INFO     Using device: cuda
+2023-01-29 01:16:01 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-29 01:16:01 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-31 19:29:43 INFO     [Blink-hybrid: gat on lastfm with eps=1] Start grid search for hyperparameter tuning.
+2023-02-01 00:20:08 INFO     [Blink-hybrid: gat on lastfm with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.9} with validation loss 1.058463168144226
+2023-02-01 00:20:08 INFO     [Blink-hybrid: gat on lastfm with eps=1] Saving best hp to output/best_hp.json
+2023-01-29 03:40:32 INFO     [Blink-hybrid: gat on lastfm with eps=2] Start grid search for hyperparameter tuning.
+2023-01-29 06:03:34 INFO     [Blink-hybrid: gat on lastfm with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.9} with validation loss 1.0643356322073563
+2023-01-29 06:03:34 INFO     [Blink-hybrid: gat on lastfm with eps=2] Saving best hp to output/best_hp.json
+2023-01-29 06:03:34 INFO     [Blink-hybrid: gat on lastfm with eps=3] Start grid search for hyperparameter tuning.
+2023-01-29 08:26:04 INFO     [Blink-hybrid: gat on lastfm with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.9} with validation loss 1.0682118196834403
+2023-01-29 08:26:04 INFO     [Blink-hybrid: gat on lastfm with eps=3] Saving best hp to output/best_hp.json
+2023-01-29 08:26:04 INFO     [Blink-hybrid: gat on lastfm with eps=4] Start grid search for hyperparameter tuning.
+2023-01-29 10:48:39 INFO     [Blink-hybrid: gat on lastfm with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 1.0475354442850282
+2023-01-29 10:48:39 INFO     [Blink-hybrid: gat on lastfm with eps=4] Saving best hp to output/best_hp.json
+2023-01-29 10:48:39 INFO     [Blink-hybrid: gat on lastfm with eps=5] Start grid search for hyperparameter tuning.
+2023-01-29 13:10:01 INFO     [Blink-hybrid: gat on lastfm with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.8359264878764098
+2023-01-29 13:10:01 INFO     [Blink-hybrid: gat on lastfm with eps=5] Saving best hp to output/best_hp.json
+2023-01-29 13:10:01 INFO     [Blink-hybrid: gat on lastfm with eps=6] Start grid search for hyperparameter tuning.
+2023-01-29 15:30:54 INFO     [Blink-hybrid: gat on lastfm with eps=6] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7664168821046677
+2023-01-29 15:30:54 INFO     [Blink-hybrid: gat on lastfm with eps=6] Saving best hp to output/best_hp.json
+2023-01-29 15:30:54 INFO     [Blink-hybrid: gat on lastfm with eps=7] Start grid search for hyperparameter tuning.
+2023-01-29 17:51:53 INFO     [Blink-hybrid: gat on lastfm with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7161471569493936
+2023-01-29 17:51:53 INFO     [Blink-hybrid: gat on lastfm with eps=7] Saving best hp to output/best_hp.json
+2023-01-30 01:14:08 INFO     [Blink-hybrid: gat on lastfm with eps=8] Start grid search for hyperparameter tuning.
+2023-01-30 03:34:47 INFO     [Blink-hybrid: gat on lastfm with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7069584322164181
+2023-01-30 03:34:47 INFO     [Blink-hybrid: gat on lastfm with eps=8] Saving best hp to output/best_hp.json
+2023-01-29 20:12:59 INFO     Grid search done!
+2023-01-29 20:12:59 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-02-01 00:20:08 INFO     [Blink-hybrid: gat on lastfm with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.9}.
+2023-02-01 00:25:40 INFO     [Blink-hybrid: gat on lastfm with eps=1] Test accuracy is 0.7015739769150052 (0.0033550837070639907).
+2023-02-01 00:25:40 INFO     [Blink-hybrid: gat on lastfm with eps=1] Saving training results to output/results.json
+2023-01-29 20:18:35 INFO     [Blink-hybrid: gat on lastfm with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.9}.
+2023-01-29 20:24:09 INFO     [Blink-hybrid: gat on lastfm with eps=2] Test accuracy is 0.699352920601609 (0.003994497052180327).
+2023-01-29 20:24:09 INFO     [Blink-hybrid: gat on lastfm with eps=2] Saving training results to output/results.json
+2023-01-29 20:24:09 INFO     [Blink-hybrid: gat on lastfm with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.9}.
+2023-01-29 20:29:43 INFO     [Blink-hybrid: gat on lastfm with eps=3] Test accuracy is 0.695645330535152 (0.003841970335220618).
+2023-01-29 20:29:43 INFO     [Blink-hybrid: gat on lastfm with eps=3] Saving training results to output/results.json
+2023-01-29 20:29:43 INFO     [Blink-hybrid: gat on lastfm with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-29 20:35:02 INFO     [Blink-hybrid: gat on lastfm with eps=4] Test accuracy is 0.7403112976565233 (0.00714960018710649).
+2023-01-29 20:35:02 INFO     [Blink-hybrid: gat on lastfm with eps=4] Saving training results to output/results.json
+2023-01-29 20:35:02 INFO     [Blink-hybrid: gat on lastfm with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-29 20:40:20 INFO     [Blink-hybrid: gat on lastfm with eps=5] Test accuracy is 0.7942462399440362 (0.006646255566862491).
+2023-01-29 20:40:20 INFO     [Blink-hybrid: gat on lastfm with eps=5] Saving training results to output/results.json
+2023-01-29 20:40:20 INFO     [Blink-hybrid: gat on lastfm with eps=6] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-29 20:45:38 INFO     [Blink-hybrid: gat on lastfm with eps=6] Test accuracy is 0.8240118922700242 (0.008753772431536437).
+2023-01-29 20:45:38 INFO     [Blink-hybrid: gat on lastfm with eps=6] Saving training results to output/results.json
+2023-01-29 20:45:38 INFO     [Blink-hybrid: gat on lastfm with eps=7] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-29 20:50:56 INFO     [Blink-hybrid: gat on lastfm with eps=7] Test accuracy is 0.8374781392095139 (0.008011645382252621).
+2023-01-29 20:50:56 INFO     [Blink-hybrid: gat on lastfm with eps=7] Saving training results to output/results.json
+2023-01-30 03:40:19 INFO     [Blink-hybrid: gat on lastfm with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-30 03:45:37 INFO     [Blink-hybrid: gat on lastfm with eps=8] Test accuracy is 0.8424274221755859 (0.007772905248397831).
+2023-01-30 03:45:37 INFO     [Blink-hybrid: gat on lastfm with eps=8] Saving training results to output/results.json

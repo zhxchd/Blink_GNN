@@ -1,0 +1,10 @@
+2022-10-20 17:19:52 INFO     Start experiments with Namespace(dataset='citeseer', model='graphsage', grid_search=True, eps=[6.0])
+2022-10-20 17:19:59 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-20 17:19:59 INFO     [graphsage on citeseer with eps=6.0] Start grid search for hyperparameter tuning.
+2022-10-20 17:30:12 INFO     [graphsage on citeseer with eps=6.0] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1} with validation loss 0.7191002170244852
+2022-10-20 17:30:12 INFO     [graphsage on citeseer with eps=6.0] Saving best hp to output/best_hp.json
+2022-10-20 17:30:12 INFO     Grid search done!
+2022-10-20 17:30:12 INFO     Run experiments using found hyperparameters in best_hp.json.
+2022-10-20 17:30:12 INFO     [graphsage on citeseer with eps=6.0] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1}.
+2022-10-20 17:31:02 INFO     [graphsage on citeseer with eps=6.0] Test accuracy is 0.7906250000000001 (0.005027047160691699).
+2022-10-20 17:31:02 INFO     [graphsage on citeseer with eps=6.0] Saving training results to output/results.json

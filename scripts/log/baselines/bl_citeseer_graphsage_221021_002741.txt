@@ -1,0 +1,15 @@
+2022-10-21 00:27:41 INFO     Start experiments with Namespace(dataset='citeseer', model='graphsage', method=['ldpgcn'], grid_search=True, eps=[2])
+2022-10-21 00:27:46 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-21 00:27:46 INFO     [ldpgcn: graphsage on citeseer] Grid search for hyperparameter tuning on various epsilons.
+2022-10-21 00:27:46 INFO     [ldpgcn: graphsage on citeseer with eps=2] Start grid search for hyperparameter tuning.
+2022-10-21 00:31:31 INFO     [ldpgcn: graphsage on citeseer with eps=2] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.8919453144073486
+2022-10-21 00:31:31 INFO     [ldpgcn: graphsage on citeseer with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-21 00:31:31 INFO     [ldpgcn: graphsage on citeseer] Grid search done.
+2022-10-21 00:31:31 INFO     Grid search done!
+2022-10-21 00:31:31 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2022-10-21 00:31:31 INFO     [ldpgcn: graphsage on citeseer] Start running experiments on various epsilons.
+2022-10-21 00:31:31 INFO     [ldpgcn: graphsage on citeseer with eps=2] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-21 00:32:18 INFO     [ldpgcn: graphsage on citeseer with eps=2] Test accuracy is 0.7146634615384616 (0.011298929318636108).
+2022-10-21 00:32:18 INFO     [ldpgcn: graphsage on citeseer with eps=2] Saving training results to output/bl_results.json
+2022-10-21 00:32:18 INFO     [ldpgcn: graphsage on citeseer] Experiments done.
+2022-10-21 00:32:18 INFO     All baseline experiments done!

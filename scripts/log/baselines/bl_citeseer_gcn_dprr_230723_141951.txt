@@ -1,0 +1,23 @@
+2023-07-23 14:19:51 INFO     Start experiments with Namespace(dataset='citeseer', model='gcn', method=['dprr'], grid_search=True, use_dense_model=False, eps=[5, 6])
+2023-07-23 14:19:57 INFO     Using device: cuda
+2023-07-23 14:19:57 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 14:19:57 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 14:19:57 INFO     [dprr: gcn on citeseer] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 14:19:57 INFO     [dprr: gcn on citeseer with eps=5] Start grid search for hyperparameter tuning.
+2023-07-23 14:25:40 INFO     [dprr: gcn on citeseer with eps=5] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.6395071029663086
+2023-07-23 14:25:40 INFO     [dprr: gcn on citeseer with eps=5] Saving best hp to output/bl_best_hp.json
+2023-07-23 14:25:40 INFO     [dprr: gcn on citeseer with eps=6] Start grid search for hyperparameter tuning.
+2023-07-23 14:31:20 INFO     [dprr: gcn on citeseer with eps=6] Best hparam is: {'do': 0, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.5484670639038085
+2023-07-23 14:31:20 INFO     [dprr: gcn on citeseer with eps=6] Saving best hp to output/bl_best_hp.json
+2023-07-23 14:31:20 INFO     [dprr: gcn on citeseer] Grid search done.
+2023-07-23 14:31:20 INFO     Grid search done!
+2023-07-23 14:31:20 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 14:31:20 INFO     [dprr: gcn on citeseer] Start running experiments on various epsilons.
+2023-07-23 14:31:20 INFO     [dprr: gcn on citeseer with eps=5] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001}.
+2023-07-23 14:32:25 INFO     [dprr: gcn on citeseer with eps=5] Test accuracy is 0.32415865384615383 (0.018697921388169485).
+2023-07-23 14:32:25 INFO     [dprr: gcn on citeseer with eps=5] Saving training results to output/bl_results.json
+2023-07-23 14:32:25 INFO     [dprr: gcn on citeseer with eps=6] Run with best hp found: {'do': 0, 'lr': 0.01, 'wd': 0.0001}.
+2023-07-23 14:33:29 INFO     [dprr: gcn on citeseer with eps=6] Test accuracy is 0.39827724358974353 (0.01655714174673077).
+2023-07-23 14:33:29 INFO     [dprr: gcn on citeseer with eps=6] Saving training results to output/bl_results.json
+2023-07-23 14:33:29 INFO     [dprr: gcn on citeseer] Experiments done.
+2023-07-23 14:33:29 INFO     All baseline experiments done!

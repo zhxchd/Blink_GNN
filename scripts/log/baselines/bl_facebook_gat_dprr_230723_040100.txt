@@ -1,0 +1,23 @@
+2023-07-23 04:01:00 INFO     Start experiments with Namespace(dataset='facebook', model='gat', method=['dprr'], grid_search=True, use_dense_model=False, eps=[5, 6])
+2023-07-23 04:01:08 INFO     Using device: cuda
+2023-07-23 04:01:08 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 04:01:08 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 04:01:08 INFO     [dprr: gat on facebook] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 04:01:08 INFO     [dprr: gat on facebook with eps=5] Start grid search for hyperparameter tuning.
+2023-07-23 04:20:10 INFO     [dprr: gat on facebook with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05} with validation loss 1.1507517337799071
+2023-07-23 04:20:10 INFO     [dprr: gat on facebook with eps=5] Saving best hp to output/bl_best_hp.json
+2023-07-23 04:20:10 INFO     [dprr: gat on facebook with eps=6] Start grid search for hyperparameter tuning.
+2023-07-23 04:39:04 INFO     [dprr: gat on facebook with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05} with validation loss 1.0123135209083558
+2023-07-23 04:39:04 INFO     [dprr: gat on facebook with eps=6] Saving best hp to output/bl_best_hp.json
+2023-07-23 04:39:04 INFO     [dprr: gat on facebook] Grid search done.
+2023-07-23 04:39:04 INFO     Grid search done!
+2023-07-23 04:39:04 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 04:39:04 INFO     [dprr: gat on facebook] Start running experiments on various epsilons.
+2023-07-23 04:39:04 INFO     [dprr: gat on facebook with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05}.
+2023-07-23 04:42:38 INFO     [dprr: gat on facebook with eps=5] Test accuracy is 0.5138720778450219 (0.015438941311646706).
+2023-07-23 04:42:38 INFO     [dprr: gat on facebook with eps=5] Saving training results to output/bl_results.json
+2023-07-23 04:42:38 INFO     [dprr: gat on facebook with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05}.
+2023-07-23 04:46:11 INFO     [dprr: gat on facebook with eps=6] Test accuracy is 0.579808947430877 (0.021051804711883452).
+2023-07-23 04:46:11 INFO     [dprr: gat on facebook with eps=6] Saving training results to output/bl_results.json
+2023-07-23 04:46:11 INFO     [dprr: gat on facebook] Experiments done.
+2023-07-23 04:46:11 INFO     All baseline experiments done!

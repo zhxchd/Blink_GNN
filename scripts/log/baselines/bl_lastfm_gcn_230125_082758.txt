@@ -1,0 +1,59 @@
+2023-01-25 08:27:58 INFO     Start experiments with Namespace(dataset='lastfm', model='gcn', method=['solitude'], grid_search=True, eps=[1, 2, 3, 4, 5, 6, 7, 8])
+2023-01-25 08:28:13 INFO     Using device: cuda
+2023-01-25 08:28:13 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-25 08:28:13 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-25 08:28:13 INFO     [solitude: gcn on lastfm] Grid search for hyperparameter tuning on various epsilons.
+2023-01-25 08:28:13 INFO     [solitude: gcn on lastfm with eps=1] Start grid search for hyperparameter tuning.
+2023-01-25 10:27:32 INFO     [solitude: gcn on lastfm with eps=1] Best hparam is: {'do': 0.01, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 1e-05, 'lam2': 0.01} with validation loss 2.3590586185455322
+2023-01-25 10:27:32 INFO     [solitude: gcn on lastfm with eps=1] Saving best hp to output/bl_best_hp.json
+2023-01-25 10:27:32 INFO     [solitude: gcn on lastfm with eps=2] Start grid search for hyperparameter tuning.
+2023-01-25 12:22:30 INFO     [solitude: gcn on lastfm with eps=2] Best hparam is: {'do': 0.01, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 0.001, 'lam2': 0.0001} with validation loss 2.358092784881592
+2023-01-25 12:22:30 INFO     [solitude: gcn on lastfm with eps=2] Saving best hp to output/bl_best_hp.json
+2023-01-25 12:22:30 INFO     [solitude: gcn on lastfm with eps=3] Start grid search for hyperparameter tuning.
+2023-01-25 14:15:20 INFO     [solitude: gcn on lastfm with eps=3] Best hparam is: {'do': 0.01, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.0001} with validation loss 2.3536391258239746
+2023-01-25 14:15:20 INFO     [solitude: gcn on lastfm with eps=3] Saving best hp to output/bl_best_hp.json
+2023-01-25 14:15:20 INFO     [solitude: gcn on lastfm with eps=4] Start grid search for hyperparameter tuning.
+2023-01-25 16:07:15 INFO     [solitude: gcn on lastfm with eps=4] Best hparam is: {'do': 0.001, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01} with validation loss 2.3533101081848145
+2023-01-25 16:07:15 INFO     [solitude: gcn on lastfm with eps=4] Saving best hp to output/bl_best_hp.json
+2023-01-25 16:07:15 INFO     [solitude: gcn on lastfm with eps=5] Start grid search for hyperparameter tuning.
+2023-01-25 17:58:37 INFO     [solitude: gcn on lastfm with eps=5] Best hparam is: {'do': 0.001, 'lr_theta': 0.1, 'lr_adj': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.001} with validation loss 2.321110963821411
+2023-01-25 17:58:37 INFO     [solitude: gcn on lastfm with eps=5] Saving best hp to output/bl_best_hp.json
+2023-01-25 17:58:37 INFO     [solitude: gcn on lastfm with eps=6] Start grid search for hyperparameter tuning.
+2023-01-25 19:50:09 INFO     [solitude: gcn on lastfm with eps=6] Best hparam is: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.0001} with validation loss 2.205564260482788
+2023-01-25 19:50:09 INFO     [solitude: gcn on lastfm with eps=6] Saving best hp to output/bl_best_hp.json
+2023-01-25 19:50:09 INFO     [solitude: gcn on lastfm with eps=7] Start grid search for hyperparameter tuning.
+2023-01-25 21:41:34 INFO     [solitude: gcn on lastfm with eps=7] Best hparam is: {'do': 0.001, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.01} with validation loss 1.761642336845398
+2023-01-25 21:41:34 INFO     [solitude: gcn on lastfm with eps=7] Saving best hp to output/bl_best_hp.json
+2023-01-25 21:41:34 INFO     [solitude: gcn on lastfm with eps=8] Start grid search for hyperparameter tuning.
+2023-01-25 23:32:56 INFO     [solitude: gcn on lastfm with eps=8] Best hparam is: {'do': 0.001, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.001} with validation loss 1.1865547895431519
+2023-01-25 23:32:56 INFO     [solitude: gcn on lastfm with eps=8] Saving best hp to output/bl_best_hp.json
+2023-01-25 23:32:56 INFO     [solitude: gcn on lastfm] Grid search done.
+2023-01-25 23:32:56 INFO     Grid search done!
+2023-01-25 23:32:56 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-01-25 23:32:56 INFO     [solitude: gcn on lastfm] Start running experiments on various epsilons.
+2023-01-25 23:32:56 INFO     [solitude: gcn on lastfm with eps=1] Run with best hp found: {'do': 0.01, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 1e-05, 'lam2': 0.01}.
+2023-01-25 23:35:45 INFO     [solitude: gcn on lastfm with eps=1] Test accuracy is 0.21353620146904514 (2.7755575615628914e-17).
+2023-01-25 23:35:45 INFO     [solitude: gcn on lastfm with eps=1] Saving training results to output/bl_results.json
+2023-01-25 23:35:45 INFO     [solitude: gcn on lastfm with eps=2] Run with best hp found: {'do': 0.01, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 0.001, 'lam2': 0.0001}.
+2023-01-25 23:38:28 INFO     [solitude: gcn on lastfm with eps=2] Test accuracy is 0.21353620146904514 (2.7755575615628914e-17).
+2023-01-25 23:38:28 INFO     [solitude: gcn on lastfm with eps=2] Saving training results to output/bl_results.json
+2023-01-25 23:38:28 INFO     [solitude: gcn on lastfm with eps=3] Run with best hp found: {'do': 0.01, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.0001}.
+2023-01-25 23:41:08 INFO     [solitude: gcn on lastfm with eps=3] Test accuracy is 0.2135187128366562 (9.417916766587243e-05).
+2023-01-25 23:41:08 INFO     [solitude: gcn on lastfm with eps=3] Saving training results to output/bl_results.json
+2023-01-25 23:41:08 INFO     [solitude: gcn on lastfm with eps=4] Run with best hp found: {'do': 0.001, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01}.
+2023-01-25 23:43:48 INFO     [solitude: gcn on lastfm with eps=4] Test accuracy is 0.2136236446309899 (0.00047089583832935725).
+2023-01-25 23:43:48 INFO     [solitude: gcn on lastfm with eps=4] Saving training results to output/bl_results.json
+2023-01-25 23:43:48 INFO     [solitude: gcn on lastfm with eps=5] Run with best hp found: {'do': 0.001, 'lr_theta': 0.1, 'lr_adj': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.001}.
+2023-01-25 23:46:27 INFO     [solitude: gcn on lastfm with eps=5] Test accuracy is 0.21379853095487936 (0.0009262373331140549).
+2023-01-25 23:46:27 INFO     [solitude: gcn on lastfm with eps=5] Saving training results to output/bl_results.json
+2023-01-25 23:46:27 INFO     [solitude: gcn on lastfm with eps=6] Run with best hp found: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.0001}.
+2023-01-25 23:49:07 INFO     [solitude: gcn on lastfm with eps=6] Test accuracy is 0.27277019937040925 (0.042626370111783884).
+2023-01-25 23:49:07 INFO     [solitude: gcn on lastfm with eps=6] Saving training results to output/bl_results.json
+2023-01-25 23:49:07 INFO     [solitude: gcn on lastfm with eps=7] Run with best hp found: {'do': 0.001, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.01}.
+2023-01-25 23:51:46 INFO     [solitude: gcn on lastfm with eps=7] Test accuracy is 0.4251836306400839 (0.026399471468652905).
+2023-01-25 23:51:46 INFO     [solitude: gcn on lastfm with eps=7] Saving training results to output/bl_results.json
+2023-01-25 23:51:46 INFO     [solitude: gcn on lastfm with eps=8] Run with best hp found: {'do': 0.001, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.001}.
+2023-01-25 23:54:25 INFO     [solitude: gcn on lastfm with eps=8] Test accuracy is 0.6125918153200421 (0.041774760536465935).
+2023-01-25 23:54:25 INFO     [solitude: gcn on lastfm with eps=8] Saving training results to output/bl_results.json
+2023-01-25 23:54:25 INFO     [solitude: gcn on lastfm] Experiments done.
+2023-01-25 23:54:25 INFO     All baseline experiments done!

@@ -1,0 +1,10 @@
+2022-10-15 13:14:26 INFO     Start experiments with Namespace(dataset='citeseer', model='mlp', grid_search=True)
+2022-10-15 13:14:32 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-15 13:14:32 INFO     [mlp on citeseer with eps=None] Start grid search for hyperparameter tuning.
+2022-10-15 13:15:17 INFO     [mlp on citeseer with eps=None] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.8325644334157308
+2022-10-15 13:15:17 INFO     [mlp on citeseer with eps=None] Saving best hp to output/best_hp.json
+2022-10-15 13:15:17 INFO     Grid search done!
+2022-10-15 13:15:17 INFO     Run experiments using found hyperparameters in best_hp.json.
+2022-10-15 13:15:17 INFO     [mlp on citeseer with eps=None] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-15 13:15:33 INFO     [mlp on citeseer with eps=None] Test accuracy is 0.7368990384615386 (0.003046189407895892).
+2022-10-15 13:15:33 INFO     [mlp on citeseer with eps=None] Saving training results to output/results.json

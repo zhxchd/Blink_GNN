@@ -1,0 +1,23 @@
+2023-07-23 03:35:47 INFO     Start experiments with Namespace(dataset='lastfm', model='gcn', method=['ldpgen'], grid_search=True, use_dense_model=False, eps=[3, 4])
+2023-07-23 03:36:00 INFO     Using device: cuda
+2023-07-23 03:36:00 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 03:36:00 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 03:36:00 INFO     [ldpgen: gcn on lastfm] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 03:36:00 INFO     [ldpgen: gcn on lastfm with eps=3] Start grid search for hyperparameter tuning.
+2023-07-23 03:43:25 INFO     [ldpgen: gcn on lastfm with eps=3] Best hparam is: {'do': 0, 'lr': 0.1, 'wd': 0} with validation loss 2.3374563694000243
+2023-07-23 03:43:25 INFO     [ldpgen: gcn on lastfm with eps=3] Saving best hp to output/bl_best_hp.json
+2023-07-23 03:43:25 INFO     [ldpgen: gcn on lastfm with eps=4] Start grid search for hyperparameter tuning.
+2023-07-23 03:50:26 INFO     [ldpgen: gcn on lastfm with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05} with validation loss 2.3084811687469484
+2023-07-23 03:50:26 INFO     [ldpgen: gcn on lastfm with eps=4] Saving best hp to output/bl_best_hp.json
+2023-07-23 03:50:26 INFO     [ldpgen: gcn on lastfm] Grid search done.
+2023-07-23 03:50:26 INFO     Grid search done!
+2023-07-23 03:50:26 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 03:50:26 INFO     [ldpgen: gcn on lastfm] Start running experiments on various epsilons.
+2023-07-23 03:50:26 INFO     [ldpgen: gcn on lastfm with eps=3] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0}.
+2023-07-23 03:51:46 INFO     [ldpgen: gcn on lastfm with eps=3] Test accuracy is 0.22471143756558243 (0.007920033758306686).
+2023-07-23 03:51:46 INFO     [ldpgen: gcn on lastfm with eps=3] Saving training results to output/bl_results.json
+2023-07-23 03:51:46 INFO     [ldpgen: gcn on lastfm with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 1e-05}.
+2023-07-23 03:53:04 INFO     [ldpgen: gcn on lastfm with eps=4] Test accuracy is 0.2431969220006995 (0.00883208834436548).
+2023-07-23 03:53:04 INFO     [ldpgen: gcn on lastfm with eps=4] Saving training results to output/bl_results.json
+2023-07-23 03:53:04 INFO     [ldpgen: gcn on lastfm] Experiments done.
+2023-07-23 03:53:04 INFO     All baseline experiments done!

@@ -1,0 +1,147 @@
+2023-04-08 00:39:17 INFO     Experiments on the effects of delta.
+2023-04-08 00:39:17 INFO     Using device: cuda
+2023-04-08 00:39:17 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-04-08 00:39:22 INFO     [graphsage on lastfm with eps=1 and delta=0.1] Start running.
+2023-04-08 00:41:15 INFO     [graphsage on lastfm with eps=1 and delta=0.1] Test accuracy is 0.6941937740468695 (0.02924873251435633).
+2023-04-08 00:41:15 INFO     [graphsage on lastfm with eps=1 and delta=0.2] Start running.
+2023-04-08 00:43:05 INFO     [graphsage on lastfm with eps=1 and delta=0.2] Test accuracy is 0.7011717383700593 (0.016277219881059058).
+2023-04-08 00:43:05 INFO     [graphsage on lastfm with eps=1 and delta=0.3] Start running.
+2023-04-08 00:44:57 INFO     [graphsage on lastfm with eps=1 and delta=0.3] Test accuracy is 0.6887548093739068 (0.031153341815648113).
+2023-04-08 00:44:57 INFO     [graphsage on lastfm with eps=1 and delta=0.4] Start running.
+2023-04-08 00:46:52 INFO     [graphsage on lastfm with eps=1 and delta=0.4] Test accuracy is 0.6893144456103533 (0.02815129353146993).
+2023-04-08 00:46:52 INFO     [graphsage on lastfm with eps=1 and delta=0.5] Start running.
+2023-04-08 00:48:45 INFO     [graphsage on lastfm with eps=1 and delta=0.5] Test accuracy is 0.6902413431269675 (0.025879252512637715).
+2023-04-08 00:48:45 INFO     [graphsage on lastfm with eps=1 and delta=0.6] Start running.
+2023-04-08 00:50:40 INFO     [graphsage on lastfm with eps=1 and delta=0.6] Test accuracy is 0.6819517313746065 (0.0491482348690427).
+2023-04-08 00:50:40 INFO     [graphsage on lastfm with eps=1 and delta=0.7] Start running.
+2023-04-08 00:52:39 INFO     [graphsage on lastfm with eps=1 and delta=0.7] Test accuracy is 0.6997201818817769 (0.016723559016616367).
+2023-04-08 00:52:39 INFO     [graphsage on lastfm with eps=1 and delta=0.8] Start running.
+2023-04-08 00:54:36 INFO     [graphsage on lastfm with eps=1 and delta=0.8] Test accuracy is 0.7045645330535153 (0.017973864831892263).
+2023-04-08 00:54:36 INFO     [graphsage on lastfm with eps=1 and delta=0.9] Start running.
+2023-04-08 00:56:34 INFO     [graphsage on lastfm with eps=1 and delta=0.9] Test accuracy is 0.7028856243441762 (0.015947762956251593).
+2023-04-08 00:56:34 INFO     [graphsage on lastfm with eps=2 and delta=0.1] Start running.
+2023-04-08 00:58:18 INFO     [graphsage on lastfm with eps=2 and delta=0.1] Test accuracy is 0.7027806925498428 (0.023601782528418856).
+2023-04-08 00:58:18 INFO     [graphsage on lastfm with eps=2 and delta=0.2] Start running.
+2023-04-08 01:00:02 INFO     [graphsage on lastfm with eps=2 and delta=0.2] Test accuracy is 0.6983210912906611 (0.028074566449505196).
+2023-04-08 01:00:02 INFO     [graphsage on lastfm with eps=2 and delta=0.3] Start running.
+2023-04-08 01:01:51 INFO     [graphsage on lastfm with eps=2 and delta=0.3] Test accuracy is 0.6945785239594264 (0.021218432348986252).
+2023-04-08 01:01:51 INFO     [graphsage on lastfm with eps=2 and delta=0.4] Start running.
+2023-04-08 01:03:39 INFO     [graphsage on lastfm with eps=2 and delta=0.4] Test accuracy is 0.6806051066806575 (0.05357650738617984).
+2023-04-08 01:03:39 INFO     [graphsage on lastfm with eps=2 and delta=0.5] Start running.
+2023-04-08 01:05:28 INFO     [graphsage on lastfm with eps=2 and delta=0.5] Test accuracy is 0.6933892969569779 (0.0271759842253254).
+2023-04-08 01:05:29 INFO     [graphsage on lastfm with eps=2 and delta=0.6] Start running.
+2023-04-08 01:07:18 INFO     [graphsage on lastfm with eps=2 and delta=0.6] Test accuracy is 0.6694998251136762 (0.06072640456895925).
+2023-04-08 01:07:18 INFO     [graphsage on lastfm with eps=2 and delta=0.7] Start running.
+2023-04-08 01:09:14 INFO     [graphsage on lastfm with eps=2 and delta=0.7] Test accuracy is 0.6938090241343128 (0.028062667371182834).
+2023-04-08 01:09:14 INFO     [graphsage on lastfm with eps=2 and delta=0.8] Start running.
+2023-04-08 01:11:10 INFO     [graphsage on lastfm with eps=2 and delta=0.8] Test accuracy is 0.7005246589716683 (0.021524407404325024).
+2023-04-08 01:11:10 INFO     [graphsage on lastfm with eps=2 and delta=0.9] Start running.
+2023-04-08 01:13:07 INFO     [graphsage on lastfm with eps=2 and delta=0.9] Test accuracy is 0.6931094788387547 (0.03142730110709265).
+2023-04-08 01:13:07 INFO     [graphsage on lastfm with eps=3 and delta=0.1] Start running.
+2023-04-08 01:14:51 INFO     [graphsage on lastfm with eps=3 and delta=0.1] Test accuracy is 0.7222105631339628 (0.03626825288364388).
+2023-04-08 01:14:51 INFO     [graphsage on lastfm with eps=3 and delta=0.2] Start running.
+2023-04-08 01:16:36 INFO     [graphsage on lastfm with eps=3 and delta=0.2] Test accuracy is 0.7012067156348374 (0.06411792731461737).
+2023-04-08 01:16:36 INFO     [graphsage on lastfm with eps=3 and delta=0.3] Start running.
+2023-04-08 01:18:20 INFO     [graphsage on lastfm with eps=3 and delta=0.3] Test accuracy is 0.7012242042672262 (0.05471662912424063).
+2023-04-08 01:18:20 INFO     [graphsage on lastfm with eps=3 and delta=0.4] Start running.
+2023-04-08 01:20:07 INFO     [graphsage on lastfm with eps=3 and delta=0.4] Test accuracy is 0.6957327736970969 (0.03383323177772436).
+2023-04-08 01:20:07 INFO     [graphsage on lastfm with eps=3 and delta=0.5] Start running.
+2023-04-08 01:21:56 INFO     [graphsage on lastfm with eps=3 and delta=0.5] Test accuracy is 0.6960125918153199 (0.030823465278475005).
+2023-04-08 01:21:56 INFO     [graphsage on lastfm with eps=3 and delta=0.6] Start running.
+2023-04-08 01:23:44 INFO     [graphsage on lastfm with eps=3 and delta=0.6] Test accuracy is 0.6933543196922003 (0.02801231286229593).
+2023-04-08 01:23:44 INFO     [graphsage on lastfm with eps=3 and delta=0.7] Start running.
+2023-04-08 01:25:36 INFO     [graphsage on lastfm with eps=3 and delta=0.7] Test accuracy is 0.6969045120671565 (0.021911721014667967).
+2023-04-08 01:25:36 INFO     [graphsage on lastfm with eps=3 and delta=0.8] Start running.
+2023-04-08 01:27:28 INFO     [graphsage on lastfm with eps=3 and delta=0.8] Test accuracy is 0.6819167541098288 (0.05236067331036418).
+2023-04-08 01:27:28 INFO     [graphsage on lastfm with eps=3 and delta=0.9] Start running.
+2023-04-08 01:29:24 INFO     [graphsage on lastfm with eps=3 and delta=0.9] Test accuracy is 0.6890346274921302 (0.03210728584851422).
+2023-04-08 01:29:24 INFO     [graphsage on lastfm with eps=4 and delta=0.1] Start running.
+2023-04-08 01:31:05 INFO     [graphsage on lastfm with eps=4 and delta=0.1] Test accuracy is 0.74534802378454 (0.04113038196621011).
+2023-04-08 01:31:05 INFO     [graphsage on lastfm with eps=4 and delta=0.2] Start running.
+2023-04-08 01:32:47 INFO     [graphsage on lastfm with eps=4 and delta=0.2] Test accuracy is 0.7235746764603007 (0.0460612995614889).
+2023-04-08 01:32:47 INFO     [graphsage on lastfm with eps=4 and delta=0.3] Start running.
+2023-04-08 01:34:29 INFO     [graphsage on lastfm with eps=4 and delta=0.3] Test accuracy is 0.7039699195522912 (0.05154912271675367).
+2023-04-08 01:34:29 INFO     [graphsage on lastfm with eps=4 and delta=0.4] Start running.
+2023-04-08 01:36:13 INFO     [graphsage on lastfm with eps=4 and delta=0.4] Test accuracy is 0.6821441063308848 (0.054456818395097).
+2023-04-08 01:36:13 INFO     [graphsage on lastfm with eps=4 and delta=0.5] Start running.
+2023-04-08 01:37:58 INFO     [graphsage on lastfm with eps=4 and delta=0.5] Test accuracy is 0.6731374606505772 (0.053507156015877605).
+2023-04-08 01:37:58 INFO     [graphsage on lastfm with eps=4 and delta=0.6] Start running.
+2023-04-08 01:39:45 INFO     [graphsage on lastfm with eps=4 and delta=0.6] Test accuracy is 0.6718607904861839 (0.03729009924617612).
+2023-04-08 01:39:45 INFO     [graphsage on lastfm with eps=4 and delta=0.7] Start running.
+2023-04-08 01:41:33 INFO     [graphsage on lastfm with eps=4 and delta=0.7] Test accuracy is 0.659251486533753 (0.047563691750865715).
+2023-04-08 01:41:33 INFO     [graphsage on lastfm with eps=4 and delta=0.8] Start running.
+2023-04-08 01:43:26 INFO     [graphsage on lastfm with eps=4 and delta=0.8] Test accuracy is 0.6729975515914657 (0.028776937456137748).
+2023-04-08 01:43:26 INFO     [graphsage on lastfm with eps=4 and delta=0.9] Start running.
+2023-04-08 01:45:24 INFO     [graphsage on lastfm with eps=4 and delta=0.9] Test accuracy is 0.6732249038125219 (0.02775443756138605).
+2023-04-08 01:45:24 INFO     [graphsage on lastfm with eps=5 and delta=0.1] Start running.
+2023-04-08 01:47:08 INFO     [graphsage on lastfm with eps=5 and delta=0.1] Test accuracy is 0.7875306051066807 (0.03264781060832599).
+2023-04-08 01:47:08 INFO     [graphsage on lastfm with eps=5 and delta=0.2] Start running.
+2023-04-08 01:48:52 INFO     [graphsage on lastfm with eps=5 and delta=0.2] Test accuracy is 0.7783840503672612 (0.026042540877162366).
+2023-04-08 01:48:52 INFO     [graphsage on lastfm with eps=5 and delta=0.3] Start running.
+2023-04-08 01:50:37 INFO     [graphsage on lastfm with eps=5 and delta=0.3] Test accuracy is 0.7522385449457851 (0.024475095786366505).
+2023-04-08 01:50:37 INFO     [graphsage on lastfm with eps=5 and delta=0.4] Start running.
+2023-04-08 01:52:22 INFO     [graphsage on lastfm with eps=5 and delta=0.4] Test accuracy is 0.7250087443161941 (0.040959646491905845).
+2023-04-08 01:52:22 INFO     [graphsage on lastfm with eps=5 and delta=0.5] Start running.
+2023-04-08 01:54:06 INFO     [graphsage on lastfm with eps=5 and delta=0.5] Test accuracy is 0.700384749912557 (0.04082281369711379).
+2023-04-08 01:54:06 INFO     [graphsage on lastfm with eps=5 and delta=0.6] Start running.
+2023-04-08 01:55:53 INFO     [graphsage on lastfm with eps=5 and delta=0.6] Test accuracy is 0.6880202868135713 (0.038065441647965256).
+2023-04-08 01:55:53 INFO     [graphsage on lastfm with eps=5 and delta=0.7] Start running.
+2023-04-08 01:57:42 INFO     [graphsage on lastfm with eps=5 and delta=0.7] Test accuracy is 0.6775795732773697 (0.06073951835878982).
+2023-04-08 01:57:42 INFO     [graphsage on lastfm with eps=5 and delta=0.8] Start running.
+2023-04-08 01:59:35 INFO     [graphsage on lastfm with eps=5 and delta=0.8] Test accuracy is 0.6860265827212311 (0.030615003646367718).
+2023-04-08 01:59:35 INFO     [graphsage on lastfm with eps=5 and delta=0.9] Start running.
+2023-04-08 02:01:33 INFO     [graphsage on lastfm with eps=5 and delta=0.9] Test accuracy is 0.6904337180832459 (0.01694763982547851).
+2023-04-08 02:01:33 INFO     [graphsage on lastfm with eps=6 and delta=0.1] Start running.
+2023-04-08 02:03:16 INFO     [graphsage on lastfm with eps=6 and delta=0.1] Test accuracy is 0.8211262679258482 (0.012591766740413866).
+2023-04-08 02:03:16 INFO     [graphsage on lastfm with eps=6 and delta=0.2] Start running.
+2023-04-08 02:04:59 INFO     [graphsage on lastfm with eps=6 and delta=0.2] Test accuracy is 0.8039874081846798 (0.025062229244147038).
+2023-04-08 02:04:59 INFO     [graphsage on lastfm with eps=6 and delta=0.3] Start running.
+2023-04-08 02:06:42 INFO     [graphsage on lastfm with eps=6 and delta=0.3] Test accuracy is 0.7908534452605808 (0.014305327143707589).
+2023-04-08 02:06:42 INFO     [graphsage on lastfm with eps=6 and delta=0.4] Start running.
+2023-04-08 02:08:26 INFO     [graphsage on lastfm with eps=6 and delta=0.4] Test accuracy is 0.7467121371108778 (0.04554545229908588).
+2023-04-08 02:08:26 INFO     [graphsage on lastfm with eps=6 and delta=0.5] Start running.
+2023-04-08 02:10:12 INFO     [graphsage on lastfm with eps=6 and delta=0.5] Test accuracy is 0.7195872682756208 (0.04438745821951883).
+2023-04-08 02:10:12 INFO     [graphsage on lastfm with eps=6 and delta=0.6] Start running.
+2023-04-08 02:11:58 INFO     [graphsage on lastfm with eps=6 and delta=0.6] Test accuracy is 0.7040223854494577 (0.0296234099808256).
+2023-04-08 02:11:58 INFO     [graphsage on lastfm with eps=6 and delta=0.7] Start running.
+2023-04-08 02:13:47 INFO     [graphsage on lastfm with eps=6 and delta=0.7] Test accuracy is 0.683490731024834 (0.0345728456139136).
+2023-04-08 02:13:47 INFO     [graphsage on lastfm with eps=6 and delta=0.8] Start running.
+2023-04-08 02:15:37 INFO     [graphsage on lastfm with eps=6 and delta=0.8] Test accuracy is 0.6813571178733824 (0.03984975909310988).
+2023-04-08 02:15:37 INFO     [graphsage on lastfm with eps=6 and delta=0.9] Start running.
+2023-04-08 02:17:29 INFO     [graphsage on lastfm with eps=6 and delta=0.9] Test accuracy is 0.6836481287163345 (0.03855356614574327).
+2023-04-08 02:17:29 INFO     [graphsage on lastfm with eps=7 and delta=0.1] Start running.
+2023-04-08 02:19:07 INFO     [graphsage on lastfm with eps=7 and delta=0.1] Test accuracy is 0.826145505421476 (0.024102539776033962).
+2023-04-08 02:19:07 INFO     [graphsage on lastfm with eps=7 and delta=0.2] Start running.
+2023-04-08 02:20:47 INFO     [graphsage on lastfm with eps=7 and delta=0.2] Test accuracy is 0.8194473592165095 (0.024182826573557154).
+2023-04-08 02:20:47 INFO     [graphsage on lastfm with eps=7 and delta=0.3] Start running.
+2023-04-08 02:22:27 INFO     [graphsage on lastfm with eps=7 and delta=0.3] Test accuracy is 0.8172612801678908 (0.01880112576083885).
+2023-04-08 02:22:27 INFO     [graphsage on lastfm with eps=7 and delta=0.4] Start running.
+2023-04-08 02:24:06 INFO     [graphsage on lastfm with eps=7 and delta=0.4] Test accuracy is 0.7887373207415179 (0.015128223003205694).
+2023-04-08 02:24:06 INFO     [graphsage on lastfm with eps=7 and delta=0.5] Start running.
+2023-04-08 02:25:47 INFO     [graphsage on lastfm with eps=7 and delta=0.5] Test accuracy is 0.7493004547044422 (0.02693467986931375).
+2023-04-08 02:25:47 INFO     [graphsage on lastfm with eps=7 and delta=0.6] Start running.
+2023-04-08 02:27:29 INFO     [graphsage on lastfm with eps=7 and delta=0.6] Test accuracy is 0.7091465547394193 (0.047464190188665434).
+2023-04-08 02:27:29 INFO     [graphsage on lastfm with eps=7 and delta=0.7] Start running.
+2023-04-08 02:29:14 INFO     [graphsage on lastfm with eps=7 and delta=0.7] Test accuracy is 0.685694298705841 (0.04188845453407493).
+2023-04-08 02:29:14 INFO     [graphsage on lastfm with eps=7 and delta=0.8] Start running.
+2023-04-08 02:31:01 INFO     [graphsage on lastfm with eps=7 and delta=0.8] Test accuracy is 0.6587967820916404 (0.04576544871296572).
+2023-04-08 02:31:01 INFO     [graphsage on lastfm with eps=7 and delta=0.9] Start running.
+2023-04-08 02:32:55 INFO     [graphsage on lastfm with eps=7 and delta=0.9] Test accuracy is 0.6595313046519762 (0.045324165387883024).
+2023-04-08 02:32:55 INFO     [graphsage on lastfm with eps=8 and delta=0.1] Start running.
+2023-04-08 02:34:35 INFO     [graphsage on lastfm with eps=8 and delta=0.1] Test accuracy is 0.8342952081147252 (0.010693337002315093).
+2023-04-08 02:34:35 INFO     [graphsage on lastfm with eps=8 and delta=0.2] Start running.
+2023-04-08 02:36:15 INFO     [graphsage on lastfm with eps=8 and delta=0.2] Test accuracy is 0.8280342777194823 (0.01798526227296487).
+2023-04-08 02:36:15 INFO     [graphsage on lastfm with eps=8 and delta=0.3] Start running.
+2023-04-08 02:37:56 INFO     [graphsage on lastfm with eps=8 and delta=0.3] Test accuracy is 0.819534802378454 (0.016959546593028025).
+2023-04-08 02:37:56 INFO     [graphsage on lastfm with eps=8 and delta=0.4] Start running.
+2023-04-08 02:39:35 INFO     [graphsage on lastfm with eps=8 and delta=0.4] Test accuracy is 0.8029905561385099 (0.031837117415748996).
+2023-04-08 02:39:35 INFO     [graphsage on lastfm with eps=8 and delta=0.5] Start running.
+2023-04-08 02:41:16 INFO     [graphsage on lastfm with eps=8 and delta=0.5] Test accuracy is 0.7798006295907659 (0.012807948911503454).
+2023-04-08 02:41:16 INFO     [graphsage on lastfm with eps=8 and delta=0.6] Start running.
+2023-04-08 02:42:58 INFO     [graphsage on lastfm with eps=8 and delta=0.6] Test accuracy is 0.737058412032179 (0.03337482237012675).
+2023-04-08 02:42:58 INFO     [graphsage on lastfm with eps=8 and delta=0.7] Start running.
+2023-04-08 02:44:41 INFO     [graphsage on lastfm with eps=8 and delta=0.7] Test accuracy is 0.7058586918502973 (0.03354714029474748).
+2023-04-08 02:44:41 INFO     [graphsage on lastfm with eps=8 and delta=0.8] Start running.
+2023-04-08 02:46:25 INFO     [graphsage on lastfm with eps=8 and delta=0.8] Test accuracy is 0.6774746414830359 (0.03515056751830574).
+2023-04-08 02:46:25 INFO     [graphsage on lastfm with eps=8 and delta=0.9] Start running.
+2023-04-08 02:48:16 INFO     [graphsage on lastfm with eps=8 and delta=0.9] Test accuracy is 0.6834382651276674 (0.02849321175625505).

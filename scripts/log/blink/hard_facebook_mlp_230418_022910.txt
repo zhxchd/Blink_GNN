@@ -1,0 +1,12 @@
+2023-04-18 02:29:10 INFO     Start experiments with Namespace(variant='hard', dataset='facebook', model='mlp', grid_search=True, eps=['None'])
+2023-04-18 02:29:10 INFO     Using device: cuda
+2023-04-18 02:29:10 INFO     _CudaDeviceProperties(name='NVIDIA GeForce RTX 3060 Laptop GPU', major=8, minor=6, total_memory=6143MB, multi_processor_count=30)
+2023-04-18 02:29:10 INFO     Grid search. Load hyperparameter space from fb_config.json
+2023-04-18 02:29:10 INFO     [Blink-hard: mlp on facebook with eps=None] Start grid search for hyperparameter tuning.
+2023-04-18 02:29:29 INFO     [Blink-hard: mlp on facebook with eps=None] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.6059791684150696
+2023-04-18 02:29:29 INFO     [Blink-hard: mlp on facebook with eps=None] Saving best hp to output/best_hp.json
+2023-04-18 02:29:29 INFO     Grid search done!
+2023-04-18 02:29:29 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-04-18 02:29:29 INFO     [Blink-hard: mlp on facebook with eps=None] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 02:29:55 INFO     [Blink-hard: mlp on facebook with eps=None] Test accuracy is 0.7647858075234365 (0.0022163988997360063).
+2023-04-18 02:29:55 INFO     [Blink-hard: mlp on facebook with eps=None] Saving training results to output/results.json

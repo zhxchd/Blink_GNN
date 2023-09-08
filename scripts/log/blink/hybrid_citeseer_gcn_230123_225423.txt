@@ -1,0 +1,54 @@
+2023-01-23 22:54:23 INFO     Start experiments with Namespace(variant='hybrid', dataset='citeseer', model='gcn', grid_search=True, eps=['5', '6', '7', '8'])
+2023-01-23 22:54:24 INFO     Using device: cuda
+2023-01-23 22:54:24 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-23 22:54:24 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-23 22:54:06 INFO     [Blink-hybrid: gcn on citeseer with eps=1] Start grid search for hyperparameter tuning.
+2023-01-23 23:18:43 INFO     [Blink-hybrid: gcn on citeseer with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9} with validation loss 0.8557225108146668
+2023-01-23 23:18:43 INFO     [Blink-hybrid: gcn on citeseer with eps=1] Saving best hp to output/best_hp.json
+2023-01-23 23:18:43 INFO     [Blink-hybrid: gcn on citeseer with eps=2] Start grid search for hyperparameter tuning.
+2023-01-23 23:43:07 INFO     [Blink-hybrid: gcn on citeseer with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9} with validation loss 0.8551347374916076
+2023-01-23 23:43:07 INFO     [Blink-hybrid: gcn on citeseer with eps=2] Saving best hp to output/best_hp.json
+2023-01-23 23:43:07 INFO     [Blink-hybrid: gcn on citeseer with eps=3] Start grid search for hyperparameter tuning.
+2023-01-24 00:08:11 INFO     [Blink-hybrid: gcn on citeseer with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9} with validation loss 0.8600048065185547
+2023-01-24 00:08:11 INFO     [Blink-hybrid: gcn on citeseer with eps=3] Saving best hp to output/best_hp.json
+2023-01-24 00:08:11 INFO     [Blink-hybrid: gcn on citeseer with eps=4] Start grid search for hyperparameter tuning.
+2023-01-24 00:33:05 INFO     [Blink-hybrid: gcn on citeseer with eps=4] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9} with validation loss 0.860293710231781
+2023-01-24 00:33:05 INFO     [Blink-hybrid: gcn on citeseer with eps=4] Saving best hp to output/best_hp.json
+2023-01-29 01:35:47 INFO     [Blink-hybrid: gcn on citeseer with eps=5] Start grid search for hyperparameter tuning.
+2023-01-29 01:59:37 INFO     [Blink-hybrid: gcn on citeseer with eps=5] Best hparam is: {'do': 0, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7751452684402466
+2023-01-29 01:59:37 INFO     [Blink-hybrid: gcn on citeseer with eps=5] Saving best hp to output/best_hp.json
+2023-01-23 23:18:03 INFO     [Blink-hybrid: gcn on citeseer with eps=6] Start grid search for hyperparameter tuning.
+2023-01-23 23:41:48 INFO     [Blink-hybrid: gcn on citeseer with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7206241726875305
+2023-01-23 23:41:48 INFO     [Blink-hybrid: gcn on citeseer with eps=6] Saving best hp to output/best_hp.json
+2023-01-23 23:41:48 INFO     [Blink-hybrid: gcn on citeseer with eps=7] Start grid search for hyperparameter tuning.
+2023-01-24 00:05:58 INFO     [Blink-hybrid: gcn on citeseer with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.713178288936615
+2023-01-24 00:05:58 INFO     [Blink-hybrid: gcn on citeseer with eps=7] Saving best hp to output/best_hp.json
+2023-01-24 00:05:58 INFO     [Blink-hybrid: gcn on citeseer with eps=8] Start grid search for hyperparameter tuning.
+2023-01-24 00:29:50 INFO     [Blink-hybrid: gcn on citeseer with eps=8] Best hparam is: {'do': 0, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7150338411331176
+2023-01-24 00:29:50 INFO     [Blink-hybrid: gcn on citeseer with eps=8] Saving best hp to output/best_hp.json
+2023-01-24 00:29:50 INFO     Grid search done!
+2023-01-24 00:29:50 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-01-24 00:33:05 INFO     [Blink-hybrid: gcn on citeseer with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9}.
+2023-01-24 00:34:04 INFO     [Blink-hybrid: gcn on citeseer with eps=1] Test accuracy is 0.7296073717948718 (0.004921365815500178).
+2023-01-24 00:34:04 INFO     [Blink-hybrid: gcn on citeseer with eps=1] Saving training results to output/results.json
+2023-01-24 00:34:04 INFO     [Blink-hybrid: gcn on citeseer with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9}.
+2023-01-24 00:35:03 INFO     [Blink-hybrid: gcn on citeseer with eps=2] Test accuracy is 0.7231971153846153 (0.003963917282734215).
+2023-01-24 00:35:03 INFO     [Blink-hybrid: gcn on citeseer with eps=2] Saving training results to output/results.json
+2023-01-24 00:35:03 INFO     [Blink-hybrid: gcn on citeseer with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9}.
+2023-01-24 00:36:03 INFO     [Blink-hybrid: gcn on citeseer with eps=3] Test accuracy is 0.7226762820512821 (0.00382523021226923).
+2023-01-24 00:36:03 INFO     [Blink-hybrid: gcn on citeseer with eps=3] Saving training results to output/results.json
+2023-01-24 00:36:03 INFO     [Blink-hybrid: gcn on citeseer with eps=4] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9}.
+2023-01-24 00:37:01 INFO     [Blink-hybrid: gcn on citeseer with eps=4] Test accuracy is 0.7198317307692309 (0.0050073717538409055).
+2023-01-24 00:37:01 INFO     [Blink-hybrid: gcn on citeseer with eps=4] Saving training results to output/results.json
+2023-01-29 01:59:37 INFO     [Blink-hybrid: gcn on citeseer with eps=5] Run with best hp found: {'do': 0, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-29 02:00:31 INFO     [Blink-hybrid: gcn on citeseer with eps=5] Test accuracy is 0.7633814102564104 (0.008162071524517206).
+2023-01-29 02:00:31 INFO     [Blink-hybrid: gcn on citeseer with eps=5] Saving training results to output/results.json
+2023-01-24 00:30:43 INFO     [Blink-hybrid: gcn on citeseer with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-24 00:31:36 INFO     [Blink-hybrid: gcn on citeseer with eps=6] Test accuracy is 0.7871394230769231 (0.004554109642141151).
+2023-01-24 00:31:36 INFO     [Blink-hybrid: gcn on citeseer with eps=6] Saving training results to output/results.json
+2023-01-24 00:31:36 INFO     [Blink-hybrid: gcn on citeseer with eps=7] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-24 00:32:29 INFO     [Blink-hybrid: gcn on citeseer with eps=7] Test accuracy is 0.7847756410256409 (0.007473431876135098).
+2023-01-24 00:32:29 INFO     [Blink-hybrid: gcn on citeseer with eps=7] Saving training results to output/results.json
+2023-01-24 00:32:29 INFO     [Blink-hybrid: gcn on citeseer with eps=8] Run with best hp found: {'do': 0, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-24 00:33:21 INFO     [Blink-hybrid: gcn on citeseer with eps=8] Test accuracy is 0.790705128205128 (0.002554066899120061).
+2023-01-24 00:33:21 INFO     [Blink-hybrid: gcn on citeseer with eps=8] Saving training results to output/results.json

@@ -1,0 +1,54 @@
+2023-04-18 01:30:20 INFO     Start experiments with Namespace(variant='hard', dataset='facebook', model='graphsage', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-04-18 01:30:20 INFO     Using device: cuda
+2023-04-18 01:30:20 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40354MB, multi_processor_count=108)
+2023-04-18 01:30:20 INFO     Grid search. Load hyperparameter space from fb_config.json
+2023-04-18 01:30:20 INFO     [Blink-hard: graphsage on facebook with eps=1] Start grid search for hyperparameter tuning.
+2023-04-18 01:48:58 INFO     [Blink-hard: graphsage on facebook with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.6034749269485473
+2023-04-18 01:48:58 INFO     [Blink-hard: graphsage on facebook with eps=1] Saving best hp to output/best_hp.json
+2023-04-18 01:48:58 INFO     [Blink-hard: graphsage on facebook with eps=2] Start grid search for hyperparameter tuning.
+2023-04-18 02:05:34 INFO     [Blink-hard: graphsage on facebook with eps=2] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.599794888496399
+2023-04-18 02:05:34 INFO     [Blink-hard: graphsage on facebook with eps=2] Saving best hp to output/best_hp.json
+2023-04-18 02:05:34 INFO     [Blink-hard: graphsage on facebook with eps=3] Start grid search for hyperparameter tuning.
+2023-04-18 02:21:14 INFO     [Blink-hard: graphsage on facebook with eps=3] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.584881865978241
+2023-04-18 02:21:14 INFO     [Blink-hard: graphsage on facebook with eps=3] Saving best hp to output/best_hp.json
+2023-04-18 02:21:14 INFO     [Blink-hard: graphsage on facebook with eps=4] Start grid search for hyperparameter tuning.
+2023-04-18 02:36:22 INFO     [Blink-hard: graphsage on facebook with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.545648205280304
+2023-04-18 02:36:22 INFO     [Blink-hard: graphsage on facebook with eps=4] Saving best hp to output/best_hp.json
+2023-04-18 02:36:22 INFO     [Blink-hard: graphsage on facebook with eps=5] Start grid search for hyperparameter tuning.
+2023-04-18 02:51:05 INFO     [Blink-hard: graphsage on facebook with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.45846896171569823
+2023-04-18 02:51:05 INFO     [Blink-hard: graphsage on facebook with eps=5] Saving best hp to output/best_hp.json
+2023-04-18 02:51:05 INFO     [Blink-hard: graphsage on facebook with eps=6] Start grid search for hyperparameter tuning.
+2023-04-18 03:05:43 INFO     [Blink-hard: graphsage on facebook with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.3296494483947754
+2023-04-18 03:05:43 INFO     [Blink-hard: graphsage on facebook with eps=6] Saving best hp to output/best_hp.json
+2023-04-18 03:05:43 INFO     [Blink-hard: graphsage on facebook with eps=7] Start grid search for hyperparameter tuning.
+2023-04-18 03:20:01 INFO     [Blink-hard: graphsage on facebook with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.2735279619693756
+2023-04-18 03:20:01 INFO     [Blink-hard: graphsage on facebook with eps=7] Saving best hp to output/best_hp.json
+2023-04-18 03:20:01 INFO     [Blink-hard: graphsage on facebook with eps=8] Start grid search for hyperparameter tuning.
+2023-04-18 03:34:08 INFO     [Blink-hard: graphsage on facebook with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.26154667139053345
+2023-04-18 03:34:08 INFO     [Blink-hard: graphsage on facebook with eps=8] Saving best hp to output/best_hp.json
+2023-04-18 03:34:08 INFO     Grid search done!
+2023-04-18 03:34:08 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-04-18 03:34:08 INFO     [Blink-hard: graphsage on facebook with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 03:40:18 INFO     [Blink-hard: graphsage on facebook with eps=1] Test accuracy is 0.7628456152842055 (0.0022540330026028297).
+2023-04-18 03:40:18 INFO     [Blink-hard: graphsage on facebook with eps=1] Saving training results to output/results.json
+2023-04-18 03:40:18 INFO     [Blink-hard: graphsage on facebook with eps=2] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 03:45:29 INFO     [Blink-hard: graphsage on facebook with eps=2] Test accuracy is 0.7645128752818322 (0.0020576611618693453).
+2023-04-18 03:45:29 INFO     [Blink-hard: graphsage on facebook with eps=2] Saving training results to output/results.json
+2023-04-18 03:45:29 INFO     [Blink-hard: graphsage on facebook with eps=3] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 03:50:16 INFO     [Blink-hard: graphsage on facebook with eps=3] Test accuracy is 0.774296902812389 (0.0028293862626240346).
+2023-04-18 03:50:16 INFO     [Blink-hard: graphsage on facebook with eps=3] Saving training results to output/results.json
+2023-04-18 03:50:16 INFO     [Blink-hard: graphsage on facebook with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 03:54:55 INFO     [Blink-hard: graphsage on facebook with eps=4] Test accuracy is 0.7949032870535184 (0.0032180260621260726).
+2023-04-18 03:54:55 INFO     [Blink-hard: graphsage on facebook with eps=4] Saving training results to output/results.json
+2023-04-18 03:54:55 INFO     [Blink-hard: graphsage on facebook with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 03:59:28 INFO     [Blink-hard: graphsage on facebook with eps=5] Test accuracy is 0.8380799810134092 (0.004312173326357349).
+2023-04-18 03:59:28 INFO     [Blink-hard: graphsage on facebook with eps=5] Saving training results to output/results.json
+2023-04-18 03:59:28 INFO     [Blink-hard: graphsage on facebook with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 04:03:56 INFO     [Blink-hard: graphsage on facebook with eps=6] Test accuracy is 0.8841758632965467 (0.001959151517130455).
+2023-04-18 04:03:56 INFO     [Blink-hard: graphsage on facebook with eps=6] Saving training results to output/results.json
+2023-04-18 04:03:56 INFO     [Blink-hard: graphsage on facebook with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 04:08:26 INFO     [Blink-hard: graphsage on facebook with eps=7] Test accuracy is 0.9030675210632491 (0.003506686366628465).
+2023-04-18 04:08:26 INFO     [Blink-hard: graphsage on facebook with eps=7] Saving training results to output/results.json
+2023-04-18 04:08:26 INFO     [Blink-hard: graphsage on facebook with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-18 04:12:56 INFO     [Blink-hard: graphsage on facebook with eps=8] Test accuracy is 0.905428978284087 (0.0032358521197031805).
+2023-04-18 04:12:56 INFO     [Blink-hard: graphsage on facebook with eps=8] Saving training results to output/results.json

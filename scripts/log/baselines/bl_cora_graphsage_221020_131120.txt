@@ -1,0 +1,29 @@
+2022-10-20 13:11:20 INFO     Start experiments with Namespace(dataset='cora', model='graphsage', method=['rr'], grid_search=False)
+2022-10-20 13:11:25 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2022-10-20 13:11:25 INFO     [rr: graphsage on cora] Start running experiments on various epsilons.
+2022-10-20 13:11:25 INFO     [rr: graphsage on cora with eps=1] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001}.
+2022-10-20 13:45:40 INFO     [rr: graphsage on cora with eps=1] Test accuracy is 0.7098966026587888 (0.00475740909076561).
+2022-10-20 13:45:40 INFO     [rr: graphsage on cora with eps=1] Saving training results to output/bl_results.json
+2022-10-20 13:45:40 INFO     [rr: graphsage on cora with eps=2] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001}.
+2022-10-20 13:58:49 INFO     [rr: graphsage on cora with eps=2] Test accuracy is 0.7079763663220088 (0.00464212178296484).
+2022-10-20 13:58:49 INFO     [rr: graphsage on cora with eps=2] Saving training results to output/bl_results.json
+2022-10-20 13:58:49 INFO     [rr: graphsage on cora with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001}.
+2022-10-20 14:04:30 INFO     [rr: graphsage on cora with eps=3] Test accuracy is 0.7104874446085674 (0.005592228799409436).
+2022-10-20 14:04:30 INFO     [rr: graphsage on cora with eps=3] Saving training results to output/bl_results.json
+2022-10-20 14:04:30 INFO     [rr: graphsage on cora with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 14:07:08 INFO     [rr: graphsage on cora with eps=4] Test accuracy is 0.7117183653372725 (0.007396184658336131).
+2022-10-20 14:07:08 INFO     [rr: graphsage on cora with eps=4] Saving training results to output/bl_results.json
+2022-10-20 14:07:08 INFO     [rr: graphsage on cora with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 14:08:35 INFO     [rr: graphsage on cora with eps=5] Test accuracy is 0.7330871491875924 (0.00811870374219279).
+2022-10-20 14:08:35 INFO     [rr: graphsage on cora with eps=5] Saving training results to output/bl_results.json
+2022-10-20 14:08:35 INFO     [rr: graphsage on cora with eps=6] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 14:09:37 INFO     [rr: graphsage on cora with eps=6] Test accuracy is 0.7623830625307733 (0.008835781864470761).
+2022-10-20 14:09:37 INFO     [rr: graphsage on cora with eps=6] Saving training results to output/bl_results.json
+2022-10-20 14:09:37 INFO     [rr: graphsage on cora with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-20 14:10:30 INFO     [rr: graphsage on cora with eps=7] Test accuracy is 0.799753815854259 (0.008123479977480183).
+2022-10-20 14:10:30 INFO     [rr: graphsage on cora with eps=7] Saving training results to output/bl_results.json
+2022-10-20 14:10:30 INFO     [rr: graphsage on cora with eps=8] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 14:11:19 INFO     [rr: graphsage on cora with eps=8] Test accuracy is 0.8309207287050716 (0.0060511241736040155).
+2022-10-20 14:11:19 INFO     [rr: graphsage on cora with eps=8] Saving training results to output/bl_results.json
+2022-10-20 14:11:19 INFO     [rr: graphsage on cora] Experiments done.
+2022-10-20 14:11:19 INFO     All baseline experiments done!

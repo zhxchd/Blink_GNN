@@ -1,0 +1,29 @@
+2022-10-19 10:40:59 INFO     Start experiments with Namespace(dataset='cora', model='graphsage', method=['rr'], grid_search=True)
+2022-10-19 10:41:15 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-19 10:41:15 INFO     [rr: graphsage on cora] Grid search for hyperparameter tuning on various epsilons.
+2022-10-19 10:41:15 INFO     [rr: graphsage on cora with eps=1] Start grid search for hyperparameter tuning.
+2022-10-19 11:34:23 INFO     [rr: graphsage on cora with eps=1] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001} with validation loss 0.8018237352371216
+2022-10-19 11:34:23 INFO     [rr: graphsage on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2022-10-19 11:34:23 INFO     [rr: graphsage on cora with eps=2] Start grid search for hyperparameter tuning.
+2022-10-19 11:53:43 INFO     [rr: graphsage on cora with eps=2] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001} with validation loss 0.80538276831309
+2022-10-19 11:53:43 INFO     [rr: graphsage on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-19 11:53:43 INFO     [rr: graphsage on cora with eps=3] Start grid search for hyperparameter tuning.
+2022-10-19 12:02:08 INFO     [rr: graphsage on cora with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001} with validation loss 0.8062131404876709
+2022-10-19 12:02:08 INFO     [rr: graphsage on cora with eps=3] Saving best hp to output/bl_best_hp.json
+2022-10-19 12:02:08 INFO     [rr: graphsage on cora with eps=4] Start grid search for hyperparameter tuning.
+2022-10-19 12:06:13 INFO     [rr: graphsage on cora with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.7971104780832926
+2022-10-19 12:06:13 INFO     [rr: graphsage on cora with eps=4] Saving best hp to output/bl_best_hp.json
+2022-10-19 12:06:13 INFO     [rr: graphsage on cora with eps=5] Start grid search for hyperparameter tuning.
+2022-10-19 12:08:42 INFO     [rr: graphsage on cora with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.7382067640622457
+2022-10-19 12:08:42 INFO     [rr: graphsage on cora with eps=5] Saving best hp to output/bl_best_hp.json
+2022-10-19 12:08:42 INFO     [rr: graphsage on cora with eps=6] Start grid search for hyperparameter tuning.
+2022-10-19 12:10:36 INFO     [rr: graphsage on cora with eps=6] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.6425671180089315
+2022-10-19 12:10:36 INFO     [rr: graphsage on cora with eps=6] Saving best hp to output/bl_best_hp.json
+2022-10-19 12:10:36 INFO     [rr: graphsage on cora with eps=7] Start grid search for hyperparameter tuning.
+2022-10-19 12:12:21 INFO     [rr: graphsage on cora with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.5519621769587199
+2022-10-19 12:12:21 INFO     [rr: graphsage on cora with eps=7] Saving best hp to output/bl_best_hp.json
+2022-10-19 12:12:21 INFO     [rr: graphsage on cora with eps=8] Start grid search for hyperparameter tuning.
+2022-10-19 12:14:04 INFO     [rr: graphsage on cora with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.49822641412417096
+2022-10-19 12:14:04 INFO     [rr: graphsage on cora with eps=8] Saving best hp to output/bl_best_hp.json
+2022-10-19 12:14:04 INFO     [rr: graphsage on cora] Grid search done.
+2022-10-19 12:14:04 INFO     Grid search done!

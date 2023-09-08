@@ -1,0 +1,57 @@
+2022-10-17 16:55:16 INFO     Start experiments with Namespace(dataset='lastfm', model='graphsage', grid_search=True)
+2022-10-17 16:55:16 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-17 16:55:16 INFO     [ldpgcn: graphsage on lastfm] Grid search for hyperparameter tuning on various epsilons.
+2022-10-17 16:55:16 INFO     [ldpgcn: graphsage on lastfm with eps=1] Start grid search for hyperparameter tuning.
+2022-10-17 16:58:24 INFO     [ldpgcn: graphsage on lastfm with eps=1] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.1107479333877563
+2022-10-17 16:58:24 INFO     [ldpgcn: graphsage on lastfm with eps=1] Saving best hp to output/bl_best_hp.json
+2022-10-17 16:58:24 INFO     [ldpgcn: graphsage on lastfm with eps=2] Start grid search for hyperparameter tuning.
+2022-10-17 17:01:31 INFO     [ldpgcn: graphsage on lastfm with eps=2] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.1178658405939739
+2022-10-17 17:01:31 INFO     [ldpgcn: graphsage on lastfm with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-17 17:01:31 INFO     [ldpgcn: graphsage on lastfm with eps=3] Start grid search for hyperparameter tuning.
+2022-10-17 17:04:38 INFO     [ldpgcn: graphsage on lastfm with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.1261073350906372
+2022-10-17 17:04:38 INFO     [ldpgcn: graphsage on lastfm with eps=3] Saving best hp to output/bl_best_hp.json
+2022-10-17 17:04:38 INFO     [ldpgcn: graphsage on lastfm with eps=4] Start grid search for hyperparameter tuning.
+2022-10-17 17:07:45 INFO     [ldpgcn: graphsage on lastfm with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.1104942162831624
+2022-10-17 17:07:45 INFO     [ldpgcn: graphsage on lastfm with eps=4] Saving best hp to output/bl_best_hp.json
+2022-10-17 17:07:45 INFO     [ldpgcn: graphsage on lastfm with eps=5] Start grid search for hyperparameter tuning.
+2022-10-17 17:10:52 INFO     [ldpgcn: graphsage on lastfm with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.9289156993230184
+2022-10-17 17:10:52 INFO     [ldpgcn: graphsage on lastfm with eps=5] Saving best hp to output/bl_best_hp.json
+2022-10-17 17:10:52 INFO     [ldpgcn: graphsage on lastfm with eps=6] Start grid search for hyperparameter tuning.
+2022-10-17 17:13:59 INFO     [ldpgcn: graphsage on lastfm with eps=6] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.8548892339070638
+2022-10-17 17:13:59 INFO     [ldpgcn: graphsage on lastfm with eps=6] Saving best hp to output/bl_best_hp.json
+2022-10-17 17:13:59 INFO     [ldpgcn: graphsage on lastfm with eps=7] Start grid search for hyperparameter tuning.
+2022-10-17 17:17:06 INFO     [ldpgcn: graphsage on lastfm with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.8123469352722168
+2022-10-17 17:17:06 INFO     [ldpgcn: graphsage on lastfm with eps=7] Saving best hp to output/bl_best_hp.json
+2022-10-17 17:17:06 INFO     [ldpgcn: graphsage on lastfm with eps=8] Start grid search for hyperparameter tuning.
+2022-10-17 17:20:14 INFO     [ldpgcn: graphsage on lastfm with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.7753176689147949
+2022-10-17 17:20:14 INFO     [ldpgcn: graphsage on lastfm with eps=8] Saving best hp to output/bl_best_hp.json
+2022-10-17 17:20:14 INFO     [ldpgcn: graphsage on lastfm] Grid search done.
+2022-10-17 17:20:14 INFO     Grid search done!
+2022-10-17 17:20:14 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2022-10-17 17:20:14 INFO     [ldpgcn: graphsage on lastfm] Start running experiments on various epsilons.
+2022-10-17 17:20:14 INFO     [ldpgcn: graphsage on lastfm with eps=1] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 17:21:23 INFO     [ldpgcn: graphsage on lastfm with eps=1] Test accuracy is 0.6672437915355018 (0.03365233245191376).
+2022-10-17 17:21:23 INFO     [ldpgcn: graphsage on lastfm with eps=1] Saving training results to output/bl_results.json
+2022-10-17 17:21:23 INFO     [ldpgcn: graphsage on lastfm with eps=2] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 17:22:33 INFO     [ldpgcn: graphsage on lastfm with eps=2] Test accuracy is 0.6434592514865339 (0.047792311146349825).
+2022-10-17 17:22:33 INFO     [ldpgcn: graphsage on lastfm with eps=2] Saving training results to output/bl_results.json
+2022-10-17 17:22:33 INFO     [ldpgcn: graphsage on lastfm with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 17:23:42 INFO     [ldpgcn: graphsage on lastfm with eps=3] Test accuracy is 0.6499475341028332 (0.049535587273714606).
+2022-10-17 17:23:42 INFO     [ldpgcn: graphsage on lastfm with eps=3] Saving training results to output/bl_results.json
+2022-10-17 17:23:42 INFO     [ldpgcn: graphsage on lastfm with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 17:24:52 INFO     [ldpgcn: graphsage on lastfm with eps=4] Test accuracy is 0.68737320741518 (0.03979916318672756).
+2022-10-17 17:24:52 INFO     [ldpgcn: graphsage on lastfm with eps=4] Saving training results to output/bl_results.json
+2022-10-17 17:24:52 INFO     [ldpgcn: graphsage on lastfm with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 17:26:01 INFO     [ldpgcn: graphsage on lastfm with eps=5] Test accuracy is 0.7322665267576075 (0.032139562581034425).
+2022-10-17 17:26:01 INFO     [ldpgcn: graphsage on lastfm with eps=5] Saving training results to output/bl_results.json
+2022-10-17 17:26:01 INFO     [ldpgcn: graphsage on lastfm with eps=6] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 17:27:11 INFO     [ldpgcn: graphsage on lastfm with eps=6] Test accuracy is 0.7592689751661421 (0.04180275208449202).
+2022-10-17 17:27:11 INFO     [ldpgcn: graphsage on lastfm with eps=6] Saving training results to output/bl_results.json
+2022-10-17 17:27:11 INFO     [ldpgcn: graphsage on lastfm with eps=7] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 17:28:21 INFO     [ldpgcn: graphsage on lastfm with eps=7] Test accuracy is 0.8009793634137811 (0.016405604964468343).
+2022-10-17 17:28:21 INFO     [ldpgcn: graphsage on lastfm with eps=7] Saving training results to output/bl_results.json
+2022-10-17 17:28:21 INFO     [ldpgcn: graphsage on lastfm with eps=8] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 17:29:30 INFO     [ldpgcn: graphsage on lastfm with eps=8] Test accuracy is 0.8133438265127668 (0.02304150380884548).
+2022-10-17 17:29:30 INFO     [ldpgcn: graphsage on lastfm with eps=8] Saving training results to output/bl_results.json
+2022-10-17 17:29:30 INFO     [ldpgcn: graphsage on lastfm] Experiments done.
+2022-10-17 17:29:30 INFO     All baseline experiments done!

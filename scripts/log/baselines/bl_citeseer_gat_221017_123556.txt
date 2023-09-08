@@ -1,0 +1,109 @@
+2022-10-17 12:35:56 INFO     Start experiments with Namespace(dataset='citeseer', model='gat', grid_search=True)
+2022-10-17 12:35:56 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-17 12:35:56 INFO     [rr: gat on citeseer] Grid search for hyperparameter tuning on various epsilons.
+2022-10-17 12:35:56 INFO     [rr: gat on citeseer with eps=1] Start grid search for hyperparameter tuning.
+2022-10-17 12:43:48 INFO     [rr: gat on citeseer with eps=1] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.742128610610962
+2022-10-17 12:43:48 INFO     [rr: gat on citeseer with eps=1] Saving best hp to output/bl_best_hp.json
+2022-10-17 12:43:48 INFO     [rr: gat on citeseer with eps=2] Start grid search for hyperparameter tuning.
+2022-10-17 12:48:06 INFO     [rr: gat on citeseer with eps=2] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.74197522799174
+2022-10-17 12:48:06 INFO     [rr: gat on citeseer with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-17 12:48:06 INFO     [rr: gat on citeseer with eps=3] Start grid search for hyperparameter tuning.
+2022-10-17 12:51:00 INFO     [rr: gat on citeseer with eps=3] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001} with validation loss 1.7423491875330608
+2022-10-17 12:51:00 INFO     [rr: gat on citeseer with eps=3] Saving best hp to output/bl_best_hp.json
+2022-10-17 12:51:00 INFO     [rr: gat on citeseer with eps=4] Start grid search for hyperparameter tuning.
+2022-10-17 12:53:43 INFO     [rr: gat on citeseer with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.742788275082906
+2022-10-17 12:53:43 INFO     [rr: gat on citeseer with eps=4] Saving best hp to output/bl_best_hp.json
+2022-10-17 12:53:43 INFO     [rr: gat on citeseer with eps=5] Start grid search for hyperparameter tuning.
+2022-10-17 12:56:25 INFO     [rr: gat on citeseer with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.584087570508321
+2022-10-17 12:56:25 INFO     [rr: gat on citeseer with eps=5] Saving best hp to output/bl_best_hp.json
+2022-10-17 12:56:25 INFO     [rr: gat on citeseer with eps=6] Start grid search for hyperparameter tuning.
+2022-10-17 12:59:06 INFO     [rr: gat on citeseer with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.4866578181584675
+2022-10-17 12:59:06 INFO     [rr: gat on citeseer with eps=6] Saving best hp to output/bl_best_hp.json
+2022-10-17 12:59:06 INFO     [rr: gat on citeseer with eps=7] Start grid search for hyperparameter tuning.
+2022-10-17 13:01:47 INFO     [rr: gat on citeseer with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.2685742775599163
+2022-10-17 13:01:47 INFO     [rr: gat on citeseer with eps=7] Saving best hp to output/bl_best_hp.json
+2022-10-17 13:01:47 INFO     [rr: gat on citeseer with eps=8] Start grid search for hyperparameter tuning.
+2022-10-17 13:04:28 INFO     [rr: gat on citeseer with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.9869542519251505
+2022-10-17 13:04:28 INFO     [rr: gat on citeseer with eps=8] Saving best hp to output/bl_best_hp.json
+2022-10-17 13:04:28 INFO     [rr: gat on citeseer] Grid search done.
+2022-10-17 13:04:28 INFO     [ldpgcn: gat on citeseer] Grid search for hyperparameter tuning on various epsilons.
+2022-10-17 13:04:28 INFO     [ldpgcn: gat on citeseer with eps=1] Start grid search for hyperparameter tuning.
+2022-10-17 13:07:25 INFO     [ldpgcn: gat on citeseer with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.3581382830937703
+2022-10-17 13:07:25 INFO     [ldpgcn: gat on citeseer with eps=1] Saving best hp to output/bl_best_hp.json
+2022-10-17 13:07:25 INFO     [ldpgcn: gat on citeseer with eps=2] Start grid search for hyperparameter tuning.
+2022-10-17 13:10:22 INFO     [ldpgcn: gat on citeseer with eps=2] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.001} with validation loss 1.4110893805821736
+2022-10-17 13:10:22 INFO     [ldpgcn: gat on citeseer with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-17 13:10:22 INFO     [ldpgcn: gat on citeseer with eps=3] Start grid search for hyperparameter tuning.
+2022-10-17 13:13:19 INFO     [ldpgcn: gat on citeseer with eps=3] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001} with validation loss 1.4059596061706543
+2022-10-17 13:13:19 INFO     [ldpgcn: gat on citeseer with eps=3] Saving best hp to output/bl_best_hp.json
+2022-10-17 13:13:19 INFO     [ldpgcn: gat on citeseer with eps=4] Start grid search for hyperparameter tuning.
+2022-10-17 13:16:15 INFO     [ldpgcn: gat on citeseer with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001} with validation loss 1.2061918179194133
+2022-10-17 13:16:15 INFO     [ldpgcn: gat on citeseer with eps=4] Saving best hp to output/bl_best_hp.json
+2022-10-17 13:16:15 INFO     [ldpgcn: gat on citeseer with eps=5] Start grid search for hyperparameter tuning.
+2022-10-17 13:19:11 INFO     [ldpgcn: gat on citeseer with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001} with validation loss 1.001686453819275
+2022-10-17 13:19:12 INFO     [ldpgcn: gat on citeseer with eps=5] Saving best hp to output/bl_best_hp.json
+2022-10-17 13:19:12 INFO     [ldpgcn: gat on citeseer with eps=6] Start grid search for hyperparameter tuning.
+2022-10-17 13:22:09 INFO     [ldpgcn: gat on citeseer with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001} with validation loss 0.8811065951983134
+2022-10-17 13:22:09 INFO     [ldpgcn: gat on citeseer with eps=6] Saving best hp to output/bl_best_hp.json
+2022-10-17 13:22:09 INFO     [ldpgcn: gat on citeseer with eps=7] Start grid search for hyperparameter tuning.
+2022-10-17 13:25:06 INFO     [ldpgcn: gat on citeseer with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.8123373587926229
+2022-10-17 13:25:06 INFO     [ldpgcn: gat on citeseer with eps=7] Saving best hp to output/bl_best_hp.json
+2022-10-17 13:25:06 INFO     [ldpgcn: gat on citeseer with eps=8] Start grid search for hyperparameter tuning.
+2022-10-17 13:28:03 INFO     [ldpgcn: gat on citeseer with eps=8] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.7834893862406412
+2022-10-17 13:28:03 INFO     [ldpgcn: gat on citeseer with eps=8] Saving best hp to output/bl_best_hp.json
+2022-10-17 13:28:03 INFO     [ldpgcn: gat on citeseer] Grid search done.
+2022-10-17 13:28:03 INFO     Grid search done!
+2022-10-17 13:28:03 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2022-10-17 13:28:03 INFO     [rr: gat on citeseer] Start running experiments on various epsilons.
+2022-10-17 13:28:03 INFO     [rr: gat on citeseer with eps=1] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 13:30:54 INFO     [rr: gat on citeseer with eps=1] Test accuracy is 0.20200320512820508 (0.01041789933534936).
+2022-10-17 13:30:54 INFO     [rr: gat on citeseer with eps=1] Saving training results to output/bl_results.json
+2022-10-17 13:30:54 INFO     [rr: gat on citeseer with eps=2] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 13:32:28 INFO     [rr: gat on citeseer with eps=2] Test accuracy is 0.20352564102564097 (0.0044793028395428425).
+2022-10-17 13:32:28 INFO     [rr: gat on citeseer with eps=2] Saving training results to output/bl_results.json
+2022-10-17 13:32:28 INFO     [rr: gat on citeseer with eps=3] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001}.
+2022-10-17 13:33:33 INFO     [rr: gat on citeseer with eps=3] Test accuracy is 0.20432692307692302 (0.003605769230769226).
+2022-10-17 13:33:33 INFO     [rr: gat on citeseer with eps=3] Saving training results to output/bl_results.json
+2022-10-17 13:33:33 INFO     [rr: gat on citeseer with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 13:34:33 INFO     [rr: gat on citeseer with eps=4] Test accuracy is 0.2055288461538461 (5.551115123125783e-17).
+2022-10-17 13:34:33 INFO     [rr: gat on citeseer with eps=4] Saving training results to output/bl_results.json
+2022-10-17 13:34:33 INFO     [rr: gat on citeseer with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 13:35:33 INFO     [rr: gat on citeseer with eps=5] Test accuracy is 0.27956730769230764 (0.04067475332970014).
+2022-10-17 13:35:33 INFO     [rr: gat on citeseer with eps=5] Saving training results to output/bl_results.json
+2022-10-17 13:35:33 INFO     [rr: gat on citeseer with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 13:36:32 INFO     [rr: gat on citeseer with eps=6] Test accuracy is 0.40424679487179477 (0.044583984262239224).
+2022-10-17 13:36:32 INFO     [rr: gat on citeseer with eps=6] Saving training results to output/bl_results.json
+2022-10-17 13:36:32 INFO     [rr: gat on citeseer with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 13:37:32 INFO     [rr: gat on citeseer with eps=7] Test accuracy is 0.5743990384615384 (0.023383196459513426).
+2022-10-17 13:37:32 INFO     [rr: gat on citeseer with eps=7] Saving training results to output/bl_results.json
+2022-10-17 13:37:32 INFO     [rr: gat on citeseer with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 13:38:31 INFO     [rr: gat on citeseer with eps=8] Test accuracy is 0.6780849358974359 (0.018283678006101572).
+2022-10-17 13:38:31 INFO     [rr: gat on citeseer with eps=8] Saving training results to output/bl_results.json
+2022-10-17 13:38:31 INFO     [rr: gat on citeseer] Experiments done.
+2022-10-17 13:38:31 INFO     [ldpgcn: gat on citeseer] Start running experiments on various epsilons.
+2022-10-17 13:38:31 INFO     [ldpgcn: gat on citeseer with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 13:39:36 INFO     [ldpgcn: gat on citeseer with eps=1] Test accuracy is 0.4231570512820513 (0.08547463846713889).
+2022-10-17 13:39:36 INFO     [ldpgcn: gat on citeseer with eps=1] Saving training results to output/bl_results.json
+2022-10-17 13:39:36 INFO     [ldpgcn: gat on citeseer with eps=2] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.001}.
+2022-10-17 13:40:42 INFO     [ldpgcn: gat on citeseer with eps=2] Test accuracy is 0.4517227564102564 (0.048306825440540324).
+2022-10-17 13:40:42 INFO     [ldpgcn: gat on citeseer with eps=2] Saving training results to output/bl_results.json
+2022-10-17 13:40:42 INFO     [ldpgcn: gat on citeseer with eps=3] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001}.
+2022-10-17 13:41:47 INFO     [ldpgcn: gat on citeseer with eps=3] Test accuracy is 0.4804887820512821 (0.019792680408481853).
+2022-10-17 13:41:47 INFO     [ldpgcn: gat on citeseer with eps=3] Saving training results to output/bl_results.json
+2022-10-17 13:41:47 INFO     [ldpgcn: gat on citeseer with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001}.
+2022-10-17 13:42:52 INFO     [ldpgcn: gat on citeseer with eps=4] Test accuracy is 0.5680689102564103 (0.018423781516445355).
+2022-10-17 13:42:52 INFO     [ldpgcn: gat on citeseer with eps=4] Saving training results to output/bl_results.json
+2022-10-17 13:42:52 INFO     [ldpgcn: gat on citeseer with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001}.
+2022-10-17 13:43:58 INFO     [ldpgcn: gat on citeseer with eps=5] Test accuracy is 0.6724759615384618 (0.01800947142706713).
+2022-10-17 13:43:58 INFO     [ldpgcn: gat on citeseer with eps=5] Saving training results to output/bl_results.json
+2022-10-17 13:43:58 INFO     [ldpgcn: gat on citeseer with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001}.
+2022-10-17 13:45:03 INFO     [ldpgcn: gat on citeseer with eps=6] Test accuracy is 0.7294471153846153 (0.017946795126515393).
+2022-10-17 13:45:03 INFO     [ldpgcn: gat on citeseer with eps=6] Saving training results to output/bl_results.json
+2022-10-17 13:45:03 INFO     [ldpgcn: gat on citeseer with eps=7] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 13:46:08 INFO     [ldpgcn: gat on citeseer with eps=7] Test accuracy is 0.7497996794871794 (0.015159115006227268).
+2022-10-17 13:46:08 INFO     [ldpgcn: gat on citeseer with eps=7] Saving training results to output/bl_results.json
+2022-10-17 13:46:08 INFO     [ldpgcn: gat on citeseer with eps=8] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 13:47:14 INFO     [ldpgcn: gat on citeseer with eps=8] Test accuracy is 0.7554887820512819 (0.01545981263556128).
+2022-10-17 13:47:14 INFO     [ldpgcn: gat on citeseer with eps=8] Saving training results to output/bl_results.json
+2022-10-17 13:47:14 INFO     [ldpgcn: gat on citeseer] Experiments done.
+2022-10-17 13:47:14 INFO     All baseline experiments done!

@@ -1,0 +1,45 @@
+2023-04-13 14:18:03 INFO     Start experiments with Namespace(variant='hard', dataset='twitch', model='gcn', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-04-13 14:18:03 INFO     Using device: cuda
+2023-04-13 14:18:03 INFO     _CudaDeviceProperties(name='NVIDIA GeForce RTX 3060 Laptop GPU', major=8, minor=6, total_memory=6143MB, multi_processor_count=30)
+2023-04-13 14:18:03 INFO     Grid search. Load hyperparameter space from facebook_config.json
+2023-04-13 14:18:03 INFO     [Blink-hard: gcn on twitch with eps=1] Start grid search for hyperparameter tuning.
+2023-04-13 14:19:14 INFO     [Blink-hard: gcn on twitch with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 1} with validation loss 0.6024917364120483.
+2023-04-13 14:19:14 INFO     [Blink-hard: gcn on twitch with eps=1] Saving best hp to output/best_hp.json
+2023-04-13 14:19:14 INFO     [Blink-hard: gcn on twitch with eps=1] Test accuracy is 0.6711297071129707 (0.004843446402841099).
+2023-04-13 14:19:14 INFO     [Blink-hard: gcn on twitch with eps=1] Saving training results to output/results.json
+2023-04-13 14:19:14 INFO     [Blink-hard: gcn on twitch with eps=2] Start grid search for hyperparameter tuning.
+2023-04-13 14:20:19 INFO     [Blink-hard: gcn on twitch with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 1} with validation loss 0.6024051547050476.
+2023-04-13 14:20:19 INFO     [Blink-hard: gcn on twitch with eps=2] Saving best hp to output/best_hp.json
+2023-04-13 14:20:19 INFO     [Blink-hard: gcn on twitch with eps=2] Test accuracy is 0.6715481171548117 (0.005124455528835091).
+2023-04-13 14:20:19 INFO     [Blink-hard: gcn on twitch with eps=2] Saving training results to output/results.json
+2023-04-13 14:20:19 INFO     [Blink-hard: gcn on twitch with eps=3] Start grid search for hyperparameter tuning.
+2023-04-13 14:21:24 INFO     [Blink-hard: gcn on twitch with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 1} with validation loss 0.6021410822868347.
+2023-04-13 14:21:24 INFO     [Blink-hard: gcn on twitch with eps=3] Saving best hp to output/best_hp.json
+2023-04-13 14:21:24 INFO     [Blink-hard: gcn on twitch with eps=3] Test accuracy is 0.6736401673640168 (0.003500669567088198).
+2023-04-13 14:21:24 INFO     [Blink-hard: gcn on twitch with eps=3] Saving training results to output/results.json
+2023-04-13 14:21:24 INFO     [Blink-hard: gcn on twitch with eps=4] Start grid search for hyperparameter tuning.
+2023-04-13 14:22:29 INFO     [Blink-hard: gcn on twitch with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 1} with validation loss 0.6022691130638123.
+2023-04-13 14:22:29 INFO     [Blink-hard: gcn on twitch with eps=4] Saving best hp to output/best_hp.json
+2023-04-13 14:22:29 INFO     [Blink-hard: gcn on twitch with eps=4] Test accuracy is 0.6715481171548117 (0.005767384415100499).
+2023-04-13 14:22:29 INFO     [Blink-hard: gcn on twitch with eps=4] Saving training results to output/results.json
+2023-04-13 14:22:29 INFO     [Blink-hard: gcn on twitch with eps=5] Start grid search for hyperparameter tuning.
+2023-04-13 14:23:33 INFO     [Blink-hard: gcn on twitch with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5950964450836181.
+2023-04-13 14:23:33 INFO     [Blink-hard: gcn on twitch with eps=5] Saving best hp to output/best_hp.json
+2023-04-13 14:23:33 INFO     [Blink-hard: gcn on twitch with eps=5] Test accuracy is 0.6769874476987447 (0.008430728736238463).
+2023-04-13 14:23:33 INFO     [Blink-hard: gcn on twitch with eps=5] Saving training results to output/results.json
+2023-04-13 14:23:33 INFO     [Blink-hard: gcn on twitch with eps=6] Start grid search for hyperparameter tuning.
+2023-04-13 14:24:43 INFO     [Blink-hard: gcn on twitch with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.4} with validation loss 0.596206784248352.
+2023-04-13 14:24:43 INFO     [Blink-hard: gcn on twitch with eps=6] Saving best hp to output/best_hp.json
+2023-04-13 14:24:43 INFO     [Blink-hard: gcn on twitch with eps=6] Test accuracy is 0.6757322175732218 (0.00418410041841003).
+2023-04-13 14:24:43 INFO     [Blink-hard: gcn on twitch with eps=6] Saving training results to output/results.json
+2023-04-13 14:24:43 INFO     [Blink-hard: gcn on twitch with eps=7] Start grid search for hyperparameter tuning.
+2023-04-13 14:25:59 INFO     [Blink-hard: gcn on twitch with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5915741920471191.
+2023-04-13 14:25:59 INFO     [Blink-hard: gcn on twitch with eps=7] Saving best hp to output/best_hp.json
+2023-04-13 14:25:59 INFO     [Blink-hard: gcn on twitch with eps=7] Test accuracy is 0.6782426778242678 (0.0042669619360608925).
+2023-04-13 14:25:59 INFO     [Blink-hard: gcn on twitch with eps=7] Saving training results to output/results.json
+2023-04-13 14:25:59 INFO     [Blink-hard: gcn on twitch with eps=8] Start grid search for hyperparameter tuning.
+2023-04-13 14:27:36 INFO     [Blink-hard: gcn on twitch with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 1} with validation loss 0.6030455946922302.
+2023-04-13 14:27:36 INFO     [Blink-hard: gcn on twitch with eps=8] Saving best hp to output/best_hp.json
+2023-04-13 14:27:36 INFO     [Blink-hard: gcn on twitch with eps=8] Test accuracy is 0.6740585774058577 (0.001565547023754806).
+2023-04-13 14:27:36 INFO     [Blink-hard: gcn on twitch with eps=8] Saving training results to output/results.json
+2023-04-13 14:27:36 INFO     Done!

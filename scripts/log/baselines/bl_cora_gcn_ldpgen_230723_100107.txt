@@ -1,0 +1,23 @@
+2023-07-23 10:01:07 INFO     Start experiments with Namespace(dataset='cora', model='gcn', method=['ldpgen'], grid_search=True, use_dense_model=False, eps=[1, 2])
+2023-07-23 10:01:12 INFO     Using device: cuda
+2023-07-23 10:01:12 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40536MB, multi_processor_count=108)
+2023-07-23 10:01:12 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 10:01:12 INFO     [ldpgen: gcn on cora] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 10:01:12 INFO     [ldpgen: gcn on cora with eps=1] Start grid search for hyperparameter tuning.
+2023-07-23 10:05:50 INFO     [ldpgen: gcn on cora with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.001} with validation loss 1.788765025138855
+2023-07-23 10:05:50 INFO     [ldpgen: gcn on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2023-07-23 10:05:50 INFO     [ldpgen: gcn on cora with eps=2] Start grid search for hyperparameter tuning.
+2023-07-23 10:10:32 INFO     [ldpgen: gcn on cora with eps=2] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.001} with validation loss 1.740566110610962
+2023-07-23 10:10:32 INFO     [ldpgen: gcn on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2023-07-23 10:10:32 INFO     [ldpgen: gcn on cora] Grid search done.
+2023-07-23 10:10:32 INFO     Grid search done!
+2023-07-23 10:10:32 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 10:10:32 INFO     [ldpgen: gcn on cora] Start running experiments on various epsilons.
+2023-07-23 10:10:32 INFO     [ldpgen: gcn on cora with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.001}.
+2023-07-23 10:11:24 INFO     [ldpgen: gcn on cora with eps=1] Test accuracy is 0.3414574101427868 (0.0029807603875263967).
+2023-07-23 10:11:24 INFO     [ldpgen: gcn on cora with eps=1] Saving training results to output/bl_results.json
+2023-07-23 10:11:24 INFO     [ldpgen: gcn on cora with eps=2] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.001}.
+2023-07-23 10:12:17 INFO     [ldpgen: gcn on cora with eps=2] Test accuracy is 0.3429345150172329 (0.014229784359053099).
+2023-07-23 10:12:17 INFO     [ldpgen: gcn on cora with eps=2] Saving training results to output/bl_results.json
+2023-07-23 10:12:17 INFO     [ldpgen: gcn on cora] Experiments done.
+2023-07-23 10:12:17 INFO     All baseline experiments done!

@@ -1,0 +1,10 @@
+2022-10-15 04:11:16 INFO     Start experiments with Namespace(dataset='cora', model='mlp', grid_search=True)
+2022-10-15 04:11:24 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-15 04:11:24 INFO     [mlp on cora with eps=None] Start grid search for hyperparameter tuning.
+2022-10-15 04:12:09 INFO     [mlp on cora with eps=None] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001} with validation loss 0.8001004656155905
+2022-10-15 04:12:09 INFO     [mlp on cora with eps=None] Saving best hp to output/best_hp.json
+2022-10-15 04:12:09 INFO     Grid search done!
+2022-10-15 04:12:09 INFO     Run experiments using found hyperparameters in best_hp.json.
+2022-10-15 04:12:09 INFO     [mlp on cora with eps=None] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001}.
+2022-10-15 04:12:25 INFO     [mlp on cora with eps=None] Test accuracy is 0.710388970950271 (0.005882925467747461).
+2022-10-15 04:12:25 INFO     [mlp on cora with eps=None] Saving training results to output/results.json

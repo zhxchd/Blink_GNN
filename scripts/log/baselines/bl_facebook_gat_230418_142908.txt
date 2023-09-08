@@ -1,0 +1,59 @@
+2023-04-18 14:29:08 INFO     Start experiments with Namespace(dataset='facebook', model='gat', method=['ldpgcn'], grid_search=True, use_dense_model=False, eps=None)
+2023-04-18 14:29:09 INFO     Using device: cuda
+2023-04-18 14:29:09 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-04-18 14:29:09 INFO     Grid search. Load hyperparameter space from fb_config.json
+2023-04-18 14:29:09 INFO     [ldpgcn: gat on facebook] Grid search for hyperparameter tuning on various epsilons.
+2023-04-18 14:29:09 INFO     [ldpgcn: gat on facebook with eps=1] Start grid search for hyperparameter tuning.
+2023-04-18 14:29:38 INFO     [ldpgcn: gat on facebook with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.0803205966949463
+2023-04-18 14:29:38 INFO     [ldpgcn: gat on facebook with eps=1] Saving best hp to output/bl_best_hp.json
+2023-04-18 14:29:38 INFO     [ldpgcn: gat on facebook with eps=2] Start grid search for hyperparameter tuning.
+2023-04-18 14:30:04 INFO     [ldpgcn: gat on facebook with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.0915344953536987
+2023-04-18 14:30:04 INFO     [ldpgcn: gat on facebook with eps=2] Saving best hp to output/bl_best_hp.json
+2023-04-18 14:30:04 INFO     [ldpgcn: gat on facebook with eps=3] Start grid search for hyperparameter tuning.
+2023-04-18 14:30:29 INFO     [ldpgcn: gat on facebook with eps=3] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 1.0631123781204224
+2023-04-18 14:30:29 INFO     [ldpgcn: gat on facebook with eps=3] Saving best hp to output/bl_best_hp.json
+2023-04-18 14:30:29 INFO     [ldpgcn: gat on facebook with eps=4] Start grid search for hyperparameter tuning.
+2023-04-18 14:30:55 INFO     [ldpgcn: gat on facebook with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.8173999190330505
+2023-04-18 14:30:55 INFO     [ldpgcn: gat on facebook with eps=4] Saving best hp to output/bl_best_hp.json
+2023-04-18 14:30:55 INFO     [ldpgcn: gat on facebook with eps=5] Start grid search for hyperparameter tuning.
+2023-04-18 14:31:20 INFO     [ldpgcn: gat on facebook with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.5950028300285339
+2023-04-18 14:31:20 INFO     [ldpgcn: gat on facebook with eps=5] Saving best hp to output/bl_best_hp.json
+2023-04-18 14:31:20 INFO     [ldpgcn: gat on facebook with eps=6] Start grid search for hyperparameter tuning.
+2023-04-18 14:31:45 INFO     [ldpgcn: gat on facebook with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.4384672939777374
+2023-04-18 14:31:45 INFO     [ldpgcn: gat on facebook with eps=6] Saving best hp to output/bl_best_hp.json
+2023-04-18 14:31:45 INFO     [ldpgcn: gat on facebook with eps=7] Start grid search for hyperparameter tuning.
+2023-04-18 14:32:12 INFO     [ldpgcn: gat on facebook with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.3390194773674011
+2023-04-18 14:32:12 INFO     [ldpgcn: gat on facebook with eps=7] Saving best hp to output/bl_best_hp.json
+2023-04-18 14:32:12 INFO     [ldpgcn: gat on facebook with eps=8] Start grid search for hyperparameter tuning.
+2023-04-18 14:32:38 INFO     [ldpgcn: gat on facebook with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.2871887981891632
+2023-04-18 14:32:38 INFO     [ldpgcn: gat on facebook with eps=8] Saving best hp to output/bl_best_hp.json
+2023-04-18 14:32:38 INFO     [ldpgcn: gat on facebook] Grid search done.
+2023-04-18 14:32:38 INFO     Grid search done!
+2023-04-18 14:32:38 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-04-18 14:32:38 INFO     [ldpgcn: gat on facebook] Start running experiments on various epsilons.
+2023-04-18 14:32:38 INFO     [ldpgcn: gat on facebook with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 14:35:49 INFO     [ldpgcn: gat on facebook with eps=1] Test accuracy is 0.5028361219888454 (0.042299735554089495).
+2023-04-18 14:35:49 INFO     [ldpgcn: gat on facebook with eps=1] Saving training results to output/bl_results.json
+2023-04-18 14:35:49 INFO     [ldpgcn: gat on facebook with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 14:39:07 INFO     [ldpgcn: gat on facebook with eps=2] Test accuracy is 0.5158834697994542 (0.04757186924521744).
+2023-04-18 14:39:07 INFO     [ldpgcn: gat on facebook with eps=2] Saving training results to output/bl_results.json
+2023-04-18 14:39:07 INFO     [ldpgcn: gat on facebook with eps=3] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2023-04-18 14:42:23 INFO     [ldpgcn: gat on facebook with eps=3] Test accuracy is 0.5404117716862467 (0.03330469212324798).
+2023-04-18 14:42:23 INFO     [ldpgcn: gat on facebook with eps=3] Saving training results to output/bl_results.json
+2023-04-18 14:42:23 INFO     [ldpgcn: gat on facebook with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 14:45:40 INFO     [ldpgcn: gat on facebook with eps=4] Test accuracy is 0.6625133499466003 (0.022751437939207815).
+2023-04-18 14:45:40 INFO     [ldpgcn: gat on facebook with eps=4] Saving training results to output/bl_results.json
+2023-04-18 14:45:40 INFO     [ldpgcn: gat on facebook with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 14:49:10 INFO     [ldpgcn: gat on facebook with eps=5] Test accuracy is 0.7738400379731815 (0.0060979905130887834).
+2023-04-18 14:49:10 INFO     [ldpgcn: gat on facebook with eps=5] Saving training results to output/bl_results.json
+2023-04-18 14:49:10 INFO     [ldpgcn: gat on facebook with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 14:52:46 INFO     [ldpgcn: gat on facebook with eps=6] Test accuracy is 0.8402990388038448 (0.003547027561479587).
+2023-04-18 14:52:46 INFO     [ldpgcn: gat on facebook with eps=6] Saving training results to output/bl_results.json
+2023-04-18 14:52:46 INFO     [ldpgcn: gat on facebook with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 14:56:33 INFO     [ldpgcn: gat on facebook with eps=7] Test accuracy is 0.8783256200308533 (0.0038181250665769778).
+2023-04-18 14:56:33 INFO     [ldpgcn: gat on facebook with eps=7] Saving training results to output/bl_results.json
+2023-04-18 14:56:33 INFO     [ldpgcn: gat on facebook with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 14:59:57 INFO     [ldpgcn: gat on facebook with eps=8] Test accuracy is 0.9001483327400024 (0.003956627851602107).
+2023-04-18 14:59:57 INFO     [ldpgcn: gat on facebook with eps=8] Saving training results to output/bl_results.json
+2023-04-18 14:59:57 INFO     [ldpgcn: gat on facebook] Experiments done.
+2023-04-18 14:59:57 INFO     All baseline experiments done!

@@ -1,0 +1,57 @@
+2022-10-17 14:58:37 INFO     Start experiments with Namespace(dataset='cora', model='graphsage', grid_search=True)
+2022-10-17 14:58:43 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-17 14:58:43 INFO     [ldpgcn: graphsage on cora] Grid search for hyperparameter tuning on various epsilons.
+2022-10-17 14:58:43 INFO     [ldpgcn: graphsage on cora with eps=1] Start grid search for hyperparameter tuning.
+2022-10-17 15:00:29 INFO     [ldpgcn: graphsage on cora with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001} with validation loss 0.8248051404953003
+2022-10-17 15:00:29 INFO     [ldpgcn: graphsage on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2022-10-17 15:00:29 INFO     [ldpgcn: graphsage on cora with eps=2] Start grid search for hyperparameter tuning.
+2022-10-17 15:02:14 INFO     [ldpgcn: graphsage on cora with eps=2] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001} with validation loss 0.8337669968605042
+2022-10-17 15:02:14 INFO     [ldpgcn: graphsage on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-17 15:02:14 INFO     [ldpgcn: graphsage on cora with eps=3] Start grid search for hyperparameter tuning.
+2022-10-17 15:03:58 INFO     [ldpgcn: graphsage on cora with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001} with validation loss 0.8199153542518616
+2022-10-17 15:03:58 INFO     [ldpgcn: graphsage on cora with eps=3] Saving best hp to output/bl_best_hp.json
+2022-10-17 15:03:58 INFO     [ldpgcn: graphsage on cora with eps=4] Start grid search for hyperparameter tuning.
+2022-10-17 15:05:43 INFO     [ldpgcn: graphsage on cora with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.7119225263595581
+2022-10-17 15:05:43 INFO     [ldpgcn: graphsage on cora with eps=4] Saving best hp to output/bl_best_hp.json
+2022-10-17 15:05:43 INFO     [ldpgcn: graphsage on cora with eps=5] Start grid search for hyperparameter tuning.
+2022-10-17 15:07:27 INFO     [ldpgcn: graphsage on cora with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.5849101940790812
+2022-10-17 15:07:27 INFO     [ldpgcn: graphsage on cora with eps=5] Saving best hp to output/bl_best_hp.json
+2022-10-17 15:07:27 INFO     [ldpgcn: graphsage on cora with eps=6] Start grid search for hyperparameter tuning.
+2022-10-17 15:09:11 INFO     [ldpgcn: graphsage on cora with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.4855434795220693
+2022-10-17 15:09:11 INFO     [ldpgcn: graphsage on cora with eps=6] Saving best hp to output/bl_best_hp.json
+2022-10-17 15:09:11 INFO     [ldpgcn: graphsage on cora with eps=7] Start grid search for hyperparameter tuning.
+2022-10-17 15:10:56 INFO     [ldpgcn: graphsage on cora with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.4597712258497874
+2022-10-17 15:10:56 INFO     [ldpgcn: graphsage on cora with eps=7] Saving best hp to output/bl_best_hp.json
+2022-10-17 15:10:56 INFO     [ldpgcn: graphsage on cora with eps=8] Start grid search for hyperparameter tuning.
+2022-10-17 15:12:40 INFO     [ldpgcn: graphsage on cora with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.4387982288996379
+2022-10-17 15:12:40 INFO     [ldpgcn: graphsage on cora with eps=8] Saving best hp to output/bl_best_hp.json
+2022-10-17 15:12:40 INFO     [ldpgcn: graphsage on cora] Grid search done.
+2022-10-17 15:12:40 INFO     Grid search done!
+2022-10-17 15:12:40 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2022-10-17 15:12:40 INFO     [ldpgcn: graphsage on cora] Start running experiments on various epsilons.
+2022-10-17 15:12:40 INFO     [ldpgcn: graphsage on cora with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001}.
+2022-10-17 15:13:18 INFO     [ldpgcn: graphsage on cora with eps=1] Test accuracy is 0.6954209748892172 (0.011374027248411047).
+2022-10-17 15:13:18 INFO     [ldpgcn: graphsage on cora with eps=1] Saving training results to output/bl_results.json
+2022-10-17 15:13:18 INFO     [ldpgcn: graphsage on cora with eps=2] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001}.
+2022-10-17 15:13:57 INFO     [ldpgcn: graphsage on cora with eps=2] Test accuracy is 0.6943377646479566 (0.009112937706555812).
+2022-10-17 15:13:57 INFO     [ldpgcn: graphsage on cora with eps=2] Saving training results to output/bl_results.json
+2022-10-17 15:13:57 INFO     [ldpgcn: graphsage on cora with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001}.
+2022-10-17 15:14:36 INFO     [ldpgcn: graphsage on cora with eps=3] Test accuracy is 0.6971442639094043 (0.012002985677005956).
+2022-10-17 15:14:36 INFO     [ldpgcn: graphsage on cora with eps=3] Saving training results to output/bl_results.json
+2022-10-17 15:14:36 INFO     [ldpgcn: graphsage on cora with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 15:15:14 INFO     [ldpgcn: graphsage on cora with eps=4] Test accuracy is 0.7294436238306253 (0.01065894907452143).
+2022-10-17 15:15:14 INFO     [ldpgcn: graphsage on cora with eps=4] Saving training results to output/bl_results.json
+2022-10-17 15:15:14 INFO     [ldpgcn: graphsage on cora with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2022-10-17 15:15:53 INFO     [ldpgcn: graphsage on cora with eps=5] Test accuracy is 0.793648449039882 (0.011982771469634888).
+2022-10-17 15:15:53 INFO     [ldpgcn: graphsage on cora with eps=5] Saving training results to output/bl_results.json
+2022-10-17 15:15:53 INFO     [ldpgcn: graphsage on cora with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 15:16:32 INFO     [ldpgcn: graphsage on cora with eps=6] Test accuracy is 0.8321024126046284 (0.007544650441901704).
+2022-10-17 15:16:32 INFO     [ldpgcn: graphsage on cora with eps=6] Saving training results to output/bl_results.json
+2022-10-17 15:16:32 INFO     [ldpgcn: graphsage on cora with eps=7] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 15:17:10 INFO     [ldpgcn: graphsage on cora with eps=7] Test accuracy is 0.8519448547513541 (0.006086476709095627).
+2022-10-17 15:17:10 INFO     [ldpgcn: graphsage on cora with eps=7] Saving training results to output/bl_results.json
+2022-10-17 15:17:10 INFO     [ldpgcn: graphsage on cora with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-17 15:17:49 INFO     [ldpgcn: graphsage on cora with eps=8] Test accuracy is 0.8598719842442147 (0.006122813020860591).
+2022-10-17 15:17:49 INFO     [ldpgcn: graphsage on cora with eps=8] Saving training results to output/bl_results.json
+2022-10-17 15:17:49 INFO     [ldpgcn: graphsage on cora] Experiments done.
+2022-10-17 15:17:49 INFO     All baseline experiments done!

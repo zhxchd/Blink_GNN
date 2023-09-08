@@ -1,0 +1,23 @@
+2023-07-23 17:03:47 INFO     Start experiments with Namespace(dataset='citeseer', model='graphsage', method=['symrr'], grid_search=True, use_dense_model=False, eps=[7, 8])
+2023-07-23 17:03:52 INFO     Using device: cuda
+2023-07-23 17:03:52 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40536MB, multi_processor_count=108)
+2023-07-23 17:03:52 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 17:03:52 INFO     [symrr: graphsage on citeseer] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 17:03:52 INFO     [symrr: graphsage on citeseer with eps=7] Start grid search for hyperparameter tuning.
+2023-07-23 17:08:01 INFO     [symrr: graphsage on citeseer with eps=7] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.7861016392707825
+2023-07-23 17:08:01 INFO     [symrr: graphsage on citeseer with eps=7] Saving best hp to output/bl_best_hp.json
+2023-07-23 17:08:01 INFO     [symrr: graphsage on citeseer with eps=8] Start grid search for hyperparameter tuning.
+2023-07-23 17:11:22 INFO     [symrr: graphsage on citeseer with eps=8] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001} with validation loss 0.7724908232688904
+2023-07-23 17:11:22 INFO     [symrr: graphsage on citeseer with eps=8] Saving best hp to output/bl_best_hp.json
+2023-07-23 17:11:22 INFO     [symrr: graphsage on citeseer] Grid search done.
+2023-07-23 17:11:22 INFO     Grid search done!
+2023-07-23 17:11:22 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 17:11:22 INFO     [symrr: graphsage on citeseer] Start running experiments on various epsilons.
+2023-07-23 17:11:22 INFO     [symrr: graphsage on citeseer with eps=7] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001}.
+2023-07-23 17:12:10 INFO     [symrr: graphsage on citeseer with eps=7] Test accuracy is 0.7516426282051282 (0.007267963905400897).
+2023-07-23 17:12:10 INFO     [symrr: graphsage on citeseer with eps=7] Saving training results to output/bl_results.json
+2023-07-23 17:12:10 INFO     [symrr: graphsage on citeseer with eps=8] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001}.
+2023-07-23 17:12:48 INFO     [symrr: graphsage on citeseer with eps=8] Test accuracy is 0.7704326923076923 (0.009418047126999875).
+2023-07-23 17:12:48 INFO     [symrr: graphsage on citeseer with eps=8] Saving training results to output/bl_results.json
+2023-07-23 17:12:48 INFO     [symrr: graphsage on citeseer] Experiments done.
+2023-07-23 17:12:48 INFO     All baseline experiments done!

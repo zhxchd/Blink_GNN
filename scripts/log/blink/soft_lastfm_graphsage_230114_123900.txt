@@ -1,0 +1,42 @@
+2023-01-14 12:39:00 INFO     Start experiments with Namespace(variant='soft', dataset='lastfm', model='graphsage', grid_search=True, eps=['1', '2'])
+2023-01-14 12:39:15 INFO     Using device: cuda
+2023-01-14 12:39:15 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-14 12:39:15 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-14 12:39:15 INFO     [Blink-soft: graphsage on lastfm with eps=1] Start grid search for hyperparameter tuning.
+2023-01-14 13:16:12 INFO     [Blink-soft: graphsage on lastfm with eps=1] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.7} with validation loss 1.021275806427002
+2023-01-14 13:16:12 INFO     [Blink-soft: graphsage on lastfm with eps=1] Saving best hp to output/best_hp.json
+2023-01-14 13:16:12 INFO     [Blink-soft: graphsage on lastfm with eps=2] Start grid search for hyperparameter tuning.
+2023-01-14 13:51:21 INFO     [Blink-soft: graphsage on lastfm with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.9} with validation loss 1.0294403433799744
+2023-01-14 13:51:21 INFO     [Blink-soft: graphsage on lastfm with eps=2] Saving best hp to output/best_hp.json
+2023-01-14 14:06:42 INFO     [Blink-soft: graphsage on lastfm with eps=5] Start grid search for hyperparameter tuning.
+2023-01-14 14:39:27 INFO     [Blink-soft: graphsage on lastfm with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7626681327819824
+2023-01-14 14:39:27 INFO     [Blink-soft: graphsage on lastfm with eps=5] Saving best hp to output/best_hp.json
+2023-01-14 14:39:27 INFO     [Blink-soft: graphsage on lastfm with eps=6] Start grid search for hyperparameter tuning.
+2023-01-14 15:11:49 INFO     [Blink-soft: graphsage on lastfm with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7377211928367615
+2023-01-14 15:11:49 INFO     [Blink-soft: graphsage on lastfm with eps=6] Saving best hp to output/best_hp.json
+2023-01-14 14:09:26 INFO     [Blink-soft: graphsage on lastfm with eps=7] Start grid search for hyperparameter tuning.
+2023-01-14 14:45:32 INFO     [Blink-soft: graphsage on lastfm with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7116634964942932
+2023-01-14 14:45:32 INFO     [Blink-soft: graphsage on lastfm with eps=7] Saving best hp to output/best_hp.json
+2023-01-14 14:45:32 INFO     [Blink-soft: graphsage on lastfm with eps=8] Start grid search for hyperparameter tuning.
+2023-01-14 15:21:19 INFO     [Blink-soft: graphsage on lastfm with eps=8] Best hparam is: {'do': 0, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7405641078948975
+2023-01-14 15:21:19 INFO     [Blink-soft: graphsage on lastfm with eps=8] Saving best hp to output/best_hp.json
+2023-01-14 13:51:21 INFO     Grid search done!
+2023-01-14 13:51:21 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-01-14 13:51:21 INFO     [Blink-soft: graphsage on lastfm with eps=1] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.7}.
+2023-01-14 13:53:13 INFO     [Blink-soft: graphsage on lastfm with eps=1] Test accuracy is 0.6891745365512416 (0.05195725519511017).
+2023-01-14 13:53:13 INFO     [Blink-soft: graphsage on lastfm with eps=1] Saving training results to output/results.json
+2023-01-14 13:53:13 INFO     [Blink-soft: graphsage on lastfm with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.9}.
+2023-01-14 13:55:04 INFO     [Blink-soft: graphsage on lastfm with eps=2] Test accuracy is 0.6941413081497027 (0.025064383107009834).
+2023-01-14 13:55:04 INFO     [Blink-soft: graphsage on lastfm with eps=2] Saving training results to output/results.json
+2023-01-14 15:11:49 INFO     [Blink-soft: graphsage on lastfm with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-14 15:13:24 INFO     [Blink-soft: graphsage on lastfm with eps=5] Test accuracy is 0.7976040573627142 (0.025933825687367875).
+2023-01-14 15:13:24 INFO     [Blink-soft: graphsage on lastfm with eps=5] Saving training results to output/results.json
+2023-01-14 15:13:24 INFO     [Blink-soft: graphsage on lastfm with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-14 15:14:58 INFO     [Blink-soft: graphsage on lastfm with eps=6] Test accuracy is 0.8190276320391745 (0.011626402826060554).
+2023-01-14 15:14:58 INFO     [Blink-soft: graphsage on lastfm with eps=6] Saving training results to output/results.json
+2023-01-14 15:21:19 INFO     [Blink-soft: graphsage on lastfm with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-14 15:22:59 INFO     [Blink-soft: graphsage on lastfm with eps=7] Test accuracy is 0.8323889471843304 (0.013593111948092458).
+2023-01-14 15:22:59 INFO     [Blink-soft: graphsage on lastfm with eps=7] Saving training results to output/results.json
+2023-01-14 15:22:59 INFO     [Blink-soft: graphsage on lastfm with eps=8] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-14 15:24:40 INFO     [Blink-soft: graphsage on lastfm with eps=8] Test accuracy is 0.8284015389996503 (0.01174340503872623).
+2023-01-14 15:24:40 INFO     [Blink-soft: graphsage on lastfm with eps=8] Saving training results to output/results.json

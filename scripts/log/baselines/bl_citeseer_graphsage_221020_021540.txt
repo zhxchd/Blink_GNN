@@ -1,0 +1,57 @@
+2022-10-20 02:15:40 INFO     Start experiments with Namespace(dataset='citeseer', model='graphsage', method=['rr'], grid_search=True)
+2022-10-20 02:15:49 INFO     Grid search. Load hyperparameter space from config.json
+2022-10-20 02:15:49 INFO     [rr: graphsage on citeseer] Grid search for hyperparameter tuning on various epsilons.
+2022-10-20 02:15:49 INFO     [rr: graphsage on citeseer with eps=1] Start grid search for hyperparameter tuning.
+2022-10-20 06:24:04 INFO     [rr: graphsage on citeseer with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.8427857359250387
+2022-10-20 06:24:04 INFO     [rr: graphsage on citeseer with eps=1] Saving best hp to output/bl_best_hp.json
+2022-10-20 06:24:04 INFO     [rr: graphsage on citeseer with eps=2] Start grid search for hyperparameter tuning.
+2022-10-20 08:00:49 INFO     [rr: graphsage on citeseer with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.8345900177955627
+2022-10-20 08:00:49 INFO     [rr: graphsage on citeseer with eps=2] Saving best hp to output/bl_best_hp.json
+2022-10-20 08:00:49 INFO     [rr: graphsage on citeseer with eps=3] Start grid search for hyperparameter tuning.
+2022-10-20 08:33:38 INFO     [rr: graphsage on citeseer with eps=3] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.8411655028661092
+2022-10-20 08:33:38 INFO     [rr: graphsage on citeseer with eps=3] Saving best hp to output/bl_best_hp.json
+2022-10-20 08:33:38 INFO     [rr: graphsage on citeseer with eps=4] Start grid search for hyperparameter tuning.
+2022-10-20 08:47:12 INFO     [rr: graphsage on citeseer with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.8293535510698954
+2022-10-20 08:47:12 INFO     [rr: graphsage on citeseer with eps=4] Saving best hp to output/bl_best_hp.json
+2022-10-20 08:47:12 INFO     [rr: graphsage on citeseer with eps=5] Start grid search for hyperparameter tuning.
+2022-10-20 08:53:23 INFO     [rr: graphsage on citeseer with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.8358299136161804
+2022-10-20 08:53:23 INFO     [rr: graphsage on citeseer with eps=5] Saving best hp to output/bl_best_hp.json
+2022-10-20 08:53:23 INFO     [rr: graphsage on citeseer with eps=6] Start grid search for hyperparameter tuning.
+2022-10-20 08:57:01 INFO     [rr: graphsage on citeseer with eps=6] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.7976214090983073
+2022-10-20 08:57:01 INFO     [rr: graphsage on citeseer with eps=6] Saving best hp to output/bl_best_hp.json
+2022-10-20 08:57:01 INFO     [rr: graphsage on citeseer with eps=7] Start grid search for hyperparameter tuning.
+2022-10-20 08:59:34 INFO     [rr: graphsage on citeseer with eps=7] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.7815889517466227
+2022-10-20 08:59:34 INFO     [rr: graphsage on citeseer with eps=7] Saving best hp to output/bl_best_hp.json
+2022-10-20 08:59:34 INFO     [rr: graphsage on citeseer with eps=8] Start grid search for hyperparameter tuning.
+2022-10-20 09:01:46 INFO     [rr: graphsage on citeseer with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001} with validation loss 0.7694622278213501
+2022-10-20 09:01:46 INFO     [rr: graphsage on citeseer with eps=8] Saving best hp to output/bl_best_hp.json
+2022-10-20 09:01:46 INFO     [rr: graphsage on citeseer] Grid search done.
+2022-10-20 09:01:46 INFO     Grid search done!
+2022-10-20 09:01:46 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2022-10-20 09:01:46 INFO     [rr: graphsage on citeseer] Start running experiments on various epsilons.
+2022-10-20 09:01:46 INFO     [rr: graphsage on citeseer with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 10:33:41 INFO     [rr: graphsage on citeseer with eps=1] Test accuracy is 0.736298076923077 (0.003464097166861748).
+2022-10-20 10:33:41 INFO     [rr: graphsage on citeseer with eps=1] Saving training results to output/bl_results.json
+2022-10-20 10:33:41 INFO     [rr: graphsage on citeseer with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 11:09:31 INFO     [rr: graphsage on citeseer with eps=2] Test accuracy is 0.7357772435897437 (0.0069882866756860625).
+2022-10-20 11:09:31 INFO     [rr: graphsage on citeseer with eps=2] Saving training results to output/bl_results.json
+2022-10-20 11:09:31 INFO     [rr: graphsage on citeseer with eps=3] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 11:21:41 INFO     [rr: graphsage on citeseer with eps=3] Test accuracy is 0.7374599358974361 (0.00590194682726866).
+2022-10-20 11:21:41 INFO     [rr: graphsage on citeseer with eps=3] Saving training results to output/bl_results.json
+2022-10-20 11:21:41 INFO     [rr: graphsage on citeseer with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 11:26:44 INFO     [rr: graphsage on citeseer with eps=4] Test accuracy is 0.7369791666666665 (0.007050029936906332).
+2022-10-20 11:26:44 INFO     [rr: graphsage on citeseer with eps=4] Saving training results to output/bl_results.json
+2022-10-20 11:26:44 INFO     [rr: graphsage on citeseer with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 11:29:02 INFO     [rr: graphsage on citeseer with eps=5] Test accuracy is 0.7428685897435897 (0.008549345300223799).
+2022-10-20 11:29:02 INFO     [rr: graphsage on citeseer with eps=5] Saving training results to output/bl_results.json
+2022-10-20 11:29:02 INFO     [rr: graphsage on citeseer with eps=6] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 11:30:23 INFO     [rr: graphsage on citeseer with eps=6] Test accuracy is 0.7495592948717946 (0.009348681692063321).
+2022-10-20 11:30:23 INFO     [rr: graphsage on citeseer with eps=6] Saving training results to output/bl_results.json
+2022-10-20 11:30:23 INFO     [rr: graphsage on citeseer with eps=7] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 11:31:22 INFO     [rr: graphsage on citeseer with eps=7] Test accuracy is 0.7512820512820515 (0.008627839602498593).
+2022-10-20 11:31:22 INFO     [rr: graphsage on citeseer with eps=7] Saving training results to output/bl_results.json
+2022-10-20 11:31:22 INFO     [rr: graphsage on citeseer with eps=8] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001}.
+2022-10-20 11:32:11 INFO     [rr: graphsage on citeseer with eps=8] Test accuracy is 0.7602564102564103 (0.007394405125038024).
+2022-10-20 11:32:11 INFO     [rr: graphsage on citeseer with eps=8] Saving training results to output/bl_results.json
+2022-10-20 11:32:11 INFO     [rr: graphsage on citeseer] Experiments done.
+2022-10-20 11:32:11 INFO     All baseline experiments done!

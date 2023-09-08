@@ -1,0 +1,59 @@
+2023-01-25 15:33:33 INFO     Start experiments with Namespace(dataset='cora', model='gat', method=['solitude'], grid_search=True, eps=[1, 2, 3, 4, 5, 6, 7, 8])
+2023-01-25 15:33:39 INFO     Using device: cuda
+2023-01-25 15:33:39 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-25 15:33:39 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-25 15:33:39 INFO     [solitude: gat on cora] Grid search for hyperparameter tuning on various epsilons.
+2023-01-25 15:33:39 INFO     [solitude: gat on cora with eps=1] Start grid search for hyperparameter tuning.
+2023-01-25 16:16:13 INFO     [solitude: gat on cora with eps=1] Best hparam is: {'do': 0.001, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 1e-05, 'lam2': 0.0001} with validation loss 1.8084931373596191
+2023-01-25 16:16:13 INFO     [solitude: gat on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2023-01-25 16:16:13 INFO     [solitude: gat on cora with eps=2] Start grid search for hyperparameter tuning.
+2023-01-25 16:59:36 INFO     [solitude: gat on cora with eps=2] Best hparam is: {'do': 0.01, 'lr_theta': 0.1, 'lr_adj': 0.1, 'wd': 0.001, 'lam1': 0.01, 'lam2': 1e-05} with validation loss 1.8104572296142578
+2023-01-25 16:59:36 INFO     [solitude: gat on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2023-01-25 16:59:36 INFO     [solitude: gat on cora with eps=3] Start grid search for hyperparameter tuning.
+2023-01-25 17:42:06 INFO     [solitude: gat on cora with eps=3] Best hparam is: {'do': 0.001, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 0.01, 'lam2': 0.0001} with validation loss 1.8095731735229492
+2023-01-25 17:42:06 INFO     [solitude: gat on cora with eps=3] Saving best hp to output/bl_best_hp.json
+2023-01-25 17:42:06 INFO     [solitude: gat on cora with eps=4] Start grid search for hyperparameter tuning.
+2023-01-25 18:24:03 INFO     [solitude: gat on cora with eps=4] Best hparam is: {'do': 0.001, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 0.001, 'lam2': 0.01} with validation loss 1.8033454418182373
+2023-01-25 18:24:03 INFO     [solitude: gat on cora with eps=4] Saving best hp to output/bl_best_hp.json
+2023-01-25 18:24:03 INFO     [solitude: gat on cora with eps=5] Start grid search for hyperparameter tuning.
+2023-01-25 19:06:00 INFO     [solitude: gat on cora with eps=5] Best hparam is: {'do': 0.01, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.01} with validation loss 1.581960916519165
+2023-01-25 19:06:00 INFO     [solitude: gat on cora with eps=5] Saving best hp to output/bl_best_hp.json
+2023-01-25 19:06:00 INFO     [solitude: gat on cora with eps=6] Start grid search for hyperparameter tuning.
+2023-01-25 19:48:06 INFO     [solitude: gat on cora with eps=6] Best hparam is: {'do': 0.01, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.01} with validation loss 1.245893120765686
+2023-01-25 19:48:06 INFO     [solitude: gat on cora with eps=6] Saving best hp to output/bl_best_hp.json
+2023-01-25 19:48:06 INFO     [solitude: gat on cora with eps=7] Start grid search for hyperparameter tuning.
+2023-01-25 20:31:14 INFO     [solitude: gat on cora with eps=7] Best hparam is: {'do': 0.01, 'lr_theta': 0.01, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.01} with validation loss 1.149631381034851
+2023-01-25 20:31:14 INFO     [solitude: gat on cora with eps=7] Saving best hp to output/bl_best_hp.json
+2023-01-25 20:31:14 INFO     [solitude: gat on cora with eps=8] Start grid search for hyperparameter tuning.
+2023-01-25 21:14:17 INFO     [solitude: gat on cora with eps=8] Best hparam is: {'do': 0.01, 'lr_theta': 0.01, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01} with validation loss 1.4759944677352905
+2023-01-25 21:14:17 INFO     [solitude: gat on cora with eps=8] Saving best hp to output/bl_best_hp.json
+2023-01-25 21:14:17 INFO     [solitude: gat on cora] Grid search done.
+2023-01-25 21:14:17 INFO     Grid search done!
+2023-01-25 21:14:17 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-01-25 21:14:17 INFO     [solitude: gat on cora] Start running experiments on various epsilons.
+2023-01-25 21:14:17 INFO     [solitude: gat on cora with eps=1] Run with best hp found: {'do': 0.001, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 1e-05, 'lam2': 0.0001}.
+2023-01-25 21:15:18 INFO     [solitude: gat on cora with eps=1] Test accuracy is 0.34121122599704584 (5.551115123125783e-17).
+2023-01-25 21:15:18 INFO     [solitude: gat on cora with eps=1] Saving training results to output/bl_results.json
+2023-01-25 21:15:18 INFO     [solitude: gat on cora with eps=2] Run with best hp found: {'do': 0.01, 'lr_theta': 0.1, 'lr_adj': 0.1, 'wd': 0.001, 'lam1': 0.01, 'lam2': 1e-05}.
+2023-01-25 21:16:19 INFO     [solitude: gat on cora with eps=2] Test accuracy is 0.15893648449039885 (0.08345280881738175).
+2023-01-25 21:16:19 INFO     [solitude: gat on cora with eps=2] Saving training results to output/bl_results.json
+2023-01-25 21:16:19 INFO     [solitude: gat on cora with eps=3] Run with best hp found: {'do': 0.001, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 0.01, 'lam2': 0.0001}.
+2023-01-25 21:17:20 INFO     [solitude: gat on cora with eps=3] Test accuracy is 0.3037912358444117 (0.08301831676618057).
+2023-01-25 21:17:20 INFO     [solitude: gat on cora with eps=3] Saving training results to output/bl_results.json
+2023-01-25 21:17:20 INFO     [solitude: gat on cora with eps=4] Run with best hp found: {'do': 0.001, 'lr_theta': 0.01, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 0.001, 'lam2': 0.01}.
+2023-01-25 21:18:21 INFO     [solitude: gat on cora with eps=4] Test accuracy is 0.1696208764155588 (0.08951554800896587).
+2023-01-25 21:18:21 INFO     [solitude: gat on cora with eps=4] Saving training results to output/bl_results.json
+2023-01-25 21:18:21 INFO     [solitude: gat on cora with eps=5] Run with best hp found: {'do': 0.01, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.01}.
+2023-01-25 21:19:21 INFO     [solitude: gat on cora with eps=5] Test accuracy is 0.20733628754308228 (0.11630890696001375).
+2023-01-25 21:19:21 INFO     [solitude: gat on cora with eps=5] Saving training results to output/bl_results.json
+2023-01-25 21:19:21 INFO     [solitude: gat on cora with eps=6] Run with best hp found: {'do': 0.01, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.01}.
+2023-01-25 21:20:21 INFO     [solitude: gat on cora with eps=6] Test accuracy is 0.18316100443131467 (0.1088503694543798).
+2023-01-25 21:20:21 INFO     [solitude: gat on cora with eps=6] Saving training results to output/bl_results.json
+2023-01-25 21:20:21 INFO     [solitude: gat on cora with eps=7] Run with best hp found: {'do': 0.01, 'lr_theta': 0.01, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.01}.
+2023-01-25 21:21:22 INFO     [solitude: gat on cora with eps=7] Test accuracy is 0.20408665681930088 (0.12290014579313058).
+2023-01-25 21:21:22 INFO     [solitude: gat on cora with eps=7] Saving training results to output/bl_results.json
+2023-01-25 21:21:22 INFO     [solitude: gat on cora with eps=8] Run with best hp found: {'do': 0.01, 'lr_theta': 0.01, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 0.01}.
+2023-01-25 21:22:22 INFO     [solitude: gat on cora with eps=8] Test accuracy is 0.24332840965041855 (0.1604691336417267).
+2023-01-25 21:22:22 INFO     [solitude: gat on cora with eps=8] Saving training results to output/bl_results.json
+2023-01-25 21:22:22 INFO     [solitude: gat on cora] Experiments done.
+2023-01-25 21:22:22 INFO     All baseline experiments done!

@@ -1,0 +1,10 @@
+2023-04-13 15:52:13 INFO     Start experiments with Namespace(variant='hard', dataset='twitch', model='graphsage', grid_search=True, eps=['8'])
+2023-04-13 15:52:13 INFO     Using device: cuda
+2023-04-13 15:52:13 INFO     _CudaDeviceProperties(name='NVIDIA GeForce RTX 3060 Laptop GPU', major=8, minor=6, total_memory=6143MB, multi_processor_count=30)
+2023-04-13 15:52:13 INFO     Grid search. Load hyperparameter space from facebook_config.json
+2023-04-13 15:52:13 INFO     [Blink-hard: graphsage on twitch with eps=8] Start grid search for hyperparameter tuning.
+2023-04-13 15:53:09 INFO     [Blink-hard: graphsage on twitch with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5890061497688294.
+2023-04-13 15:53:09 INFO     [Blink-hard: graphsage on twitch with eps=8] Saving best hp to output/best_hp.json
+2023-04-13 15:53:09 INFO     [Blink-hard: graphsage on twitch with eps=8] Test accuracy is 0.6794979079497907 (0.0015655470237547703).
+2023-04-13 15:53:09 INFO     [Blink-hard: graphsage on twitch with eps=8] Saving training results to output/results.json
+2023-04-13 15:53:09 INFO     Done!

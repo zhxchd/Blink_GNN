@@ -1,0 +1,23 @@
+2023-07-24 00:42:53 INFO     Start experiments with Namespace(dataset='citeseer', model='gat', method=['ldpgen'], grid_search=True, use_dense_model=False, eps=[5, 6])
+2023-07-24 00:42:58 INFO     Using device: cuda
+2023-07-24 00:42:58 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-24 00:42:58 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-24 00:42:58 INFO     [ldpgen: gat on citeseer] Grid search for hyperparameter tuning on various epsilons.
+2023-07-24 00:42:58 INFO     [ldpgen: gat on citeseer with eps=5] Start grid search for hyperparameter tuning.
+2023-07-24 00:51:27 INFO     [ldpgen: gat on citeseer with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001} with validation loss 1.5425346851348878
+2023-07-24 00:51:27 INFO     [ldpgen: gat on citeseer with eps=5] Saving best hp to output/bl_best_hp.json
+2023-07-24 00:51:27 INFO     [ldpgen: gat on citeseer with eps=6] Start grid search for hyperparameter tuning.
+2023-07-24 00:59:58 INFO     [ldpgen: gat on citeseer with eps=6] Best hparam is: {'do': 0.001, 'lr': 0.01, 'wd': 0.001} with validation loss 1.5445253133773804
+2023-07-24 00:59:58 INFO     [ldpgen: gat on citeseer with eps=6] Saving best hp to output/bl_best_hp.json
+2023-07-24 00:59:58 INFO     [ldpgen: gat on citeseer] Grid search done.
+2023-07-24 00:59:58 INFO     Grid search done!
+2023-07-24 00:59:58 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-24 00:59:58 INFO     [ldpgen: gat on citeseer] Start running experiments on various epsilons.
+2023-07-24 00:59:58 INFO     [ldpgen: gat on citeseer with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001}.
+2023-07-24 01:01:34 INFO     [ldpgen: gat on citeseer with eps=5] Test accuracy is 0.387099358974359 (0.019303082523386462).
+2023-07-24 01:01:34 INFO     [ldpgen: gat on citeseer with eps=5] Saving training results to output/bl_results.json
+2023-07-24 01:01:34 INFO     [ldpgen: gat on citeseer with eps=6] Run with best hp found: {'do': 0.001, 'lr': 0.01, 'wd': 0.001}.
+2023-07-24 01:03:11 INFO     [ldpgen: gat on citeseer with eps=6] Test accuracy is 0.39515224358974355 (0.01812124647989323).
+2023-07-24 01:03:11 INFO     [ldpgen: gat on citeseer with eps=6] Saving training results to output/bl_results.json
+2023-07-24 01:03:11 INFO     [ldpgen: gat on citeseer] Experiments done.
+2023-07-24 01:03:11 INFO     All baseline experiments done!

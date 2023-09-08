@@ -1,0 +1,59 @@
+2023-01-24 16:36:33 INFO     Start experiments with Namespace(dataset='cora', model='graphsage', method=['solitude'], grid_search=True, eps=[1, 2, 3, 4, 5, 6, 7, 8])
+2023-01-24 16:36:33 INFO     Using device: cuda
+2023-01-24 16:36:33 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-24 16:36:33 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-24 16:36:33 INFO     [solitude: graphsage on cora] Grid search for hyperparameter tuning on various epsilons.
+2023-01-24 16:36:33 INFO     [solitude: graphsage on cora with eps=1] Start grid search for hyperparameter tuning.
+2023-01-24 17:06:14 INFO     [solitude: graphsage on cora with eps=1] Best hparam is: {'do': 0.001, 'lr_theta': 0.1, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 0.01, 'lam2': 0.001} with validation loss 0.7968432903289795
+2023-01-24 17:06:14 INFO     [solitude: graphsage on cora with eps=1] Saving best hp to output/bl_best_hp.json
+2023-01-24 17:06:14 INFO     [solitude: graphsage on cora with eps=2] Start grid search for hyperparameter tuning.
+2023-01-24 17:36:17 INFO     [solitude: graphsage on cora with eps=2] Best hparam is: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 1e-05} with validation loss 0.7944538593292236
+2023-01-24 17:36:17 INFO     [solitude: graphsage on cora with eps=2] Saving best hp to output/bl_best_hp.json
+2023-01-24 17:36:17 INFO     [solitude: graphsage on cora with eps=3] Start grid search for hyperparameter tuning.
+2023-01-24 18:06:09 INFO     [solitude: graphsage on cora with eps=3] Best hparam is: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 1e-05} with validation loss 0.7910882830619812
+2023-01-24 18:06:09 INFO     [solitude: graphsage on cora with eps=3] Saving best hp to output/bl_best_hp.json
+2023-01-24 18:06:09 INFO     [solitude: graphsage on cora with eps=4] Start grid search for hyperparameter tuning.
+2023-01-24 18:36:00 INFO     [solitude: graphsage on cora with eps=4] Best hparam is: {'do': 0.01, 'lr_theta': 0.1, 'lr_adj': 0.01, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 0.0001} with validation loss 0.7692475318908691
+2023-01-24 18:36:00 INFO     [solitude: graphsage on cora with eps=4] Saving best hp to output/bl_best_hp.json
+2023-01-24 18:36:00 INFO     [solitude: graphsage on cora with eps=5] Start grid search for hyperparameter tuning.
+2023-01-24 19:05:46 INFO     [solitude: graphsage on cora with eps=5] Best hparam is: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.001} with validation loss 0.7253947854042053
+2023-01-24 19:05:46 INFO     [solitude: graphsage on cora with eps=5] Saving best hp to output/bl_best_hp.json
+2023-01-24 19:05:46 INFO     [solitude: graphsage on cora with eps=6] Start grid search for hyperparameter tuning.
+2023-01-24 19:35:36 INFO     [solitude: graphsage on cora with eps=6] Best hparam is: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.01} with validation loss 0.6231362223625183
+2023-01-24 19:35:36 INFO     [solitude: graphsage on cora with eps=6] Saving best hp to output/bl_best_hp.json
+2023-01-24 19:35:36 INFO     [solitude: graphsage on cora with eps=7] Start grid search for hyperparameter tuning.
+2023-01-24 20:05:05 INFO     [solitude: graphsage on cora with eps=7] Best hparam is: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 0.001} with validation loss 0.5267965197563171
+2023-01-24 20:05:05 INFO     [solitude: graphsage on cora with eps=7] Saving best hp to output/bl_best_hp.json
+2023-01-24 20:05:05 INFO     [solitude: graphsage on cora with eps=8] Start grid search for hyperparameter tuning.
+2023-01-24 20:34:56 INFO     [solitude: graphsage on cora with eps=8] Best hparam is: {'do': 0.001, 'lr_theta': 0.01, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.001} with validation loss 0.47954073548316956
+2023-01-24 20:34:56 INFO     [solitude: graphsage on cora with eps=8] Saving best hp to output/bl_best_hp.json
+2023-01-24 20:34:56 INFO     [solitude: graphsage on cora] Grid search done.
+2023-01-24 20:34:56 INFO     Grid search done!
+2023-01-24 20:34:56 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-01-24 20:34:56 INFO     [solitude: graphsage on cora] Start running experiments on various epsilons.
+2023-01-24 20:34:56 INFO     [solitude: graphsage on cora with eps=1] Run with best hp found: {'do': 0.001, 'lr_theta': 0.1, 'lr_adj': 0.01, 'wd': 0.001, 'lam1': 0.01, 'lam2': 0.001}.
+2023-01-24 20:36:00 INFO     [solitude: graphsage on cora with eps=1] Test accuracy is 0.707483998030527 (0.0074001168820820844).
+2023-01-24 20:36:00 INFO     [solitude: graphsage on cora with eps=1] Saving training results to output/bl_results.json
+2023-01-24 20:36:00 INFO     [solitude: graphsage on cora with eps=2] Run with best hp found: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 1e-05}.
+2023-01-24 20:37:04 INFO     [solitude: graphsage on cora with eps=2] Test accuracy is 0.7075332348596751 (0.00994535198263129).
+2023-01-24 20:37:04 INFO     [solitude: graphsage on cora with eps=2] Saving training results to output/bl_results.json
+2023-01-24 20:37:04 INFO     [solitude: graphsage on cora with eps=3] Run with best hp found: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.01, 'wd': 0.0001, 'lam1': 0.0001, 'lam2': 1e-05}.
+2023-01-24 20:38:08 INFO     [solitude: graphsage on cora with eps=3] Test accuracy is 0.7096504185130478 (0.009198330543680949).
+2023-01-24 20:38:08 INFO     [solitude: graphsage on cora with eps=3] Saving training results to output/bl_results.json
+2023-01-24 20:38:08 INFO     [solitude: graphsage on cora with eps=4] Run with best hp found: {'do': 0.01, 'lr_theta': 0.1, 'lr_adj': 0.01, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 0.0001}.
+2023-01-24 20:39:12 INFO     [solitude: graphsage on cora with eps=4] Test accuracy is 0.7115706548498276 (0.008302795272567744).
+2023-01-24 20:39:12 INFO     [solitude: graphsage on cora with eps=4] Saving training results to output/bl_results.json
+2023-01-24 20:39:12 INFO     [solitude: graphsage on cora with eps=5] Run with best hp found: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.001}.
+2023-01-24 20:40:16 INFO     [solitude: graphsage on cora with eps=5] Test accuracy is 0.728902018709995 (0.008309799881748806).
+2023-01-24 20:40:16 INFO     [solitude: graphsage on cora with eps=5] Saving training results to output/bl_results.json
+2023-01-24 20:40:16 INFO     [solitude: graphsage on cora with eps=6] Run with best hp found: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.01, 'lam2': 0.01}.
+2023-01-24 20:41:19 INFO     [solitude: graphsage on cora with eps=6] Test accuracy is 0.7628261939931069 (0.009417114768849866).
+2023-01-24 20:41:19 INFO     [solitude: graphsage on cora with eps=6] Saving training results to output/bl_results.json
+2023-01-24 20:41:19 INFO     [solitude: graphsage on cora with eps=7] Run with best hp found: {'do': 0.1, 'lr_theta': 0.1, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 0.001, 'lam2': 0.001}.
+2023-01-24 20:42:23 INFO     [solitude: graphsage on cora with eps=7] Test accuracy is 0.7995568685376662 (0.008118703742192793).
+2023-01-24 20:42:23 INFO     [solitude: graphsage on cora with eps=7] Saving training results to output/bl_results.json
+2023-01-24 20:42:23 INFO     [solitude: graphsage on cora with eps=8] Run with best hp found: {'do': 0.001, 'lr_theta': 0.01, 'lr_adj': 0.001, 'wd': 0.0001, 'lam1': 1e-05, 'lam2': 0.001}.
+2023-01-24 20:43:27 INFO     [solitude: graphsage on cora with eps=8] Test accuracy is 0.829098966026588 (0.006992496530897843).
+2023-01-24 20:43:27 INFO     [solitude: graphsage on cora with eps=8] Saving training results to output/bl_results.json
+2023-01-24 20:43:27 INFO     [solitude: graphsage on cora] Experiments done.
+2023-01-24 20:43:27 INFO     All baseline experiments done!

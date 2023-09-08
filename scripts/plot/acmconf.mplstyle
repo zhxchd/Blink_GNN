@@ -1,0 +1,18 @@
+font.family: serif
+font.size: 8
+figure.figsize: 1.6, 1.4
+axes.linewidth: 0.5
+xtick.major.pad:0
+ytick.major.pad:0
+text.usetex: True
+text.latex.preview: True
+text.latex.preamble: \usepackage{libertine} \usepackage[libertine]{newtxmath}
+xtick.major.width: 0.5
+xtick.major.size: 2
+ytick.major.width: 0.5
+ytick.major.size: 2
+lines.linewidth: 1
+axes.labelpad: 0.5
+errorbar.capsize: 1
+savefig.pad_inches: 0.01
+hatch.linewidth: 0.5

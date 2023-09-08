@@ -1,0 +1,18 @@
+2023-01-15 01:53:12 INFO     Start experiments with Namespace(variant='soft', dataset='lastfm', model='graphsage', grid_search=True, eps=['3', '4'])
+2023-01-15 01:53:22 INFO     Using device: cuda
+2023-01-15 01:53:22 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-15 01:53:22 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-15 01:53:22 INFO     [Blink-soft: graphsage on lastfm with eps=3] Start grid search for hyperparameter tuning.
+2023-01-15 02:30:58 INFO     [Blink-soft: graphsage on lastfm with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.1} with validation loss 0.9541389107704162
+2023-01-15 02:30:58 INFO     [Blink-soft: graphsage on lastfm with eps=3] Saving best hp to output/best_hp.json
+2023-01-15 02:30:58 INFO     [Blink-soft: graphsage on lastfm with eps=4] Start grid search for hyperparameter tuning.
+2023-01-15 03:07:37 INFO     [Blink-soft: graphsage on lastfm with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.8681429266929627
+2023-01-15 03:07:37 INFO     [Blink-soft: graphsage on lastfm with eps=4] Saving best hp to output/best_hp.json
+2023-01-15 03:07:37 INFO     Grid search done!
+2023-01-15 03:07:37 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-01-15 03:07:37 INFO     [Blink-soft: graphsage on lastfm with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-15 03:09:21 INFO     [Blink-soft: graphsage on lastfm with eps=3] Test accuracy is 0.7256733123469746 (0.03441238510691977).
+2023-01-15 03:09:21 INFO     [Blink-soft: graphsage on lastfm with eps=3] Saving training results to output/results.json
+2023-01-15 03:09:21 INFO     [Blink-soft: graphsage on lastfm with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-15 03:11:04 INFO     [Blink-soft: graphsage on lastfm with eps=4] Test accuracy is 0.7544945785239595 (0.028463392604734662).
+2023-01-15 03:11:04 INFO     [Blink-soft: graphsage on lastfm with eps=4] Saving training results to output/results.json

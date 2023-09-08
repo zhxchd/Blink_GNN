@@ -1,0 +1,10 @@
+2023-07-24 03:27:02 INFO     Start experiments with Namespace(dataset='facebook', model='gcn', method=['ldpgen'], grid_search=False, use_dense_model=False, eps=[1])
+2023-07-24 03:27:10 INFO     Using device: cuda
+2023-07-24 03:27:10 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-24 03:27:10 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-24 03:27:10 INFO     [ldpgen: gcn on facebook] Start running experiments on various epsilons.
+2023-07-24 03:27:10 INFO     [ldpgen: gcn on facebook with eps=1] Run with best hp found: {'do': 0, 'lr': 0.01, 'wd': 0}.
+2023-07-24 03:51:46 INFO     [ldpgen: gcn on facebook with eps=1] Test accuracy is 0.3063308413433013 (0.0035294415714614827).
+2023-07-24 03:51:46 INFO     [ldpgen: gcn on facebook with eps=1] Saving training results to output/bl_results.json
+2023-07-24 03:51:46 INFO     [ldpgen: gcn on facebook] Experiments done.
+2023-07-24 03:51:46 INFO     All baseline experiments done!

@@ -1,0 +1,54 @@
+2023-04-17 12:27:39 INFO     Start experiments with Namespace(variant='soft', dataset='facebook', model='gcn', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-04-17 12:27:39 INFO     Using device: cuda
+2023-04-17 12:27:39 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40354MB, multi_processor_count=108)
+2023-04-17 12:27:39 INFO     Grid search. Load hyperparameter space from fb_config.json
+2023-04-17 12:27:39 INFO     [Blink-soft: gcn on facebook with eps=1] Start grid search for hyperparameter tuning.
+2023-04-17 13:16:25 INFO     [Blink-soft: gcn on facebook with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0} with validation loss 1.139267873764038
+2023-04-17 13:16:25 INFO     [Blink-soft: gcn on facebook with eps=1] Saving best hp to output/best_hp.json
+2023-04-17 13:16:25 INFO     [Blink-soft: gcn on facebook with eps=2] Start grid search for hyperparameter tuning.
+2023-04-17 14:03:43 INFO     [Blink-soft: gcn on facebook with eps=2] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 1.104946255683899
+2023-04-17 14:03:43 INFO     [Blink-soft: gcn on facebook with eps=2] Saving best hp to output/best_hp.json
+2023-04-17 14:03:43 INFO     [Blink-soft: gcn on facebook with eps=3] Start grid search for hyperparameter tuning.
+2023-04-17 14:49:47 INFO     [Blink-soft: gcn on facebook with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.8637436628341675
+2023-04-17 14:49:47 INFO     [Blink-soft: gcn on facebook with eps=3] Saving best hp to output/best_hp.json
+2023-04-17 14:49:47 INFO     [Blink-soft: gcn on facebook with eps=4] Start grid search for hyperparameter tuning.
+2023-04-17 15:35:12 INFO     [Blink-soft: gcn on facebook with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5723954677581787
+2023-04-17 15:35:12 INFO     [Blink-soft: gcn on facebook with eps=4] Saving best hp to output/best_hp.json
+2023-04-17 15:35:12 INFO     [Blink-soft: gcn on facebook with eps=5] Start grid search for hyperparameter tuning.
+2023-04-17 16:20:11 INFO     [Blink-soft: gcn on facebook with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.41203991770744325
+2023-04-17 16:20:11 INFO     [Blink-soft: gcn on facebook with eps=5] Saving best hp to output/best_hp.json
+2023-04-17 16:20:11 INFO     [Blink-soft: gcn on facebook with eps=6] Start grid search for hyperparameter tuning.
+2023-04-17 17:04:55 INFO     [Blink-soft: gcn on facebook with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.33677091598510744
+2023-04-17 17:04:55 INFO     [Blink-soft: gcn on facebook with eps=6] Saving best hp to output/best_hp.json
+2023-04-17 17:04:55 INFO     [Blink-soft: gcn on facebook with eps=7] Start grid search for hyperparameter tuning.
+2023-04-17 17:49:20 INFO     [Blink-soft: gcn on facebook with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.311036080121994
+2023-04-17 17:49:20 INFO     [Blink-soft: gcn on facebook with eps=7] Saving best hp to output/best_hp.json
+2023-04-17 17:49:20 INFO     [Blink-soft: gcn on facebook with eps=8] Start grid search for hyperparameter tuning.
+2023-04-17 18:33:34 INFO     [Blink-soft: gcn on facebook with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.30612515807151797
+2023-04-17 18:33:34 INFO     [Blink-soft: gcn on facebook with eps=8] Saving best hp to output/best_hp.json
+2023-04-17 18:33:34 INFO     Grid search done!
+2023-04-17 18:33:34 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-04-17 18:33:34 INFO     [Blink-soft: gcn on facebook with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 1.0}.
+2023-04-17 18:53:14 INFO     [Blink-soft: gcn on facebook with eps=1] Test accuracy is 0.498433606265575 (0.013372031888008312).
+2023-04-17 18:53:14 INFO     [Blink-soft: gcn on facebook with eps=1] Saving training results to output/results.json
+2023-04-17 18:53:14 INFO     [Blink-soft: gcn on facebook with eps=2] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-17 19:10:44 INFO     [Blink-soft: gcn on facebook with eps=2] Test accuracy is 0.5085380325145367 (0.02127914217192926).
+2023-04-17 19:10:44 INFO     [Blink-soft: gcn on facebook with eps=2] Saving training results to output/results.json
+2023-04-17 19:10:44 INFO     [Blink-soft: gcn on facebook with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-17 19:27:37 INFO     [Blink-soft: gcn on facebook with eps=3] Test accuracy is 0.677744155690044 (0.015723741739478936).
+2023-04-17 19:27:37 INFO     [Blink-soft: gcn on facebook with eps=3] Saving training results to output/results.json
+2023-04-17 19:27:37 INFO     [Blink-soft: gcn on facebook with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-17 19:44:18 INFO     [Blink-soft: gcn on facebook with eps=4] Test accuracy is 0.798623472172778 (0.0033651857441910926).
+2023-04-17 19:44:18 INFO     [Blink-soft: gcn on facebook with eps=4] Saving training results to output/results.json
+2023-04-17 19:44:18 INFO     [Blink-soft: gcn on facebook with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-17 20:00:50 INFO     [Blink-soft: gcn on facebook with eps=5] Test accuracy is 0.8567877061825087 (0.0031064771548811824).
+2023-04-17 20:00:50 INFO     [Blink-soft: gcn on facebook with eps=5] Saving training results to output/results.json
+2023-04-17 20:00:50 INFO     [Blink-soft: gcn on facebook with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-17 20:17:21 INFO     [Blink-soft: gcn on facebook with eps=6] Test accuracy is 0.8857303904117715 (0.0019609476024709835).
+2023-04-17 20:17:21 INFO     [Blink-soft: gcn on facebook with eps=6] Saving training results to output/results.json
+2023-04-17 20:17:21 INFO     [Blink-soft: gcn on facebook with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-17 20:33:51 INFO     [Blink-soft: gcn on facebook with eps=7] Test accuracy is 0.8939242909695028 (0.002047086398841056).
+2023-04-17 20:33:51 INFO     [Blink-soft: gcn on facebook with eps=7] Saving training results to output/results.json
+2023-04-17 20:33:51 INFO     [Blink-soft: gcn on facebook with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-04-17 20:50:19 INFO     [Blink-soft: gcn on facebook with eps=8] Test accuracy is 0.8963866144535424 (0.0014601367415319308).
+2023-04-17 20:50:19 INFO     [Blink-soft: gcn on facebook with eps=8] Saving training results to output/results.json

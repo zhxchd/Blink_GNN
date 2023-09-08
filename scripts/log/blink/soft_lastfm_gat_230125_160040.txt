@@ -1,0 +1,54 @@
+2023-01-25 16:00:40 INFO     Start experiments with Namespace(variant='soft', dataset='lastfm', model='gat', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-01-25 16:00:46 INFO     Using device: cuda
+2023-01-25 16:00:46 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-25 16:00:46 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-25 16:00:46 INFO     [Blink-soft: gat on lastfm with eps=1] Start grid search for hyperparameter tuning.
+2023-01-25 18:25:38 INFO     [Blink-soft: gat on lastfm with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.7} with validation loss 1.9136740922927857
+2023-01-25 18:25:38 INFO     [Blink-soft: gat on lastfm with eps=1] Saving best hp to output/best_hp.json
+2023-01-25 18:25:38 INFO     [Blink-soft: gat on lastfm with eps=2] Start grid search for hyperparameter tuning.
+2023-01-25 20:46:02 INFO     [Blink-soft: gat on lastfm with eps=2] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.5} with validation loss 1.978118348121643
+2023-01-25 20:46:02 INFO     [Blink-soft: gat on lastfm with eps=2] Saving best hp to output/best_hp.json
+2023-01-25 20:46:02 INFO     [Blink-soft: gat on lastfm with eps=3] Start grid search for hyperparameter tuning.
+2023-01-25 23:05:18 INFO     [Blink-soft: gat on lastfm with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1} with validation loss 1.946428370475769
+2023-01-25 23:05:18 INFO     [Blink-soft: gat on lastfm with eps=3] Saving best hp to output/best_hp.json
+2023-01-25 23:05:18 INFO     [Blink-soft: gat on lastfm with eps=4] Start grid search for hyperparameter tuning.
+2023-01-26 01:24:36 INFO     [Blink-soft: gat on lastfm with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 1.1463504314422608
+2023-01-26 01:24:36 INFO     [Blink-soft: gat on lastfm with eps=4] Saving best hp to output/best_hp.json
+2023-01-26 01:24:36 INFO     [Blink-soft: gat on lastfm with eps=5] Start grid search for hyperparameter tuning.
+2023-01-26 03:43:33 INFO     [Blink-soft: gat on lastfm with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.8066463589668273
+2023-01-26 03:43:33 INFO     [Blink-soft: gat on lastfm with eps=5] Saving best hp to output/best_hp.json
+2023-01-26 03:43:33 INFO     [Blink-soft: gat on lastfm with eps=6] Start grid search for hyperparameter tuning.
+2023-01-26 06:02:08 INFO     [Blink-soft: gat on lastfm with eps=6] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7190205335617066
+2023-01-26 06:02:08 INFO     [Blink-soft: gat on lastfm with eps=6] Saving best hp to output/best_hp.json
+2023-01-26 06:02:08 INFO     [Blink-soft: gat on lastfm with eps=7] Start grid search for hyperparameter tuning.
+2023-01-26 08:20:25 INFO     [Blink-soft: gat on lastfm with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7261398673057556
+2023-01-26 08:20:25 INFO     [Blink-soft: gat on lastfm with eps=7] Saving best hp to output/best_hp.json
+2023-01-26 08:20:25 INFO     [Blink-soft: gat on lastfm with eps=8] Start grid search for hyperparameter tuning.
+2023-01-26 10:38:26 INFO     [Blink-soft: gat on lastfm with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7159286260604858
+2023-01-26 10:38:26 INFO     [Blink-soft: gat on lastfm with eps=8] Saving best hp to output/best_hp.json
+2023-01-26 10:38:26 INFO     Grid search done!
+2023-01-26 10:38:26 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-01-26 10:38:26 INFO     [Blink-soft: gat on lastfm with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.7}.
+2023-01-26 10:43:54 INFO     [Blink-soft: gat on lastfm with eps=1] Test accuracy is 0.28163693599160544 (0.1401588841584515).
+2023-01-26 10:43:54 INFO     [Blink-soft: gat on lastfm with eps=1] Saving training results to output/results.json
+2023-01-26 10:43:54 INFO     [Blink-soft: gat on lastfm with eps=2] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 1e-05, 'delta': 0.5}.
+2023-01-26 10:49:16 INFO     [Blink-soft: gat on lastfm with eps=2] Test accuracy is 0.28697096887023427 (0.14021099044610083).
+2023-01-26 10:49:16 INFO     [Blink-soft: gat on lastfm with eps=2] Saving training results to output/results.json
+2023-01-26 10:49:16 INFO     [Blink-soft: gat on lastfm with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-26 10:54:28 INFO     [Blink-soft: gat on lastfm with eps=3] Test accuracy is 0.4221406086044073 (0.019744937046807725).
+2023-01-26 10:54:28 INFO     [Blink-soft: gat on lastfm with eps=3] Saving training results to output/results.json
+2023-01-26 10:54:28 INFO     [Blink-soft: gat on lastfm with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-26 10:59:40 INFO     [Blink-soft: gat on lastfm with eps=4] Test accuracy is 0.6881951731374607 (0.10989221067326592).
+2023-01-26 10:59:40 INFO     [Blink-soft: gat on lastfm with eps=4] Saving training results to output/results.json
+2023-01-26 10:59:40 INFO     [Blink-soft: gat on lastfm with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-26 11:04:50 INFO     [Blink-soft: gat on lastfm with eps=5] Test accuracy is 0.801049317943337 (0.006152022627749747).
+2023-01-26 11:04:50 INFO     [Blink-soft: gat on lastfm with eps=5] Saving training results to output/results.json
+2023-01-26 11:04:50 INFO     [Blink-soft: gat on lastfm with eps=6] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-26 11:10:00 INFO     [Blink-soft: gat on lastfm with eps=6] Test accuracy is 0.8338405036726129 (0.004708601138416745).
+2023-01-26 11:10:00 INFO     [Blink-soft: gat on lastfm with eps=6] Saving training results to output/results.json
+2023-01-26 11:10:00 INFO     [Blink-soft: gat on lastfm with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-26 11:15:10 INFO     [Blink-soft: gat on lastfm with eps=7] Test accuracy is 0.8432668765302554 (0.007622235396471586).
+2023-01-26 11:15:10 INFO     [Blink-soft: gat on lastfm with eps=7] Saving training results to output/results.json
+2023-01-26 11:15:10 INFO     [Blink-soft: gat on lastfm with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-26 11:20:20 INFO     [Blink-soft: gat on lastfm with eps=8] Test accuracy is 0.8196747114375655 (0.1274022910963444).
+2023-01-26 11:20:20 INFO     [Blink-soft: gat on lastfm with eps=8] Saving training results to output/results.json

@@ -1,0 +1,28 @@
+2023-04-20 10:03:10 INFO     Experiments on the density difference between actual graph and estimated graph.
+2023-04-20 10:03:10 INFO     Using device: cuda
+2023-04-20 10:03:10 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-04-20 10:03:24 INFO     Density of actual graph facebook is 342004
+2023-04-20 10:07:42 INFO     Density on facebook with eps=1: 1952.8 (55.85600534708272)
+2023-04-20 10:07:42 INFO     TP on facebook with eps=1: 1426.0666666666666 (45.15597659471249)
+2023-04-20 10:07:42 INFO     Density on facebook with eps=1: Saving result to output/density.json
+2023-04-20 10:11:18 INFO     Density on facebook with eps=2: 41772.666666666664 (255.86055229796995)
+2023-04-20 10:11:18 INFO     TP on facebook with eps=2: 28639.0 (145.3361620519821)
+2023-04-20 10:11:18 INFO     Density on facebook with eps=2: Saving result to output/density.json
+2023-04-20 10:14:33 INFO     Density on facebook with eps=3: 191813.8 (614.3441706405295)
+2023-04-20 10:14:33 INFO     TP on facebook with eps=3: 134368.66666666666 (333.4671731303631)
+2023-04-20 10:14:33 INFO     Density on facebook with eps=3: Saving result to output/density.json
+2023-04-20 10:17:38 INFO     Density on facebook with eps=4: 319775.93333333335 (499.1997551637577)
+2023-04-20 10:17:38 INFO     TP on facebook with eps=4: 249018.13333333333 (333.4182291890406)
+2023-04-20 10:17:38 INFO     Density on facebook with eps=4: Saving result to output/density.json
+2023-04-20 10:20:38 INFO     Density on facebook with eps=5: 344881.0 (288.5031484519132)
+2023-04-20 10:20:38 INFO     TP on facebook with eps=5: 311397.93333333335 (189.3536256731187)
+2023-04-20 10:20:38 INFO     Density on facebook with eps=5: Saving result to output/density.json
+2023-04-20 10:23:36 INFO     Density on facebook with eps=6: 343846.0 (216.97127306012962)
+2023-04-20 10:23:36 INFO     TP on facebook with eps=6: 334929.93333333335 (106.7101786252006)
+2023-04-20 10:23:36 INFO     Density on facebook with eps=6: Saving result to output/density.json
+2023-04-20 10:26:33 INFO     Density on facebook with eps=7: 341888.0 (73.61340457643114)
+2023-04-20 10:26:33 INFO     TP on facebook with eps=7: 340214.8 (56.45907072089185)
+2023-04-20 10:26:33 INFO     Density on facebook with eps=7: Saving result to output/density.json
+2023-04-20 10:29:30 INFO     Density on facebook with eps=8: 341424.4666666667 (39.86872904364466)
+2023-04-20 10:29:30 INFO     TP on facebook with eps=8: 341140.93333333335 (27.52324270301174)
+2023-04-20 10:29:30 INFO     Density on facebook with eps=8: Saving result to output/density.json

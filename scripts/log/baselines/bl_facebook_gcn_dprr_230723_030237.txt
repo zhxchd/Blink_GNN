@@ -1,0 +1,23 @@
+2023-07-23 03:02:37 INFO     Start experiments with Namespace(dataset='facebook', model='gcn', method=['dprr'], grid_search=True, use_dense_model=False, eps=[3, 4])
+2023-07-23 03:02:51 INFO     Using device: cuda
+2023-07-23 03:02:51 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 03:02:51 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 03:02:51 INFO     [dprr: gcn on facebook] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 03:02:51 INFO     [dprr: gcn on facebook with eps=3] Start grid search for hyperparameter tuning.
+2023-07-23 03:20:58 INFO     [dprr: gcn on facebook with eps=3] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0} with validation loss 1.3353533029556275
+2023-07-23 03:20:58 INFO     [dprr: gcn on facebook with eps=3] Saving best hp to output/bl_best_hp.json
+2023-07-23 03:20:58 INFO     [dprr: gcn on facebook with eps=4] Start grid search for hyperparameter tuning.
+2023-07-23 03:37:39 INFO     [dprr: gcn on facebook with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0} with validation loss 1.290147614479065
+2023-07-23 03:37:39 INFO     [dprr: gcn on facebook with eps=4] Saving best hp to output/bl_best_hp.json
+2023-07-23 03:37:39 INFO     [dprr: gcn on facebook] Grid search done.
+2023-07-23 03:37:39 INFO     Grid search done!
+2023-07-23 03:37:39 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 03:37:39 INFO     [dprr: gcn on facebook] Start running experiments on various epsilons.
+2023-07-23 03:37:39 INFO     [dprr: gcn on facebook with eps=3] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0}.
+2023-07-23 03:40:57 INFO     [dprr: gcn on facebook with eps=3] Test accuracy is 0.3397947074878367 (0.006500830873188163).
+2023-07-23 03:40:57 INFO     [dprr: gcn on facebook with eps=3] Saving training results to output/bl_results.json
+2023-07-23 03:40:57 INFO     [dprr: gcn on facebook with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0}.
+2023-07-23 03:44:00 INFO     [dprr: gcn on facebook with eps=4] Test accuracy is 0.3788299513468613 (0.008885110820134514).
+2023-07-23 03:44:00 INFO     [dprr: gcn on facebook with eps=4] Saving training results to output/bl_results.json
+2023-07-23 03:44:00 INFO     [dprr: gcn on facebook] Experiments done.
+2023-07-23 03:44:00 INFO     All baseline experiments done!

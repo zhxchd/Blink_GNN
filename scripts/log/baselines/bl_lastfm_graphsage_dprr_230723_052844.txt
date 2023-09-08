@@ -1,0 +1,23 @@
+2023-07-23 05:28:44 INFO     Start experiments with Namespace(dataset='lastfm', model='graphsage', method=['dprr'], grid_search=True, use_dense_model=False, eps=[3, 4])
+2023-07-23 05:29:35 INFO     Using device: cuda
+2023-07-23 05:29:35 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40536MB, multi_processor_count=108)
+2023-07-23 05:29:35 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 05:29:35 INFO     [dprr: graphsage on lastfm] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 05:29:35 INFO     [dprr: graphsage on lastfm with eps=3] Start grid search for hyperparameter tuning.
+2023-07-23 05:34:46 INFO     [dprr: graphsage on lastfm with eps=3] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 1e-05} with validation loss 1.1019551038742066
+2023-07-23 05:34:46 INFO     [dprr: graphsage on lastfm with eps=3] Saving best hp to output/bl_best_hp.json
+2023-07-23 05:34:46 INFO     [dprr: graphsage on lastfm with eps=4] Start grid search for hyperparameter tuning.
+2023-07-23 05:39:48 INFO     [dprr: graphsage on lastfm with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0} with validation loss 1.0679286479949952
+2023-07-23 05:39:48 INFO     [dprr: graphsage on lastfm with eps=4] Saving best hp to output/bl_best_hp.json
+2023-07-23 05:39:48 INFO     [dprr: graphsage on lastfm] Grid search done.
+2023-07-23 05:39:48 INFO     Grid search done!
+2023-07-23 05:39:48 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 05:39:48 INFO     [dprr: graphsage on lastfm] Start running experiments on various epsilons.
+2023-07-23 05:39:48 INFO     [dprr: graphsage on lastfm with eps=3] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 1e-05}.
+2023-07-23 05:40:46 INFO     [dprr: graphsage on lastfm with eps=3] Test accuracy is 0.6745015739769149 (0.03078742477611869).
+2023-07-23 05:40:46 INFO     [dprr: graphsage on lastfm with eps=3] Saving training results to output/bl_results.json
+2023-07-23 05:40:46 INFO     [dprr: graphsage on lastfm with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0}.
+2023-07-23 05:41:39 INFO     [dprr: graphsage on lastfm with eps=4] Test accuracy is 0.6612976565232599 (0.05684984138030562).
+2023-07-23 05:41:39 INFO     [dprr: graphsage on lastfm with eps=4] Saving training results to output/bl_results.json
+2023-07-23 05:41:39 INFO     [dprr: graphsage on lastfm] Experiments done.
+2023-07-23 05:41:39 INFO     All baseline experiments done!

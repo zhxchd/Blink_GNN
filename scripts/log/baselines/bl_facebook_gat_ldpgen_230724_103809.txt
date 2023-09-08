@@ -1,0 +1,17 @@
+2023-07-24 10:38:09 INFO     Start experiments with Namespace(dataset='facebook', model='gat', method=['ldpgen'], grid_search=True, use_dense_model=True, eps=[1])
+2023-07-24 10:38:20 INFO     Using device: cuda
+2023-07-24 10:38:20 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-24 10:38:20 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-24 10:38:20 INFO     [ldpgen: gat on facebook] Grid search for hyperparameter tuning on various epsilons.
+2023-07-24 10:38:20 INFO     [ldpgen: gat on facebook with eps=1] Start grid search for hyperparameter tuning.
+2023-07-24 11:07:07 INFO     [ldpgen: gat on facebook with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0} with validation loss 1.3541489839553833
+2023-07-24 11:07:07 INFO     [ldpgen: gat on facebook with eps=1] Saving best hp to output/bl_best_hp.json
+2023-07-24 11:07:07 INFO     [ldpgen: gat on facebook] Grid search done.
+2023-07-24 11:07:07 INFO     Grid search done!
+2023-07-24 11:07:07 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-24 11:07:07 INFO     [ldpgen: gat on facebook] Start running experiments on various epsilons.
+2023-07-24 11:07:07 INFO     [ldpgen: gat on facebook with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0}.
+2023-07-24 12:05:20 INFO     [ldpgen: gat on facebook with eps=1] Test accuracy is 0.300996796012816 (5.551115123125783e-17).
+2023-07-24 12:05:20 INFO     [ldpgen: gat on facebook with eps=1] Saving training results to output/bl_results.json
+2023-07-24 12:05:20 INFO     [ldpgen: gat on facebook] Experiments done.
+2023-07-24 12:05:20 INFO     All baseline experiments done!

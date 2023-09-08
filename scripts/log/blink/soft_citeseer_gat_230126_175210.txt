@@ -1,0 +1,54 @@
+2023-01-26 17:52:10 INFO     Start experiments with Namespace(variant='soft', dataset='citeseer', model='gat', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-01-26 17:52:16 INFO     Using device: cuda
+2023-01-26 17:52:16 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81100MB, multi_processor_count=108)
+2023-01-26 17:52:16 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-26 17:52:16 INFO     [Blink-soft: gat on citeseer with eps=1] Start grid search for hyperparameter tuning.
+2023-01-26 18:33:20 INFO     [Blink-soft: gat on citeseer with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1} with validation loss 1.4853801012039185
+2023-01-26 18:33:20 INFO     [Blink-soft: gat on citeseer with eps=1] Saving best hp to output/best_hp.json
+2023-01-26 18:33:20 INFO     [Blink-soft: gat on citeseer with eps=2] Start grid search for hyperparameter tuning.
+2023-01-26 19:14:11 INFO     [Blink-soft: gat on citeseer with eps=2] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1} with validation loss 1.4845335721969604
+2023-01-26 19:14:11 INFO     [Blink-soft: gat on citeseer with eps=2] Saving best hp to output/best_hp.json
+2023-01-26 19:14:11 INFO     [Blink-soft: gat on citeseer with eps=3] Start grid search for hyperparameter tuning.
+2023-01-26 19:54:48 INFO     [Blink-soft: gat on citeseer with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0, 'delta': 0.1} with validation loss 1.446674656867981
+2023-01-26 19:54:48 INFO     [Blink-soft: gat on citeseer with eps=3] Saving best hp to output/best_hp.json
+2023-01-26 19:54:48 INFO     [Blink-soft: gat on citeseer with eps=4] Start grid search for hyperparameter tuning.
+2023-01-26 20:37:19 INFO     [Blink-soft: gat on citeseer with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 1.0533993005752564
+2023-01-26 20:37:19 INFO     [Blink-soft: gat on citeseer with eps=4] Saving best hp to output/best_hp.json
+2023-01-26 20:37:19 INFO     [Blink-soft: gat on citeseer with eps=5] Start grid search for hyperparameter tuning.
+2023-01-26 21:19:43 INFO     [Blink-soft: gat on citeseer with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.8402768135070801
+2023-01-26 21:19:43 INFO     [Blink-soft: gat on citeseer with eps=5] Saving best hp to output/best_hp.json
+2023-01-26 21:19:43 INFO     [Blink-soft: gat on citeseer with eps=6] Start grid search for hyperparameter tuning.
+2023-01-26 22:00:37 INFO     [Blink-soft: gat on citeseer with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7704023480415344
+2023-01-26 22:00:37 INFO     [Blink-soft: gat on citeseer with eps=6] Saving best hp to output/best_hp.json
+2023-01-26 22:00:37 INFO     [Blink-soft: gat on citeseer with eps=7] Start grid search for hyperparameter tuning.
+2023-01-26 22:41:26 INFO     [Blink-soft: gat on citeseer with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7538117408752442
+2023-01-26 22:41:26 INFO     [Blink-soft: gat on citeseer with eps=7] Saving best hp to output/best_hp.json
+2023-01-26 22:41:26 INFO     [Blink-soft: gat on citeseer with eps=8] Start grid search for hyperparameter tuning.
+2023-01-26 23:21:37 INFO     [Blink-soft: gat on citeseer with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7590186595916748
+2023-01-26 23:21:37 INFO     [Blink-soft: gat on citeseer with eps=8] Saving best hp to output/best_hp.json
+2023-01-26 23:21:37 INFO     Grid search done!
+2023-01-26 23:21:37 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-01-26 23:21:37 INFO     [Blink-soft: gat on citeseer with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1}.
+2023-01-26 23:23:10 INFO     [Blink-soft: gat on citeseer with eps=1] Test accuracy is 0.3794871794871795 (0.034468076726132446).
+2023-01-26 23:23:10 INFO     [Blink-soft: gat on citeseer with eps=1] Saving training results to output/results.json
+2023-01-26 23:23:10 INFO     [Blink-soft: gat on citeseer with eps=2] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1}.
+2023-01-26 23:24:41 INFO     [Blink-soft: gat on citeseer with eps=2] Test accuracy is 0.390224358974359 (0.08179574936984013).
+2023-01-26 23:24:41 INFO     [Blink-soft: gat on citeseer with eps=2] Saving training results to output/results.json
+2023-01-26 23:24:41 INFO     [Blink-soft: gat on citeseer with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0, 'delta': 0.1}.
+2023-01-26 23:26:10 INFO     [Blink-soft: gat on citeseer with eps=3] Test accuracy is 0.3828926282051282 (0.11066123603043597).
+2023-01-26 23:26:10 INFO     [Blink-soft: gat on citeseer with eps=3] Saving training results to output/results.json
+2023-01-26 23:26:10 INFO     [Blink-soft: gat on citeseer with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-26 23:27:40 INFO     [Blink-soft: gat on citeseer with eps=4] Test accuracy is 0.6477964743589744 (0.03487991445612079).
+2023-01-26 23:27:40 INFO     [Blink-soft: gat on citeseer with eps=4] Saving training results to output/results.json
+2023-01-26 23:27:40 INFO     [Blink-soft: gat on citeseer with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-26 23:29:10 INFO     [Blink-soft: gat on citeseer with eps=5] Test accuracy is 0.7418669871794872 (0.01492735988039578).
+2023-01-26 23:29:10 INFO     [Blink-soft: gat on citeseer with eps=5] Saving training results to output/results.json
+2023-01-26 23:29:10 INFO     [Blink-soft: gat on citeseer with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-26 23:30:41 INFO     [Blink-soft: gat on citeseer with eps=6] Test accuracy is 0.7581730769230769 (0.02798425225039624).
+2023-01-26 23:30:41 INFO     [Blink-soft: gat on citeseer with eps=6] Saving training results to output/results.json
+2023-01-26 23:30:41 INFO     [Blink-soft: gat on citeseer with eps=7] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-26 23:32:11 INFO     [Blink-soft: gat on citeseer with eps=7] Test accuracy is 0.7682291666666667 (0.01206754445659378).
+2023-01-26 23:32:11 INFO     [Blink-soft: gat on citeseer with eps=7] Saving training results to output/results.json
+2023-01-26 23:32:11 INFO     [Blink-soft: gat on citeseer with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-26 23:33:40 INFO     [Blink-soft: gat on citeseer with eps=8] Test accuracy is 0.7688701923076924 (0.006863601699648675).
+2023-01-26 23:33:40 INFO     [Blink-soft: gat on citeseer with eps=8] Saving training results to output/results.json

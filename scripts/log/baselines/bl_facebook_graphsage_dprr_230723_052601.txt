@@ -1,0 +1,23 @@
+2023-07-23 05:26:01 INFO     Start experiments with Namespace(dataset='facebook', model='graphsage', method=['dprr'], grid_search=True, use_dense_model=False, eps=[1, 2])
+2023-07-23 05:29:37 INFO     Using device: cuda
+2023-07-23 05:29:37 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40536MB, multi_processor_count=108)
+2023-07-23 05:29:37 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 05:29:37 INFO     [dprr: graphsage on facebook] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 05:29:37 INFO     [dprr: graphsage on facebook with eps=1] Start grid search for hyperparameter tuning.
+2023-07-23 05:54:36 INFO     [dprr: graphsage on facebook with eps=1] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.6216497898101807
+2023-07-23 05:54:36 INFO     [dprr: graphsage on facebook with eps=1] Saving best hp to output/bl_best_hp.json
+2023-07-23 05:54:36 INFO     [dprr: graphsage on facebook with eps=2] Start grid search for hyperparameter tuning.
+2023-07-23 06:14:19 INFO     [dprr: graphsage on facebook with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.6176968336105346
+2023-07-23 06:14:19 INFO     [dprr: graphsage on facebook with eps=2] Saving best hp to output/bl_best_hp.json
+2023-07-23 06:14:19 INFO     [dprr: graphsage on facebook] Grid search done.
+2023-07-23 06:14:19 INFO     Grid search done!
+2023-07-23 06:14:19 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 06:14:19 INFO     [dprr: graphsage on facebook] Start running experiments on various epsilons.
+2023-07-23 06:14:19 INFO     [dprr: graphsage on facebook with eps=1] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.0001}.
+2023-07-23 06:19:02 INFO     [dprr: graphsage on facebook with eps=1] Test accuracy is 0.7544559155096714 (0.0029398576133289746).
+2023-07-23 06:19:02 INFO     [dprr: graphsage on facebook with eps=1] Saving training results to output/bl_results.json
+2023-07-23 06:19:02 INFO     [dprr: graphsage on facebook with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-07-23 06:22:44 INFO     [dprr: graphsage on facebook with eps=2] Test accuracy is 0.7562774415569006 (0.0029462989783786875).
+2023-07-23 06:22:44 INFO     [dprr: graphsage on facebook with eps=2] Saving training results to output/bl_results.json
+2023-07-23 06:22:44 INFO     [dprr: graphsage on facebook] Experiments done.
+2023-07-23 06:22:44 INFO     All baseline experiments done!

@@ -1,0 +1,54 @@
+2023-01-23 22:53:50 INFO     Start experiments with Namespace(variant='hybrid', dataset='citeseer', model='graphsage', grid_search=True, eps=['1', '2', '3', '4'])
+2023-01-23 22:53:56 INFO     Using device: cuda
+2023-01-23 22:53:56 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-23 22:53:56 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-23 22:53:56 INFO     [Blink-hybrid: graphsage on citeseer with eps=1] Start grid search for hyperparameter tuning.
+2023-01-23 23:30:07 INFO     [Blink-hybrid: graphsage on citeseer with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.7} with validation loss 0.8248030185699463
+2023-01-23 23:30:07 INFO     [Blink-hybrid: graphsage on citeseer with eps=1] Saving best hp to output/best_hp.json
+2023-01-23 23:30:07 INFO     [Blink-hybrid: graphsage on citeseer with eps=2] Start grid search for hyperparameter tuning.
+2023-01-24 00:06:14 INFO     [Blink-hybrid: graphsage on citeseer with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9} with validation loss 0.8275489687919617
+2023-01-24 00:06:14 INFO     [Blink-hybrid: graphsage on citeseer with eps=2] Saving best hp to output/best_hp.json
+2023-02-01 11:47:37 INFO     [Blink-hybrid: graphsage on citeseer with eps=3] Start grid search for hyperparameter tuning.
+2023-02-01 12:58:57 INFO     [Blink-hybrid: graphsage on citeseer with eps=3] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001, 'delta': 0.7} with validation loss 0.8719009101390839
+2023-02-01 12:58:57 INFO     [Blink-hybrid: graphsage on citeseer with eps=3] Saving best hp to output/best_hp.json
+2023-02-01 12:58:57 INFO     [Blink-hybrid: graphsage on citeseer with eps=4] Start grid search for hyperparameter tuning.
+2023-02-01 14:10:15 INFO     [Blink-hybrid: graphsage on citeseer with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1} with validation loss 0.8325697600841522
+2023-02-01 14:10:15 INFO     [Blink-hybrid: graphsage on citeseer with eps=4] Saving best hp to output/best_hp.json
+2023-01-23 16:00:38 INFO     [Blink-hybrid: graphsage on citeseer with eps=5] Start grid search for hyperparameter tuning.
+2023-01-23 16:36:03 INFO     [Blink-hybrid: graphsage on citeseer with eps=5] Best hparam is: {'do': 0, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1} with validation loss 0.7653213024139405
+2023-01-23 16:36:03 INFO     [Blink-hybrid: graphsage on citeseer with eps=5] Saving best hp to output/best_hp.json
+2023-01-23 16:36:03 INFO     [Blink-hybrid: graphsage on citeseer with eps=6] Start grid search for hyperparameter tuning.
+2023-01-23 17:11:28 INFO     [Blink-hybrid: graphsage on citeseer with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1} with validation loss 0.7234447717666626
+2023-01-23 17:11:28 INFO     [Blink-hybrid: graphsage on citeseer with eps=6] Saving best hp to output/best_hp.json
+2023-01-23 17:11:28 INFO     [Blink-hybrid: graphsage on citeseer with eps=7] Start grid search for hyperparameter tuning.
+2023-01-23 17:46:36 INFO     [Blink-hybrid: graphsage on citeseer with eps=7] Best hparam is: {'do': 0, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1} with validation loss 0.7176208972930909
+2023-01-23 17:46:36 INFO     [Blink-hybrid: graphsage on citeseer with eps=7] Saving best hp to output/best_hp.json
+2023-01-23 17:46:36 INFO     [Blink-hybrid: graphsage on citeseer with eps=8] Start grid search for hyperparameter tuning.
+2023-01-23 18:21:41 INFO     [Blink-hybrid: graphsage on citeseer with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1} with validation loss 0.7172680735588074
+2023-01-23 18:21:41 INFO     [Blink-hybrid: graphsage on citeseer with eps=8] Saving best hp to output/best_hp.json
+2023-01-24 01:17:29 INFO     Grid search done!
+2023-01-24 01:17:29 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-01-24 01:17:29 INFO     [Blink-hybrid: graphsage on citeseer with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.7}.
+2023-01-24 01:20:19 INFO     [Blink-hybrid: graphsage on citeseer with eps=1] Test accuracy is 0.7385016025641028 (0.003395063349740436).
+2023-01-24 01:20:19 INFO     [Blink-hybrid: graphsage on citeseer with eps=1] Saving training results to output/results.json
+2023-01-24 01:20:19 INFO     [Blink-hybrid: graphsage on citeseer with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.9}.
+2023-01-24 01:23:08 INFO     [Blink-hybrid: graphsage on citeseer with eps=2] Test accuracy is 0.7377403846153848 (0.0035301908288318464).
+2023-01-24 01:23:08 INFO     [Blink-hybrid: graphsage on citeseer with eps=2] Saving training results to output/results.json
+2023-02-01 14:10:15 INFO     [Blink-hybrid: graphsage on citeseer with eps=3] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001, 'delta': 0.7}.
+2023-02-01 14:13:01 INFO     [Blink-hybrid: graphsage on citeseer with eps=3] Test accuracy is 0.7407451923076922 (0.005185013127433407).
+2023-02-01 14:13:01 INFO     [Blink-hybrid: graphsage on citeseer with eps=3] Saving training results to output/results.json
+2023-02-01 14:13:02 INFO     [Blink-hybrid: graphsage on citeseer with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1}.
+2023-02-01 14:15:46 INFO     [Blink-hybrid: graphsage on citeseer with eps=4] Test accuracy is 0.7494791666666667 (0.006888346415653375).
+2023-02-01 14:15:46 INFO     [Blink-hybrid: graphsage on citeseer with eps=4] Saving training results to output/results.json
+2023-01-23 18:21:41 INFO     [Blink-hybrid: graphsage on citeseer with eps=5] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1}.
+2023-01-23 18:24:27 INFO     [Blink-hybrid: graphsage on citeseer with eps=5] Test accuracy is 0.7733573717948716 (0.008371480273715532).
+2023-01-23 18:24:27 INFO     [Blink-hybrid: graphsage on citeseer with eps=5] Saving training results to output/results.json
+2023-01-23 18:24:27 INFO     [Blink-hybrid: graphsage on citeseer with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1}.
+2023-01-23 18:27:13 INFO     [Blink-hybrid: graphsage on citeseer with eps=6] Test accuracy is 0.7917467948717949 (0.006056971534924441).
+2023-01-23 18:27:13 INFO     [Blink-hybrid: graphsage on citeseer with eps=6] Saving training results to output/results.json
+2023-01-23 18:27:13 INFO     [Blink-hybrid: graphsage on citeseer with eps=7] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1}.
+2023-01-23 18:29:59 INFO     [Blink-hybrid: graphsage on citeseer with eps=7] Test accuracy is 0.7920673076923076 (0.004399760869644974).
+2023-01-23 18:29:59 INFO     [Blink-hybrid: graphsage on citeseer with eps=7] Saving training results to output/results.json
+2023-01-23 18:29:59 INFO     [Blink-hybrid: graphsage on citeseer with eps=8] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.001, 'delta': 0.1}.
+2023-01-23 18:32:46 INFO     [Blink-hybrid: graphsage on citeseer with eps=8] Test accuracy is 0.7952724358974358 (0.0040739499419507035).
+2023-01-23 18:32:46 INFO     [Blink-hybrid: graphsage on citeseer with eps=8] Saving training results to output/results.json

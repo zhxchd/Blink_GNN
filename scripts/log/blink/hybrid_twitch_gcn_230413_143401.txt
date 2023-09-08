@@ -1,0 +1,45 @@
+2023-04-13 14:34:01 INFO     Start experiments with Namespace(variant='hybrid', dataset='twitch', model='gcn', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-04-13 14:34:01 INFO     Using device: cuda
+2023-04-13 14:34:01 INFO     _CudaDeviceProperties(name='NVIDIA GeForce RTX 3060 Laptop GPU', major=8, minor=6, total_memory=6143MB, multi_processor_count=30)
+2023-04-13 14:34:01 INFO     Grid search. Load hyperparameter space from facebook_config.json
+2023-04-13 14:34:01 INFO     [Blink-hybrid: gcn on twitch with eps=1] Start grid search for hyperparameter tuning.
+2023-04-13 14:34:51 INFO     [Blink-hybrid: gcn on twitch with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 1} with validation loss 0.6142185091972351.
+2023-04-13 14:34:51 INFO     [Blink-hybrid: gcn on twitch with eps=1] Saving best hp to output/best_hp.json
+2023-04-13 14:34:51 INFO     [Blink-hybrid: gcn on twitch with eps=1] Test accuracy is 0.6510460251046025 (0.006120811229425878).
+2023-04-13 14:34:51 INFO     [Blink-hybrid: gcn on twitch with eps=1] Saving training results to output/results.json
+2023-04-13 14:34:51 INFO     [Blink-hybrid: gcn on twitch with eps=2] Start grid search for hyperparameter tuning.
+2023-04-13 14:35:38 INFO     [Blink-hybrid: gcn on twitch with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.4} with validation loss 0.6135680794715881.
+2023-04-13 14:35:38 INFO     [Blink-hybrid: gcn on twitch with eps=2] Saving best hp to output/best_hp.json
+2023-04-13 14:35:38 INFO     [Blink-hybrid: gcn on twitch with eps=2] Test accuracy is 0.6430962343096235 (0.002133480968030462).
+2023-04-13 14:35:38 INFO     [Blink-hybrid: gcn on twitch with eps=2] Saving training results to output/results.json
+2023-04-13 14:35:38 INFO     [Blink-hybrid: gcn on twitch with eps=3] Start grid search for hyperparameter tuning.
+2023-04-13 14:36:25 INFO     [Blink-hybrid: gcn on twitch with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.6101405143737793.
+2023-04-13 14:36:25 INFO     [Blink-hybrid: gcn on twitch with eps=3] Saving best hp to output/best_hp.json
+2023-04-13 14:36:25 INFO     [Blink-hybrid: gcn on twitch with eps=3] Test accuracy is 0.6669456066945607 (0.015281993613179666).
+2023-04-13 14:36:25 INFO     [Blink-hybrid: gcn on twitch with eps=3] Saving training results to output/results.json
+2023-04-13 14:36:25 INFO     [Blink-hybrid: gcn on twitch with eps=4] Start grid search for hyperparameter tuning.
+2023-04-13 14:37:13 INFO     [Blink-hybrid: gcn on twitch with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.6055324792861938.
+2023-04-13 14:37:13 INFO     [Blink-hybrid: gcn on twitch with eps=4] Saving best hp to output/best_hp.json
+2023-04-13 14:37:13 INFO     [Blink-hybrid: gcn on twitch with eps=4] Test accuracy is 0.6669456066945607 (0.012923385114209622).
+2023-04-13 14:37:13 INFO     [Blink-hybrid: gcn on twitch with eps=4] Saving training results to output/results.json
+2023-04-13 14:37:13 INFO     [Blink-hybrid: gcn on twitch with eps=5] Start grid search for hyperparameter tuning.
+2023-04-13 14:37:59 INFO     [Blink-hybrid: gcn on twitch with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.4} with validation loss 0.5956857800483704.
+2023-04-13 14:37:59 INFO     [Blink-hybrid: gcn on twitch with eps=5] Saving best hp to output/best_hp.json
+2023-04-13 14:37:59 INFO     [Blink-hybrid: gcn on twitch with eps=5] Test accuracy is 0.6765690376569038 (0.0028377949720189105).
+2023-04-13 14:37:59 INFO     [Blink-hybrid: gcn on twitch with eps=5] Saving training results to output/results.json
+2023-04-13 14:37:59 INFO     [Blink-hybrid: gcn on twitch with eps=6] Start grid search for hyperparameter tuning.
+2023-04-13 14:38:44 INFO     [Blink-hybrid: gcn on twitch with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5999393701553345.
+2023-04-13 14:38:44 INFO     [Blink-hybrid: gcn on twitch with eps=6] Saving best hp to output/best_hp.json
+2023-04-13 14:38:44 INFO     [Blink-hybrid: gcn on twitch with eps=6] Test accuracy is 0.6640167364016737 (0.01307154757473918).
+2023-04-13 14:38:44 INFO     [Blink-hybrid: gcn on twitch with eps=6] Saving training results to output/results.json
+2023-04-13 14:38:44 INFO     [Blink-hybrid: gcn on twitch with eps=7] Start grid search for hyperparameter tuning.
+2023-04-13 14:39:33 INFO     [Blink-hybrid: gcn on twitch with eps=7] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.6049088358879089.
+2023-04-13 14:39:33 INFO     [Blink-hybrid: gcn on twitch with eps=7] Saving best hp to output/best_hp.json
+2023-04-13 14:39:33 INFO     [Blink-hybrid: gcn on twitch with eps=7] Test accuracy is 0.6644351464435146 (0.013138341814315977).
+2023-04-13 14:39:33 INFO     [Blink-hybrid: gcn on twitch with eps=7] Saving training results to output/results.json
+2023-04-13 14:39:33 INFO     [Blink-hybrid: gcn on twitch with eps=8] Start grid search for hyperparameter tuning.
+2023-04-13 14:40:19 INFO     [Blink-hybrid: gcn on twitch with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.4} with validation loss 0.6085061311721802.
+2023-04-13 14:40:19 INFO     [Blink-hybrid: gcn on twitch with eps=8] Saving best hp to output/best_hp.json
+2023-04-13 14:40:19 INFO     [Blink-hybrid: gcn on twitch with eps=8] Test accuracy is 0.6606694560669457 (0.014992864323990726).
+2023-04-13 14:40:19 INFO     [Blink-hybrid: gcn on twitch with eps=8] Saving training results to output/results.json
+2023-04-13 14:40:19 INFO     Done!

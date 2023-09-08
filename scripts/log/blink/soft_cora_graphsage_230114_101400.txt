@@ -1,0 +1,54 @@
+2023-01-14 10:14:00 INFO     Start experiments with Namespace(variant='soft', dataset='cora', model='graphsage', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])
+2023-01-14 10:14:07 INFO     Using device: cuda
+2023-01-14 10:14:07 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-01-14 10:14:07 INFO     Grid search. Load hyperparameter space from config.json
+2023-01-14 10:14:07 INFO     [Blink-soft: graphsage on cora with eps=1] Start grid search for hyperparameter tuning.
+2023-01-14 10:37:14 INFO     [Blink-soft: graphsage on cora with eps=1] Best hparam is: {'do': 0.001, 'lr': 0.1, 'wd': 0.001, 'delta': 0.7} with validation loss 0.8022564291954041
+2023-01-14 10:37:14 INFO     [Blink-soft: graphsage on cora with eps=1] Saving best hp to output/best_hp.json
+2023-01-14 10:37:14 INFO     [Blink-soft: graphsage on cora with eps=2] Start grid search for hyperparameter tuning.
+2023-01-14 11:00:50 INFO     [Blink-soft: graphsage on cora with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.7909154295921326
+2023-01-14 11:00:50 INFO     [Blink-soft: graphsage on cora with eps=2] Saving best hp to output/best_hp.json
+2023-01-14 11:00:50 INFO     [Blink-soft: graphsage on cora with eps=3] Start grid search for hyperparameter tuning.
+2023-01-14 11:23:50 INFO     [Blink-soft: graphsage on cora with eps=3] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.6836044192314148
+2023-01-14 11:23:50 INFO     [Blink-soft: graphsage on cora with eps=3] Saving best hp to output/best_hp.json
+2023-01-14 11:23:50 INFO     [Blink-soft: graphsage on cora with eps=4] Start grid search for hyperparameter tuning.
+2023-01-14 11:47:20 INFO     [Blink-soft: graphsage on cora with eps=4] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.5480384469032288
+2023-01-14 11:47:20 INFO     [Blink-soft: graphsage on cora with eps=4] Saving best hp to output/best_hp.json
+2023-01-14 10:14:18 INFO     [Blink-soft: graphsage on cora with eps=5] Start grid search for hyperparameter tuning.
+2023-01-14 10:34:56 INFO     [Blink-soft: graphsage on cora with eps=5] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1} with validation loss 0.4601987063884735
+2023-01-14 10:34:56 INFO     [Blink-soft: graphsage on cora with eps=5] Saving best hp to output/best_hp.json
+2023-01-14 10:34:56 INFO     [Blink-soft: graphsage on cora with eps=6] Start grid search for hyperparameter tuning.
+2023-01-14 10:54:32 INFO     [Blink-soft: graphsage on cora with eps=6] Best hparam is: {'do': 0, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1} with validation loss 0.43077053427696227
+2023-01-14 10:54:32 INFO     [Blink-soft: graphsage on cora with eps=6] Saving best hp to output/best_hp.json
+2023-01-14 10:54:32 INFO     [Blink-soft: graphsage on cora with eps=7] Start grid search for hyperparameter tuning.
+2023-01-14 11:12:57 INFO     [Blink-soft: graphsage on cora with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1} with validation loss 0.42896538972854614
+2023-01-14 11:12:57 INFO     [Blink-soft: graphsage on cora with eps=7] Saving best hp to output/best_hp.json
+2023-01-14 11:12:57 INFO     [Blink-soft: graphsage on cora with eps=8] Start grid search for hyperparameter tuning.
+2023-01-14 11:31:55 INFO     [Blink-soft: graphsage on cora with eps=8] Best hparam is: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.3} with validation loss 0.4302473247051239
+2023-01-14 11:31:55 INFO     [Blink-soft: graphsage on cora with eps=8] Saving best hp to output/best_hp.json
+2023-01-14 11:47:20 INFO     Grid search done!
+2023-01-14 11:47:20 INFO     Run experiments using found hyperparameters in best_hp.json.
+2023-01-14 11:47:20 INFO     [Blink-soft: graphsage on cora with eps=1] Run with best hp found: {'do': 0.001, 'lr': 0.1, 'wd': 0.001, 'delta': 0.7}.
+2023-01-14 11:48:42 INFO     [Blink-soft: graphsage on cora with eps=1] Test accuracy is 0.7108813392417528 (0.004669977627328178).
+2023-01-14 11:48:42 INFO     [Blink-soft: graphsage on cora with eps=1] Saving training results to output/results.json
+2023-01-14 11:48:42 INFO     [Blink-soft: graphsage on cora with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-14 11:50:01 INFO     [Blink-soft: graphsage on cora with eps=2] Test accuracy is 0.7131462333825703 (0.005623354617535905).
+2023-01-14 11:50:01 INFO     [Blink-soft: graphsage on cora with eps=2] Saving training results to output/results.json
+2023-01-14 11:50:01 INFO     [Blink-soft: graphsage on cora with eps=3] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-14 11:51:20 INFO     [Blink-soft: graphsage on cora with eps=3] Test accuracy is 0.747562776957164 (0.008262550233942085).
+2023-01-14 11:51:20 INFO     [Blink-soft: graphsage on cora with eps=3] Saving training results to output/results.json
+2023-01-14 11:51:20 INFO     [Blink-soft: graphsage on cora with eps=4] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-14 11:52:40 INFO     [Blink-soft: graphsage on cora with eps=4] Test accuracy is 0.805071393402265 (0.00986077373766029).
+2023-01-14 11:52:40 INFO     [Blink-soft: graphsage on cora with eps=4] Saving training results to output/results.json
+2023-01-14 11:31:55 INFO     [Blink-soft: graphsage on cora with eps=5] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.1}.
+2023-01-14 11:33:13 INFO     [Blink-soft: graphsage on cora with eps=5] Test accuracy is 0.8485967503692761 (0.00635612948005684).
+2023-01-14 11:33:13 INFO     [Blink-soft: graphsage on cora with eps=5] Saving training results to output/results.json
+2023-01-14 11:33:13 INFO     [Blink-soft: graphsage on cora with eps=6] Run with best hp found: {'do': 0, 'lr': 0.01, 'wd': 1e-05, 'delta': 0.1}.
+2023-01-14 11:34:31 INFO     [Blink-soft: graphsage on cora with eps=6] Test accuracy is 0.8620384047267357 (0.00499602201633318).
+2023-01-14 11:34:31 INFO     [Blink-soft: graphsage on cora with eps=6] Saving training results to output/results.json
+2023-01-14 11:34:31 INFO     [Blink-soft: graphsage on cora with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0, 'delta': 0.1}.
+2023-01-14 11:35:48 INFO     [Blink-soft: graphsage on cora with eps=7] Test accuracy is 0.8652387986213689 (0.0037694322098322545).
+2023-01-14 11:35:48 INFO     [Blink-soft: graphsage on cora with eps=7] Saving training results to output/results.json
+2023-01-14 11:35:48 INFO     [Blink-soft: graphsage on cora with eps=8] Run with best hp found: {'do': 0.1, 'lr': 0.01, 'wd': 0.0001, 'delta': 0.3}.
+2023-01-14 11:37:06 INFO     [Blink-soft: graphsage on cora with eps=8] Test accuracy is 0.8644510093549975 (0.0034257653937565815).
+2023-01-14 11:37:06 INFO     [Blink-soft: graphsage on cora with eps=8] Saving training results to output/results.json

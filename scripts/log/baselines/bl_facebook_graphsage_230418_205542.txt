@@ -1,0 +1,59 @@
+2023-04-18 20:55:42 INFO     Start experiments with Namespace(dataset='facebook', model='graphsage', method=['rr'], grid_search=True, use_dense_model=True, eps=None)
+2023-04-18 20:55:53 INFO     Using device: cuda
+2023-04-18 20:55:53 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40354MB, multi_processor_count=108)
+2023-04-18 20:55:53 INFO     Grid search. Load hyperparameter space from fb_config.json
+2023-04-18 20:55:53 INFO     [rr: graphsage on facebook] Grid search for hyperparameter tuning on various epsilons.
+2023-04-18 20:55:53 INFO     [rr: graphsage on facebook with eps=1] Start grid search for hyperparameter tuning.
+2023-04-18 20:56:47 INFO     [rr: graphsage on facebook with eps=1] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.615084707736969
+2023-04-18 20:56:47 INFO     [rr: graphsage on facebook with eps=1] Saving best hp to output/bl_best_hp.json
+2023-04-18 20:56:47 INFO     [rr: graphsage on facebook with eps=2] Start grid search for hyperparameter tuning.
+2023-04-18 20:57:30 INFO     [rr: graphsage on facebook with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.613456666469574
+2023-04-18 20:57:30 INFO     [rr: graphsage on facebook with eps=2] Saving best hp to output/bl_best_hp.json
+2023-04-18 20:57:30 INFO     [rr: graphsage on facebook with eps=3] Start grid search for hyperparameter tuning.
+2023-04-18 20:58:13 INFO     [rr: graphsage on facebook with eps=3] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.6128227710723877
+2023-04-18 20:58:13 INFO     [rr: graphsage on facebook with eps=3] Saving best hp to output/bl_best_hp.json
+2023-04-18 20:58:13 INFO     [rr: graphsage on facebook with eps=4] Start grid search for hyperparameter tuning.
+2023-04-18 20:58:54 INFO     [rr: graphsage on facebook with eps=4] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.6063277125358582
+2023-04-18 20:58:54 INFO     [rr: graphsage on facebook with eps=4] Saving best hp to output/bl_best_hp.json
+2023-04-18 20:58:54 INFO     [rr: graphsage on facebook with eps=5] Start grid search for hyperparameter tuning.
+2023-04-18 20:59:35 INFO     [rr: graphsage on facebook with eps=5] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.5955917835235596
+2023-04-18 20:59:35 INFO     [rr: graphsage on facebook with eps=5] Saving best hp to output/bl_best_hp.json
+2023-04-18 20:59:35 INFO     [rr: graphsage on facebook with eps=6] Start grid search for hyperparameter tuning.
+2023-04-18 21:00:16 INFO     [rr: graphsage on facebook with eps=6] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.5459340810775757
+2023-04-18 21:00:16 INFO     [rr: graphsage on facebook with eps=6] Saving best hp to output/bl_best_hp.json
+2023-04-18 21:00:16 INFO     [rr: graphsage on facebook with eps=7] Start grid search for hyperparameter tuning.
+2023-04-18 21:00:54 INFO     [rr: graphsage on facebook with eps=7] Best hparam is: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.49720504879951477
+2023-04-18 21:00:54 INFO     [rr: graphsage on facebook with eps=7] Saving best hp to output/bl_best_hp.json
+2023-04-18 21:00:54 INFO     [rr: graphsage on facebook with eps=8] Start grid search for hyperparameter tuning.
+2023-04-18 21:01:34 INFO     [rr: graphsage on facebook with eps=8] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 0.4404750168323517
+2023-04-18 21:01:34 INFO     [rr: graphsage on facebook with eps=8] Saving best hp to output/bl_best_hp.json
+2023-04-18 21:01:34 INFO     [rr: graphsage on facebook] Grid search done.
+2023-04-18 21:01:34 INFO     Grid search done!
+2023-04-18 21:01:34 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-04-18 21:01:34 INFO     [rr: graphsage on facebook] Start running experiments on various epsilons.
+2023-04-18 21:01:34 INFO     [rr: graphsage on facebook with eps=1] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 21:10:43 INFO     [rr: graphsage on facebook with eps=1] Test accuracy is 0.7564969740121037 (0.024357952243811605).
+2023-04-18 21:10:43 INFO     [rr: graphsage on facebook with eps=1] Saving training results to output/bl_results.json
+2023-04-18 21:10:43 INFO     [rr: graphsage on facebook with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 21:18:36 INFO     [rr: graphsage on facebook with eps=2] Test accuracy is 0.7574403702385192 (0.00586824716721418).
+2023-04-18 21:18:36 INFO     [rr: graphsage on facebook with eps=2] Saving training results to output/bl_results.json
+2023-04-18 21:18:36 INFO     [rr: graphsage on facebook with eps=3] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 21:26:13 INFO     [rr: graphsage on facebook with eps=3] Test accuracy is 0.7585024326569361 (0.0033176486745441045).
+2023-04-18 21:26:13 INFO     [rr: graphsage on facebook with eps=3] Saving training results to output/bl_results.json
+2023-04-18 21:26:13 INFO     [rr: graphsage on facebook with eps=4] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 21:33:34 INFO     [rr: graphsage on facebook with eps=4] Test accuracy is 0.7609647561409753 (0.002797988014623949).
+2023-04-18 21:33:34 INFO     [rr: graphsage on facebook with eps=4] Saving training results to output/bl_results.json
+2023-04-18 21:33:34 INFO     [rr: graphsage on facebook with eps=5] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 21:40:49 INFO     [rr: graphsage on facebook with eps=5] Test accuracy is 0.7707784502195325 (0.002877753023406171).
+2023-04-18 21:40:49 INFO     [rr: graphsage on facebook with eps=5] Saving training results to output/bl_results.json
+2023-04-18 21:40:49 INFO     [rr: graphsage on facebook with eps=6] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 21:48:07 INFO     [rr: graphsage on facebook with eps=6] Test accuracy is 0.7897472410110359 (0.0052891852714483075).
+2023-04-18 21:48:07 INFO     [rr: graphsage on facebook with eps=6] Saving training results to output/bl_results.json
+2023-04-18 21:48:07 INFO     [rr: graphsage on facebook with eps=7] Run with best hp found: {'do': 0.1, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 21:55:27 INFO     [rr: graphsage on facebook with eps=7] Test accuracy is 0.8136347454610181 (0.003154155419485466).
+2023-04-18 21:55:27 INFO     [rr: graphsage on facebook with eps=7] Saving training results to output/bl_results.json
+2023-04-18 21:55:27 INFO     [rr: graphsage on facebook with eps=8] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-04-18 22:02:47 INFO     [rr: graphsage on facebook with eps=8] Test accuracy is 0.8329832680669277 (0.002506842615553203).
+2023-04-18 22:02:47 INFO     [rr: graphsage on facebook with eps=8] Saving training results to output/bl_results.json
+2023-04-18 22:02:47 INFO     [rr: graphsage on facebook] Experiments done.
+2023-04-18 22:02:47 INFO     All baseline experiments done!

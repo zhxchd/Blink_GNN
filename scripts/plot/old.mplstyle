@@ -1,0 +1,7 @@
+font.family: serif
+font.size: 14
+figure.figsize: 4,3
+text.usetex: True
+text.latex.preview: True
+text.latex.preamble:\usepackage{libertine}\usepackage[libertine]{newtxmath}
+errorbar.capsize: 2

@@ -1,0 +1,23 @@
+2023-07-23 14:21:11 INFO     Start experiments with Namespace(dataset='lastfm', model='graphsage', method=['ldpgen'], grid_search=True, use_dense_model=False, eps=[1, 2])
+2023-07-23 14:24:52 INFO     Using device: cuda
+2023-07-23 14:24:52 INFO     _CudaDeviceProperties(name='NVIDIA A100-PCIE-40GB', major=8, minor=0, total_memory=40536MB, multi_processor_count=108)
+2023-07-23 14:24:52 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 14:24:52 INFO     [ldpgen: graphsage on lastfm] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 14:24:52 INFO     [ldpgen: graphsage on lastfm with eps=1] Start grid search for hyperparameter tuning.
+2023-07-23 14:34:36 INFO     [ldpgen: graphsage on lastfm with eps=1] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05} with validation loss 1.0259100198745728
+2023-07-23 14:34:36 INFO     [ldpgen: graphsage on lastfm with eps=1] Saving best hp to output/bl_best_hp.json
+2023-07-23 14:34:36 INFO     [ldpgen: graphsage on lastfm with eps=2] Start grid search for hyperparameter tuning.
+2023-07-23 14:40:07 INFO     [ldpgen: graphsage on lastfm with eps=2] Best hparam is: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001} with validation loss 1.0805639028549194
+2023-07-23 14:40:07 INFO     [ldpgen: graphsage on lastfm with eps=2] Saving best hp to output/bl_best_hp.json
+2023-07-23 14:40:07 INFO     [ldpgen: graphsage on lastfm] Grid search done.
+2023-07-23 14:40:07 INFO     Grid search done!
+2023-07-23 14:40:07 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 14:40:07 INFO     [ldpgen: graphsage on lastfm] Start running experiments on various epsilons.
+2023-07-23 14:40:07 INFO     [ldpgen: graphsage on lastfm with eps=1] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 1e-05}.
+2023-07-23 14:41:57 INFO     [ldpgen: graphsage on lastfm with eps=1] Test accuracy is 0.69169289961525 (0.02914274237538197).
+2023-07-23 14:41:57 INFO     [ldpgen: graphsage on lastfm with eps=1] Saving training results to output/bl_results.json
+2023-07-23 14:41:57 INFO     [ldpgen: graphsage on lastfm with eps=2] Run with best hp found: {'do': 0.01, 'lr': 0.1, 'wd': 0.0001}.
+2023-07-23 14:43:00 INFO     [ldpgen: graphsage on lastfm with eps=2] Test accuracy is 0.680080447708989 (0.021739580019662134).
+2023-07-23 14:43:00 INFO     [ldpgen: graphsage on lastfm with eps=2] Saving training results to output/bl_results.json
+2023-07-23 14:43:00 INFO     [ldpgen: graphsage on lastfm] Experiments done.
+2023-07-23 14:43:00 INFO     All baseline experiments done!

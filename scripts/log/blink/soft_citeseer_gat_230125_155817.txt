@@ -1,0 +1,1 @@
+2023-01-25 15:58:17 INFO     Start experiments with Namespace(variant='soft', dataset='citeseer', model='gat', grid_search=True, eps=['1', '2', '3', '4', '5', '6', '7', '8'])

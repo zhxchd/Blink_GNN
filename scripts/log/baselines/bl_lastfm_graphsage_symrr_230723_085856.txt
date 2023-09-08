@@ -1,0 +1,23 @@
+2023-07-23 08:58:56 INFO     Start experiments with Namespace(dataset='lastfm', model='graphsage', method=['symrr'], grid_search=True, use_dense_model=False, eps=[3, 4])
+2023-07-23 08:59:04 INFO     Using device: cuda
+2023-07-23 08:59:04 INFO     _CudaDeviceProperties(name='NVIDIA A100 80GB PCIe', major=8, minor=0, total_memory=81111MB, multi_processor_count=108)
+2023-07-23 08:59:04 INFO     Grid search. Load hyperparameter space from config.json
+2023-07-23 08:59:04 INFO     [symrr: graphsage on lastfm] Grid search for hyperparameter tuning on various epsilons.
+2023-07-23 08:59:04 INFO     [symrr: graphsage on lastfm with eps=3] Start grid search for hyperparameter tuning.
+2023-07-23 09:13:54 INFO     [symrr: graphsage on lastfm with eps=3] Best hparam is: {'do': 0, 'lr': 0.1, 'wd': 0} with validation loss 1.0615762233734132
+2023-07-23 09:13:54 INFO     [symrr: graphsage on lastfm with eps=3] Saving best hp to output/bl_best_hp.json
+2023-07-23 09:13:54 INFO     [symrr: graphsage on lastfm with eps=4] Start grid search for hyperparameter tuning.
+2023-07-23 09:22:11 INFO     [symrr: graphsage on lastfm with eps=4] Best hparam is: {'do': 0, 'lr': 0.1, 'wd': 0} with validation loss 1.0742624044418334
+2023-07-23 09:22:11 INFO     [symrr: graphsage on lastfm with eps=4] Saving best hp to output/bl_best_hp.json
+2023-07-23 09:22:11 INFO     [symrr: graphsage on lastfm] Grid search done.
+2023-07-23 09:22:11 INFO     Grid search done!
+2023-07-23 09:22:11 INFO     Run baseline experiments using found hyperparameters in bl_best_hp.json.
+2023-07-23 09:22:11 INFO     [symrr: graphsage on lastfm] Start running experiments on various epsilons.
+2023-07-23 09:22:11 INFO     [symrr: graphsage on lastfm with eps=3] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0}.
+2023-07-23 09:24:56 INFO     [symrr: graphsage on lastfm with eps=3] Test accuracy is 0.6818293109478838 (0.032414891170542866).
+2023-07-23 09:24:56 INFO     [symrr: graphsage on lastfm with eps=3] Saving training results to output/bl_results.json
+2023-07-23 09:24:56 INFO     [symrr: graphsage on lastfm with eps=4] Run with best hp found: {'do': 0, 'lr': 0.1, 'wd': 0}.
+2023-07-23 09:26:28 INFO     [symrr: graphsage on lastfm with eps=4] Test accuracy is 0.6797481636935991 (0.058453634026126515).
+2023-07-23 09:26:28 INFO     [symrr: graphsage on lastfm with eps=4] Saving training results to output/bl_results.json
+2023-07-23 09:26:28 INFO     [symrr: graphsage on lastfm] Experiments done.
+2023-07-23 09:26:28 INFO     All baseline experiments done!
