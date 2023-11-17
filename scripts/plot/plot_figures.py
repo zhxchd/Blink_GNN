@@ -36,6 +36,10 @@ for dataset in ["cora", "citeseer", "lastfm", "facebook"]:
         plot_utils.plot(x, [blink_res["hybrid"][dataset][model][i][0]*100 for i in x], [blink_res["hybrid"][dataset][model][i][1]*100 for i in x], color="g", label="Blink-Hybrid (ours)", fill=False)
         plot_utils.plot(x, [bl_res[dataset][model]["rr"][i][0]*100 for i in x], [bl_res[dataset][model]["rr"][i][1]*100 for i in x], color="#dfc27d", label="RR",linestyle="dashed", fill=False)
         plot_utils.plot(x, [bl_res[dataset][model]["ldpgcn"][i][0]*100 for i in x], [bl_res[dataset][model]["ldpgcn"][i][1]*100 for i in x], color="#fb9a99", label="L-DPGCN", linestyle="dashed", fill=False)
+        plot_utils.plot(x, [bl_res[dataset][model]["dprr"][i][0]*100 for i in x], [bl_res[dataset][model]["dprr"][i][1]*100 for i in x], color="#b2df8a", label="DPRR", linestyle="dashed", fill=False)
+        plot_utils.plot(x, [bl_res[dataset][model]["ldpgen"][i][0]*100 for i in x], [bl_res[dataset][model]["ldpgen"][i][1]*100 for i in x], color="#a6cee3", label="LDPGen", linestyle="dashed", fill=False)
+        plot_utils.plot(x, [bl_res[dataset][model]["symrr"][i][0]*100 for i in x], [bl_res[dataset][model]["symrr"][i][1]*100 for i in x], color="#fdbf6f", label="SymRR", linestyle="dashed", fill=False)
+
         if model != "gat":
             plot_utils.plot(x, [bl_res[dataset][model]["solitude"][i][0]*100 for i in x], [bl_res[dataset][model]["rr"][i][1]*100 for i in x], color="#cab2d6", label="Solitude",linestyle="dashed", fill=False)
 
@@ -54,7 +58,7 @@ for dataset in ["cora", "citeseer", "lastfm", "facebook"]:
 fig_leg = plt.figure()
 ax_leg = fig_leg.add_subplot()
 ax_leg.axis('off')
-legend = ax_leg.legend(*ax.get_legend_handles_labels(), loc='center', ncol=4)
+legend = ax_leg.legend(*ax.get_legend_handles_labels(), loc='center', ncol=6)
 fig = legend.figure
 fig.canvas.draw()
 bbox = legend.get_window_extent().transformed(fig.dpi_scale_trans.inverted())
